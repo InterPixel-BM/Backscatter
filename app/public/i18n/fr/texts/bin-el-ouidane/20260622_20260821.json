@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260622_20260821.json",
+  "source_sha256": "f7550b31175a2db5a1798ac1a9baaf7f02bd46f3a2e6e2bfe24e1ceeb38576d9",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 21 août 2026, le radar montre le lac passant de 31.35 km2 à 30.63 km2, tandis que la HH sur les terres a légèrement augmenté. Les deux dates sont séparées de 60 jours et couvrent la lacune de données de la NASA, donc les semaines entre elles ne sont pas observées.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de -0.72 km2, soit -2.3%. La HV moyenne a varié de -0.05 dB, mais la HH moyenne a augmenté de 0.4 dB, et 2.13 km2 sont devenus plus clairs en HH de plus de 3 dB contre 0.24 km2 plus sombres. En HV, 0.58 km2 sont devenus plus clairs et 0.34 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le sol sec rugueux et les champs ont eu la plus grande surface plus claire en HH, 0.84 km2, et ont augmenté de 0.42 dB en moyenne. Les arbres, broussailles et pentes accidentées ont augmenté de 0.37 dB en HH. Le petit type Champs changeants a augmenté de 0.9 dB en HV et de 0.95 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival dû à l'irrigation et à l'évaporation ; les relevés de niveau et de lâchers du barrage le confirmeraient. Cause possible pour la HH plus élevée : un sol plus sec et plus rugueux ou des chaumes après la récolte d'été. Cause possible : une petite différence d'étalonnage entre les deux dates, puisque le bâti, qui ne devrait pas changer, a augmenté de 0.49 dB en HH ; des cibles stables sur davantage de dates permettraient de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 11.5% et 10.4% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Comparer la perte de 0.72 km2 avec les relevés du barrage pour les mêmes 60 jours. Traiter les petits changements de HH avec prudence tant que des cibles stables ne les confirment pas."
+    }
+  ]
+}

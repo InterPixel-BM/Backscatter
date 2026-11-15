@@ -1,0 +1,22 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260914.json",
+  "source_sha256": "c673e13a01875a041c8b37e9fe87c42c11cf1fb6a2f9d7a741d0dbc82cf04844",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Le 14 septembre 2026, le radar montre un lac de 30.17 km2 dans le cercle de 10 km autour de Bin El Ouidane. Aucun signalement ne s'applique à cette date, et 100.0% du cercle dispose de données.",
+  "sections": [
+    {
+      "heading": "Ce que montre le radar ici",
+      "text": "L'eau libre est le type le plus sombre, à -17.99 dB en HH et -22.76 dB en HV, contre une moyenne du cercle de -7.55 dB en HH et -14.29 dB en HV. La méthode du lac trouve 30.17 km2 d'eau, proche des 30.46 km2 du type Eau libre établi sur toute la saison."
+    },
+    {
+      "heading": "Types de terrain et leur signification",
+      "text": "Les arbres, broussailles et pentes accidentées couvrent 192.98 km2 et donnent la HV la plus claire des grands types, -12.82 dB, du fait des feuilles et des branches. Le sol sec rugueux et les champs, 24.0%, se situent vers -10.54 dB en HH. Le petit type Champs changeants, 0.2%, est clair dans les deux canaux, -2.31 dB en HH et -7.13 dB en HV. Le bâti, 1.8%, a un rapport HV:HH de -13.63 dB, la signature de double rebond des murs."
+    },
+    {
+      "heading": "Notes sur la qualité des données",
+      "text": "Aucun signalement ne s'applique. Le contour du lac est approximatif : 9.7% de ce contour tombe sur la terre ferme dans la photo optique. Cause possible : ombre radar sur les pentes raides des rives. Le relevé de niveau du barrage pour cette date permettrait de vérifier le chiffre du lac."
+    }
+  ]
+}

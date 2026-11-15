@@ -1,0 +1,22 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20261008.json",
+  "source_sha256": "aa94f4b6db2205bacbdc09a50c407c9ed9ecc78dd6945b4a0bbb334c851340e1",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Le 8 octobre 2026, le radar montre un lac de 29.91 km2 dans le cercle de 10 km autour de Bin El Ouidane. Cette date porte deux signalements, donc chaque chiffre ci-dessous doit être lu avec une confiance réduite.",
+  "sections": [
+    {
+      "heading": "Ce que montre le radar ici",
+      "text": "L'eau libre a une moyenne de -16.45 dB en HH et -22.38 dB en HV, et reste le type le plus sombre. Le cercle a une moyenne de -6.3 dB en HH et -13.47 dB en HV. Le bâti atteint 0.1 dB en HH, un écho très clair même pour des murs."
+    },
+    {
+      "heading": "Types de terrain et leur signification",
+      "text": "Les arbres, broussailles et pentes accidentées, 61.4% du cercle, donnent une HV de -12.05 dB par diffusion de volume dans les feuilles et les branches. Le sol sec rugueux et les champs, 24.0%, se situent à -8.49 dB en HH. Le bâti, 1.8%, conserve le rapport HV:HH le plus bas, -14.12 dB, la signature de double rebond des murs."
+    },
+    {
+      "heading": "Notes sur la qualité des données",
+      "text": "Deux signalements s'appliquent. Le seuil d'eau du lac a bougé de plus de 1.0 dB par rapport à la date précédente, et la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre. Cause possible : un décalage de traitement dans ce produit. Cause possible : une surface humide après la pluie. Les relevés de pluie et des fichiers retraités permettraient de les distinguer. Le contour du lac est approximatif, avec 8.9% de sa longueur sur la terre ferme dans la photo optique."
+    }
+  ]
+}

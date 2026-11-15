@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260716_20260821.json",
+  "source_sha256": "15c6bd45ce64cbbf91a7a9826a580c8ef8a82297c1f7419036795487473181bc",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 16 juillet au 21 août 2026, le radar montre le lac passant de 33.83 km2 à 30.63 km2, soit -9.5%. Une partie de cette perte peut être une erreur du 16 juillet, date où 17.1% du contour tombe sur la terre ferme dans la photo optique.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de -3.2 km2 sur 36 jours. La HV moyenne a varié de -0.1 dB et la HH moyenne de 0.32 dB. En HH, 1.29 km2 sont devenus plus clairs de plus de 3 dB et 0.3 km2 plus sombres ; en HV, 0.49 km2 sont devenus plus clairs et 0.34 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le type Eau libre s'est assombri de 0.42 dB en HH. Le sol sec rugueux et les champs ont eu 0.52 km2 plus clairs en HH. Le type Champs changeants a augmenté de 0.74 dB en HV, et le bâti de 0.48 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : des pentes ombragées rattachées au masque du lac le 16 juillet, ce qui ferait paraître la perte plus grande qu'elle ne l'a été ; les contours sur la carte le montreraient. Cause possible : un réel abaissement estival ; le relevé de niveau du barrage le confirmerait. Cause possible pour l'eau plus sombre : une surface du lac plus calme le 21 août."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement, mais le chiffre du lac du 16 juillet demande de la prudence. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 17.1% et 10.4% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Ne pas rapporter la perte de 3.2 km2 sans le relevé de niveau du barrage. Utiliser une date de départ avec moins de contour sur la terre ferme pour un chiffre d'abaissement plus ferme."
+    }
+  ]
+}

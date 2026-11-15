@@ -1,0 +1,105 @@
+{
+ "kind": "date",
+ "area": {
+  "id": "bin-el-ouidane",
+  "name": "Bin El Ouidane reservoir",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 10,
+  "center": [
+   -6.384,
+   32.113
+  ]
+ },
+ "date": "2026-10-08",
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "area_km2": 314.16,
+ "with_data_km2": 314.05,
+ "with_data_pct": 100.0,
+ "terrain": [
+  {
+   "class_id": 1,
+   "name": "Open water",
+   "km2": 30.46,
+   "pct": 9.7,
+   "hh_db": -16.45,
+   "hv_db": -22.38,
+   "hv_hh_db": -5.93
+  },
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "km2": 5.69,
+   "pct": 1.8,
+   "hh_db": 0.1,
+   "hv_db": -14.02,
+   "hv_hh_db": -14.12
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "km2": 192.98,
+   "pct": 61.4,
+   "hh_db": -5.43,
+   "hv_db": -12.05,
+   "hv_hh_db": -6.63
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "km2": 0.6,
+   "pct": 0.2,
+   "hh_db": -2.41,
+   "hv_db": -8.42,
+   "hv_hh_db": -6.01
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "km2": 75.43,
+   "pct": 24.0,
+   "hh_db": -8.49,
+   "hv_db": -17.2,
+   "hv_hh_db": -8.71
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "km2": 8.73,
+   "pct": 2.8,
+   "hh_db": -13.36,
+   "hv_db": -20.27,
+   "hv_hh_db": -6.91
+  }
+ ],
+ "mean_hh_db": -6.3,
+ "mean_hv_db": -13.47,
+ "mean_hv_hh_db": -7.17,
+ "water_km2": 29.91,
+ "lake_on_optical_land_pct": 8.9,
+ "flags": [
+  {
+   "code": "water_threshold_jump",
+   "text": "Lake water threshold moves more than 1.0 dB from the previous date"
+  },
+  {
+   "code": "backscatter_shift",
+   "text": "Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions"
+  }
+ ],
+ "context": [
+  {
+   "fact": "Bin El Ouidane dam is on the El Abid river, was built in 1949-1953 and irrigates about 69,500 ha of the Beni Moussa and Tadla plains.",
+   "source": "Wikipedia, \"Bin el Ouidane Dam\""
+  },
+  {
+   "fact": "ORMVAT selected a bid to modernise the Beni Moussa irrigation canals, which are supplied by Bin El Ouidane. The selection is subject to appeal.",
+   "source": "Morocco World News, 28 Sept 2026"
+  }
+ ]
+}

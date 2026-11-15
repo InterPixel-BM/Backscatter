@@ -1,0 +1,66 @@
+{
+ "id": "tadla-plain/2026-08-21_2026-09-26",
+ "kind": "compare",
+ "area": "tadla-plain",
+ "date": null,
+ "date_a": "2026-08-21",
+ "date_b": "2026-09-26",
+ "title": "Tadla irrigated plain, Beni Moussa side, 21 Aug to 26 Sep 2026",
+ "summary": "From 21 Aug to 26 Sep 2026 the radar shows 5.72 km2 turning brighter and 2.18 km2 darker in HV on the Tadla plain, inside the 9 km circle. Most of the brighter area, 3.93 km2, is on the changing fields.",
+ "sections": [
+  {
+   "heading": "What changed",
+   "text": "Over 36 days mean HV moved by 0.14 dB and mean HH by 0.1 dB. In HV, 5.72 km2 turned brighter by more than 3 dB and 2.18 km2 darker; in HH, 9.4 km2 turned brighter and 3.0 km2 darker."
+  },
+  {
+   "heading": "Where, by terrain type",
+   "text": "The changing fields had 3.93 km2 brighter and 1.05 km2 darker in HV, with a mean HV change of 1.1 dB. Rough dry ground and fields had 1.28 km2 brighter and 0.79 km2 darker in HV. Trees, shrub and rugged slopes changed by 0.08 dB in HV, and built-up land by -0.01 dB in HH."
+  },
+  {
+   "heading": "Possible causes",
+   "text": "Possible cause for the brighter fields: new crops sown after the summer harvest, which add volume scattering; sowing records or a field visit would confirm it. Possible cause for the darker fields: plots harvested or ploughed; the optical photo would show them."
+  },
+  {
+   "heading": "Limits",
+   "text": "Neither date carries a flag. One track only, so field edges facing away from the radar can look darker. Small patches are close to what speckle alone can produce at the 3 dB threshold."
+  },
+  {
+   "heading": "What an agency could do next",
+   "text": "An irrigation office could compare the 3.93 km2 of brighter fields with its sowing and water-delivery records, since these plots are growing a crop now."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Days between",
+   "evidence_field": "days_between",
+   "value": 36,
+   "unit": "days"
+  },
+  {
+   "label": "Brighter in HV",
+   "evidence_field": "brighter_km2.hv",
+   "value": 5.72,
+   "unit": "km2"
+  },
+  {
+   "label": "Darker in HV",
+   "evidence_field": "darker_km2.hv",
+   "value": 2.18,
+   "unit": "km2"
+  },
+  {
+   "label": "Mean HV change",
+   "evidence_field": "diff.mean_hv_db",
+   "value": 0.14,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/tadla-plain/evidence/20260821_20260926.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "b51e22ef0c765f48b1c5a955d79850755526135fa7d46003d50ee8943aa94db6",
+ "check": {
+  "passed": true,
+  "numbers_checked": 25,
+  "checker": "ai/check_numbers.py"
+ }
+}

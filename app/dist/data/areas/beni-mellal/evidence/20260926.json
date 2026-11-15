@@ -1,0 +1,78 @@
+{
+ "kind": "date",
+ "area": {
+  "id": "beni-mellal",
+  "name": "Beni Mellal city and foothills",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 6,
+  "center": [
+   -6.36,
+   32.335
+  ]
+ },
+ "date": "2026-09-26",
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "area_km2": 113.1,
+ "with_data_km2": 113.1,
+ "with_data_pct": 100.0,
+ "terrain": [
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "km2": 13.75,
+   "pct": 12.2,
+   "hh_db": 6.03,
+   "hv_db": -11.01,
+   "hv_hh_db": -17.04
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "km2": 59.32,
+   "pct": 52.5,
+   "hh_db": -5.92,
+   "hv_db": -12.8,
+   "hv_hh_db": -6.88
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "km2": 5.4,
+   "pct": 4.8,
+   "hh_db": -7.34,
+   "hv_db": -15.7,
+   "hv_hh_db": -8.37
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "km2": 30.89,
+   "pct": 27.3,
+   "hh_db": -10.42,
+   "hv_db": -18.61,
+   "hv_hh_db": -8.19
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "km2": 3.73,
+   "pct": 3.3,
+   "hh_db": -15.56,
+   "hv_db": -22.17,
+   "hv_hh_db": -6.61
+  }
+ ],
+ "mean_hh_db": -1.83,
+ "mean_hv_db": -13.73,
+ "mean_hv_hh_db": -11.9,
+ "water_km2": null,
+ "lake_on_optical_land_pct": null,
+ "flags": [],
+ "context": []
+}

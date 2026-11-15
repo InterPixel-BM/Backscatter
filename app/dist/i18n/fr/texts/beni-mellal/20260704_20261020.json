@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260704_20261020.json",
+  "source_sha256": "6991c86a91c2bb604a6cb7042cd54e532e580fc40e713c72c29344bf9fa498c0",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 4 juillet et le 20 octobre 2026, tout le cercle autour de Beni Mellal est devenu plus clair, avec un HH moyen en hausse de 1.62 dB et 16.37 km2 plus clairs en HH. La date du 20 octobre porte un signalement, donc la plus grande partie de cet éclaircissement ne doit pas être lue comme un changement au sol.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 108 jours, le HV moyen a augmenté de 0.55 dB. Le HH est devenu plus clair de plus de 3 dB sur 16.37 km2 et plus sombre sur seulement 0.6 km2. En HV, 6.15 km2 sont devenus plus clairs et 1.3 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "L'éclaircissement touche tous les types. Le sol sec rugueux et les champs ont eu 6.82 km2 plus clairs en HH et ont augmenté de 2.08 dB, et les arbres, broussailles et pentes accidentées ont eu 4.24 km2 plus clairs. Le bâti, qui devrait rester stable, a augmenté de 1.63 dB en HH. Les champs changeants ont eu 2.1 km2 plus clairs en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : un décalage de traitement dans le produit du 20 octobre, puisque la ville s'est éclaircie comme les champs ; des fichiers retraités trancheraient la question. Cause possible : une surface mouillée après la pluie, qui renforce l'écho du sol et des murs ; les relevés de pluie d'octobre le vérifieraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Le 20 octobre 2026 porte un signalement : la rétrodiffusion sur le bâti s'est décalée de plus de 0.5 dB par rapport à sa médiane de juin-septembre, ce qui peut indiquer un décalage de traitement ou des conditions humides étendues. Cela réduit la confiance dans chaque chiffre de cette date. La NASA n'a pas de données NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser une date non signalée pour tout chiffre sur les champs ou la ville, vérifier les relevés de pluie d'octobre, et demander à la NASA si les produits d'octobre seront retraités."
+    }
+  ]
+}

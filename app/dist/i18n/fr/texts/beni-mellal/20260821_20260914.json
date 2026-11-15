@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260821_20260914.json",
+  "source_sha256": "22123675c28bea1f8430edc7c093612747037e9c008f5ecad1dc9c5404fd1acc",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 14 septembre 2026, le radar montre 1.8 km2 devenant plus clairs en HV autour de Beni Mellal, en majeure partie sur les champs changeants. Le HV moyen sur le cercle a à peine bougé, de -0.02 dB.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 24 jours, 1.8 km2 sont devenus plus clairs de plus de 3 dB en HV et 0.49 km2 plus sombres. Le HH a changé de la même façon, avec 2.69 km2 plus clairs et 0.49 km2 plus sombres, et le HH moyen a varié de -0.02 dB."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont augmenté de 1.58 dB en HV et de 1.58 dB en HH en moyenne, avec 1.39 km2 plus clairs en HV. Le sol sec rugueux et les champs ont eu 0.73 km2 plus clairs en HH et ont augmenté de 0.2 dB en HV. Le bâti a baissé de 0.31 dB en HV, et les arbres, broussailles et pentes accidentées ont eu 0.14 km2 plus clairs et 0.15 km2 plus sombres."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus clairs : des cultures qui poussent après des semis fin août, ce qui ajoute de la diffusion de volume ; une visite de terrain le confirmerait. Cause possible pour le HH plus clair sur le sol rugueux : un travail du sol qui le laisse plus rugueux ; la photo optique montrerait des travaux récents dans les champs."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser cette paire pour montrer où de nouvelles cultures ont démarré autour de la ville. Un bureau agricole pourrait comparer les 1.39 km2 à ses registres de semis."
+    }
+  ]
+}

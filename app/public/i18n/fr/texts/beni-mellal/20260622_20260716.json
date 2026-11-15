@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260622_20260716.json",
+  "source_sha256": "c90fa5dc4e0e4ec0ad170bcc1d48a0c1bc6eb8aad9bb0680f5c67838dc70146b",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 16 juillet 2026, le radar montre 1.9 km2 devenant plus sombres en HV autour de Beni Mellal, contre 0.55 km2 plus clairs. La majeure partie de la surface plus sombre, 1.33 km2, se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 24 jours, le HV moyen a varié de -0.11 dB et le HH moyen de -0.01 dB. En HV, 0.55 km2 sont devenus plus clairs de plus de 3 dB et 1.9 km2 plus sombres. En HH, 0.81 km2 sont devenus plus clairs et 1.62 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont baissé de 0.9 dB en HV en moyenne, avec 1.33 km2 plus sombres et 0.21 km2 plus clairs. Le sol sec rugueux et les champs ont eu 0.24 km2 plus sombres en HV. Le bâti a baissé de 0.42 dB en HV, et les arbres, broussailles et pentes accidentées sont restés presque stables, avec 0.14 km2 plus clairs et 0.16 km2 plus sombres."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus sombres : les récoltes de fin juin et début juillet, qui enlèvent les plantes qui diffusent le HV ; une visite de terrain ou les registres de récolte le confirmeraient. Cause possible pour la petite baisse sur le bâti : des conditions de visée légèrement différentes entre les dates ; des cibles stables sur davantage de dates le vérifieraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait rapprocher les 1.33 km2 de champs plus sombres de ses registres de récolte. Suivre ces champs sur les dates ultérieures pour voir quand ils sont semés à nouveau."
+    }
+  ]
+}

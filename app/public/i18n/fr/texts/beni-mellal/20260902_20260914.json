@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260902_20260914.json",
+  "source_sha256": "add2cbf96e438c37464cb4d3c60b0a5f6a9377fa737d9fdd9260d7bd8395c1e8",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 2 septembre au 14 septembre 2026, le radar montre 0.99 km2 devenant plus clairs en HV autour de Beni Mellal, tandis que le HV moyen sur le cercle n'a pas bougé, avec une variation de 0.0 dB. La plus grande partie du changement se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 12 jours, 0.99 km2 sont devenus plus clairs de plus de 3 dB en HV et 0.44 km2 plus sombres. En HH, 1.87 km2 sont devenus plus clairs et 0.54 km2 plus sombres, et le HH moyen a varié de -0.05 dB."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont augmenté de 0.89 dB en HV et de 0.98 dB en HH, avec 0.65 km2 plus clairs en HV. Le sol sec rugueux et les champs ont eu 0.53 km2 plus clairs en HH, en hausse de 0.38 dB. Le sol nu lisse a augmenté de 0.7 dB en HH. Les arbres, broussailles et pentes accidentées ont eu 0.14 km2 plus clairs et 0.15 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus clairs : de jeunes cultures qui poussent ; une visite de terrain le confirmerait. Cause possible pour le HH plus clair sur le sol rugueux et le sol nu : un travail du sol ou un labour, qui rend la surface du sol plus rugueuse ; la photo optique montrerait des travaux récents dans les champs."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait vérifier quelles parcelles ont été labourées ou semées début septembre. Suivre les champs plus clairs sur la date suivante."
+    }
+  ]
+}

@@ -1,0 +1,1122 @@
+{
+ "contract_version": 2,
+ "generated_utc": "2026-11-15T08:42:36Z",
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12,
+  "crs_measure": "EPSG:32630"
+ },
+ "dates": [
+  {
+   "date": "2026-06-22",
+   "flags": []
+  },
+  {
+   "date": "2026-07-04",
+   "flags": []
+  },
+  {
+   "date": "2026-07-16",
+   "flags": []
+  },
+  {
+   "date": "2026-08-21",
+   "flags": []
+  },
+  {
+   "date": "2026-09-02",
+   "flags": []
+  },
+  {
+   "date": "2026-09-14",
+   "flags": []
+  },
+  {
+   "date": "2026-09-26",
+   "flags": []
+  },
+  {
+   "date": "2026-10-08",
+   "flags": [
+    "backscatter_shift",
+    "water_threshold_jump"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "flags": [
+    "backscatter_shift"
+   ]
+  }
+ ],
+ "flag_text": {
+  "water_area_jump": "Lake mask area changes more than 15% from the previous date",
+  "water_threshold_jump": "Lake water threshold moves more than 1.0 dB from the previous date",
+  "backscatter_shift": "Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions"
+ },
+ "no_data_window": [
+  "2026-07-27",
+  "2026-08-10"
+ ],
+ "optical": {
+  "date": "2026-09-22",
+  "sensor": "HLS S30 (Sentinel-2)"
+ },
+ "colours": {
+  "water": "#2b6c8f",
+  "brighter": "#c8682c",
+  "darker": "#5e4fa2",
+  "flagged": "#d49a00",
+  "nodata": "#bdbdbd"
+ },
+ "layers": [
+  {
+   "id": "hv",
+   "label": "HV",
+   "kind": "continuous",
+   "unit": "dB",
+   "stretch": [
+    -24.8,
+    -10.4
+   ],
+   "colormap": "grey"
+  },
+  {
+   "id": "hh",
+   "label": "HH",
+   "kind": "continuous",
+   "unit": "dB",
+   "stretch": [
+    -19.8,
+    -2.8
+   ],
+   "colormap": "grey"
+  },
+  {
+   "id": "ratio",
+   "label": "HV:HH ratio",
+   "kind": "continuous",
+   "unit": "dB",
+   "stretch": [
+    -12.4,
+    -3.9
+   ],
+   "colormap": "grey"
+  },
+  {
+   "id": "classes",
+   "label": "Terrain types",
+   "kind": "categorical"
+  },
+  {
+   "id": "change",
+   "label": "Change A to B",
+   "kind": "categorical",
+   "pols": [
+    "hv",
+    "hh"
+   ],
+   "legend": [
+    {
+     "value": 1,
+     "label": "Brighter (> +3 dB)",
+     "colour": "#c8682c"
+    },
+    {
+     "value": 2,
+     "label": "Darker (< -3 dB)",
+     "colour": "#5e4fa2"
+    }
+   ]
+  },
+  {
+   "id": "optical",
+   "label": "Optical photo, 22 Sep 2026",
+   "kind": "rgb"
+  }
+ ],
+ "classes": [
+  {
+   "id": 1,
+   "name": "Open water",
+   "colour": "#2b6c8f",
+   "signature": "Calm water reflects the pulse away from the radar, so the lake is among the darkest surfaces in HH and HV. Wind can roughen the surface and brighten it a little. At L-band smooth dry fields can be nearly as dark, so water is mapped from the connected lake shape, not from brightness alone."
+  },
+  {
+   "id": 2,
+   "name": "Built-up",
+   "colour": "#8d5a52",
+   "signature": "Walls and the ground beside them act as corner reflectors that send the pulse straight back (double bounce), so HH is very bright. HV stays much lower, which gives the lowest HV:HH ratio of all types. Isolated farm buildings show up as bright points on the plain."
+  },
+  {
+   "id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "colour": "#5f7a4f",
+   "signature": "Leaves and branches scatter the pulse in many directions (volume scattering), which raises HV the most of all land types. Slopes facing the radar look bright in both channels. Tall crops and tree plots on the plain can fall in this type too."
+  },
+  {
+   "id": 4,
+   "name": "Changing fields",
+   "colour": "#a9b25c",
+   "signature": "HV changed strongly between June and September, as it does when a crop grows (more volume scattering) or is harvested or ploughed (less). These are the fields with the most activity in the season. Which crop it is cannot be told from the radar alone."
+  },
+  {
+   "id": 5,
+   "name": "Rough dry ground and fields",
+   "colour": "#b9a586",
+   "signature": "Rough soil, stones and sparse plants send part of the pulse back (rough surface scattering), so HH and HV are medium. Little change from June to September. Found on dry fields of the plain and on stony ridges."
+  },
+  {
+   "id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "colour": "#ddd0b6",
+   "signature": "Smooth dry soil reflects most of the pulse away, so HH and HV are low, close to calm water. Little change from June to September, which fits fallow or harvested land. The optical photo shows most of this type as bright bare soil."
+  }
+ ],
+ "overview": {
+  "corners": [
+   [
+    -7.083613,
+    32.699019
+   ],
+   [
+    -6.200844,
+    32.724692
+   ],
+   [
+    -6.173684,
+    31.950602
+   ],
+   [
+    -7.049007,
+    31.925681
+   ]
+  ],
+  "files": {
+   "hv": {
+    "2026-06-22": "overview/hv_20260622.webp",
+    "2026-07-04": "overview/hv_20260704.webp",
+    "2026-07-16": "overview/hv_20260716.webp",
+    "2026-08-21": "overview/hv_20260821.webp",
+    "2026-09-02": "overview/hv_20260902.webp",
+    "2026-09-14": "overview/hv_20260914.webp",
+    "2026-09-26": "overview/hv_20260926.webp",
+    "2026-10-08": "overview/hv_20261008.webp",
+    "2026-10-20": "overview/hv_20261020.webp"
+   },
+   "hh": {
+    "2026-06-22": "overview/hh_20260622.webp",
+    "2026-07-04": "overview/hh_20260704.webp",
+    "2026-07-16": "overview/hh_20260716.webp",
+    "2026-08-21": "overview/hh_20260821.webp",
+    "2026-09-02": "overview/hh_20260902.webp",
+    "2026-09-14": "overview/hh_20260914.webp",
+    "2026-09-26": "overview/hh_20260926.webp",
+    "2026-10-08": "overview/hh_20261008.webp",
+    "2026-10-20": "overview/hh_20261020.webp"
+   },
+   "ratio": {
+    "2026-06-22": "overview/ratio_20260622.webp",
+    "2026-07-04": "overview/ratio_20260704.webp",
+    "2026-07-16": "overview/ratio_20260716.webp",
+    "2026-08-21": "overview/ratio_20260821.webp",
+    "2026-09-02": "overview/ratio_20260902.webp",
+    "2026-09-14": "overview/ratio_20260914.webp",
+    "2026-09-26": "overview/ratio_20260926.webp",
+    "2026-10-08": "overview/ratio_20261008.webp",
+    "2026-10-20": "overview/ratio_20261020.webp"
+   },
+   "optical": "overview/optical_20260922.webp",
+   "optical_by_date": {
+    "2026-06-22": "overview/optical_20260619.webp",
+    "2026-07-04": "overview/optical_20260709.webp",
+    "2026-07-16": "overview/optical_20260713.webp",
+    "2026-08-21": "overview/optical_20260822.webp",
+    "2026-09-02": "overview/optical_20260830.webp",
+    "2026-09-14": "overview/optical_20260912.webp",
+    "2026-09-26": "overview/optical_20260922.webp",
+    "2026-10-20": "overview/optical_20261024.webp"
+   }
+  }
+ },
+ "areas": [
+  {
+   "id": "bin-el-ouidane",
+   "name": "Bin El Ouidane reservoir",
+   "region": "Beni Mellal-Khenifra, Morocco",
+   "description": "The reservoir on the El Abid river and its shore.",
+   "center": [
+    -6.384,
+    32.113
+   ],
+   "radius_km": 10,
+   "hero": true,
+   "chart": "water",
+   "default_dates": [
+    "2026-06-22",
+    "2026-09-26"
+   ],
+   "corners": [
+    [
+     -6.493398,
+     32.200191
+    ],
+    [
+     -6.281349,
+     32.205879
+    ],
+    [
+     -6.274898,
+     32.025562
+    ],
+    [
+     -6.486532,
+     32.019914
+    ]
+   ],
+   "files": {
+    "hv": {
+     "2026-06-22": "areas/bin-el-ouidane/hv_20260622.webp",
+     "2026-07-04": "areas/bin-el-ouidane/hv_20260704.webp",
+     "2026-07-16": "areas/bin-el-ouidane/hv_20260716.webp",
+     "2026-08-21": "areas/bin-el-ouidane/hv_20260821.webp",
+     "2026-09-02": "areas/bin-el-ouidane/hv_20260902.webp",
+     "2026-09-14": "areas/bin-el-ouidane/hv_20260914.webp",
+     "2026-09-26": "areas/bin-el-ouidane/hv_20260926.webp",
+     "2026-10-08": "areas/bin-el-ouidane/hv_20261008.webp",
+     "2026-10-20": "areas/bin-el-ouidane/hv_20261020.webp"
+    },
+    "hh": {
+     "2026-06-22": "areas/bin-el-ouidane/hh_20260622.webp",
+     "2026-07-04": "areas/bin-el-ouidane/hh_20260704.webp",
+     "2026-07-16": "areas/bin-el-ouidane/hh_20260716.webp",
+     "2026-08-21": "areas/bin-el-ouidane/hh_20260821.webp",
+     "2026-09-02": "areas/bin-el-ouidane/hh_20260902.webp",
+     "2026-09-14": "areas/bin-el-ouidane/hh_20260914.webp",
+     "2026-09-26": "areas/bin-el-ouidane/hh_20260926.webp",
+     "2026-10-08": "areas/bin-el-ouidane/hh_20261008.webp",
+     "2026-10-20": "areas/bin-el-ouidane/hh_20261020.webp"
+    },
+    "ratio": {
+     "2026-06-22": "areas/bin-el-ouidane/ratio_20260622.webp",
+     "2026-07-04": "areas/bin-el-ouidane/ratio_20260704.webp",
+     "2026-07-16": "areas/bin-el-ouidane/ratio_20260716.webp",
+     "2026-08-21": "areas/bin-el-ouidane/ratio_20260821.webp",
+     "2026-09-02": "areas/bin-el-ouidane/ratio_20260902.webp",
+     "2026-09-14": "areas/bin-el-ouidane/ratio_20260914.webp",
+     "2026-09-26": "areas/bin-el-ouidane/ratio_20260926.webp",
+     "2026-10-08": "areas/bin-el-ouidane/ratio_20261008.webp",
+     "2026-10-20": "areas/bin-el-ouidane/ratio_20261020.webp"
+    },
+    "optical": "areas/bin-el-ouidane/optical_20260922.webp",
+    "classes": "areas/bin-el-ouidane/classes.png",
+    "change": {
+     "hv": {
+      "2026-06-22_2026-07-04": "areas/bin-el-ouidane/change_hv_20260622_20260704.png",
+      "2026-06-22_2026-07-16": "areas/bin-el-ouidane/change_hv_20260622_20260716.png",
+      "2026-06-22_2026-08-21": "areas/bin-el-ouidane/change_hv_20260622_20260821.png",
+      "2026-06-22_2026-09-02": "areas/bin-el-ouidane/change_hv_20260622_20260902.png",
+      "2026-06-22_2026-09-14": "areas/bin-el-ouidane/change_hv_20260622_20260914.png",
+      "2026-06-22_2026-09-26": "areas/bin-el-ouidane/change_hv_20260622_20260926.png",
+      "2026-06-22_2026-10-08": "areas/bin-el-ouidane/change_hv_20260622_20261008.png",
+      "2026-06-22_2026-10-20": "areas/bin-el-ouidane/change_hv_20260622_20261020.png",
+      "2026-07-04_2026-07-16": "areas/bin-el-ouidane/change_hv_20260704_20260716.png",
+      "2026-07-04_2026-08-21": "areas/bin-el-ouidane/change_hv_20260704_20260821.png",
+      "2026-07-04_2026-09-02": "areas/bin-el-ouidane/change_hv_20260704_20260902.png",
+      "2026-07-04_2026-09-14": "areas/bin-el-ouidane/change_hv_20260704_20260914.png",
+      "2026-07-04_2026-09-26": "areas/bin-el-ouidane/change_hv_20260704_20260926.png",
+      "2026-07-04_2026-10-08": "areas/bin-el-ouidane/change_hv_20260704_20261008.png",
+      "2026-07-04_2026-10-20": "areas/bin-el-ouidane/change_hv_20260704_20261020.png",
+      "2026-07-16_2026-08-21": "areas/bin-el-ouidane/change_hv_20260716_20260821.png",
+      "2026-07-16_2026-09-02": "areas/bin-el-ouidane/change_hv_20260716_20260902.png",
+      "2026-07-16_2026-09-14": "areas/bin-el-ouidane/change_hv_20260716_20260914.png",
+      "2026-07-16_2026-09-26": "areas/bin-el-ouidane/change_hv_20260716_20260926.png",
+      "2026-07-16_2026-10-08": "areas/bin-el-ouidane/change_hv_20260716_20261008.png",
+      "2026-07-16_2026-10-20": "areas/bin-el-ouidane/change_hv_20260716_20261020.png",
+      "2026-08-21_2026-09-02": "areas/bin-el-ouidane/change_hv_20260821_20260902.png",
+      "2026-08-21_2026-09-14": "areas/bin-el-ouidane/change_hv_20260821_20260914.png",
+      "2026-08-21_2026-09-26": "areas/bin-el-ouidane/change_hv_20260821_20260926.png",
+      "2026-08-21_2026-10-08": "areas/bin-el-ouidane/change_hv_20260821_20261008.png",
+      "2026-08-21_2026-10-20": "areas/bin-el-ouidane/change_hv_20260821_20261020.png",
+      "2026-09-02_2026-09-14": "areas/bin-el-ouidane/change_hv_20260902_20260914.png",
+      "2026-09-02_2026-09-26": "areas/bin-el-ouidane/change_hv_20260902_20260926.png",
+      "2026-09-02_2026-10-08": "areas/bin-el-ouidane/change_hv_20260902_20261008.png",
+      "2026-09-02_2026-10-20": "areas/bin-el-ouidane/change_hv_20260902_20261020.png",
+      "2026-09-14_2026-09-26": "areas/bin-el-ouidane/change_hv_20260914_20260926.png",
+      "2026-09-14_2026-10-08": "areas/bin-el-ouidane/change_hv_20260914_20261008.png",
+      "2026-09-14_2026-10-20": "areas/bin-el-ouidane/change_hv_20260914_20261020.png",
+      "2026-09-26_2026-10-08": "areas/bin-el-ouidane/change_hv_20260926_20261008.png",
+      "2026-09-26_2026-10-20": "areas/bin-el-ouidane/change_hv_20260926_20261020.png",
+      "2026-10-08_2026-10-20": "areas/bin-el-ouidane/change_hv_20261008_20261020.png"
+     },
+     "hh": {
+      "2026-06-22_2026-07-04": "areas/bin-el-ouidane/change_hh_20260622_20260704.png",
+      "2026-06-22_2026-07-16": "areas/bin-el-ouidane/change_hh_20260622_20260716.png",
+      "2026-06-22_2026-08-21": "areas/bin-el-ouidane/change_hh_20260622_20260821.png",
+      "2026-06-22_2026-09-02": "areas/bin-el-ouidane/change_hh_20260622_20260902.png",
+      "2026-06-22_2026-09-14": "areas/bin-el-ouidane/change_hh_20260622_20260914.png",
+      "2026-06-22_2026-09-26": "areas/bin-el-ouidane/change_hh_20260622_20260926.png",
+      "2026-06-22_2026-10-08": "areas/bin-el-ouidane/change_hh_20260622_20261008.png",
+      "2026-06-22_2026-10-20": "areas/bin-el-ouidane/change_hh_20260622_20261020.png",
+      "2026-07-04_2026-07-16": "areas/bin-el-ouidane/change_hh_20260704_20260716.png",
+      "2026-07-04_2026-08-21": "areas/bin-el-ouidane/change_hh_20260704_20260821.png",
+      "2026-07-04_2026-09-02": "areas/bin-el-ouidane/change_hh_20260704_20260902.png",
+      "2026-07-04_2026-09-14": "areas/bin-el-ouidane/change_hh_20260704_20260914.png",
+      "2026-07-04_2026-09-26": "areas/bin-el-ouidane/change_hh_20260704_20260926.png",
+      "2026-07-04_2026-10-08": "areas/bin-el-ouidane/change_hh_20260704_20261008.png",
+      "2026-07-04_2026-10-20": "areas/bin-el-ouidane/change_hh_20260704_20261020.png",
+      "2026-07-16_2026-08-21": "areas/bin-el-ouidane/change_hh_20260716_20260821.png",
+      "2026-07-16_2026-09-02": "areas/bin-el-ouidane/change_hh_20260716_20260902.png",
+      "2026-07-16_2026-09-14": "areas/bin-el-ouidane/change_hh_20260716_20260914.png",
+      "2026-07-16_2026-09-26": "areas/bin-el-ouidane/change_hh_20260716_20260926.png",
+      "2026-07-16_2026-10-08": "areas/bin-el-ouidane/change_hh_20260716_20261008.png",
+      "2026-07-16_2026-10-20": "areas/bin-el-ouidane/change_hh_20260716_20261020.png",
+      "2026-08-21_2026-09-02": "areas/bin-el-ouidane/change_hh_20260821_20260902.png",
+      "2026-08-21_2026-09-14": "areas/bin-el-ouidane/change_hh_20260821_20260914.png",
+      "2026-08-21_2026-09-26": "areas/bin-el-ouidane/change_hh_20260821_20260926.png",
+      "2026-08-21_2026-10-08": "areas/bin-el-ouidane/change_hh_20260821_20261008.png",
+      "2026-08-21_2026-10-20": "areas/bin-el-ouidane/change_hh_20260821_20261020.png",
+      "2026-09-02_2026-09-14": "areas/bin-el-ouidane/change_hh_20260902_20260914.png",
+      "2026-09-02_2026-09-26": "areas/bin-el-ouidane/change_hh_20260902_20260926.png",
+      "2026-09-02_2026-10-08": "areas/bin-el-ouidane/change_hh_20260902_20261008.png",
+      "2026-09-02_2026-10-20": "areas/bin-el-ouidane/change_hh_20260902_20261020.png",
+      "2026-09-14_2026-09-26": "areas/bin-el-ouidane/change_hh_20260914_20260926.png",
+      "2026-09-14_2026-10-08": "areas/bin-el-ouidane/change_hh_20260914_20261008.png",
+      "2026-09-14_2026-10-20": "areas/bin-el-ouidane/change_hh_20260914_20261020.png",
+      "2026-09-26_2026-10-08": "areas/bin-el-ouidane/change_hh_20260926_20261008.png",
+      "2026-09-26_2026-10-20": "areas/bin-el-ouidane/change_hh_20260926_20261020.png",
+      "2026-10-08_2026-10-20": "areas/bin-el-ouidane/change_hh_20261008_20261020.png"
+     }
+    },
+    "optical_by_date": {
+     "2026-06-22": "areas/bin-el-ouidane/optical_20260619.webp",
+     "2026-07-04": "areas/bin-el-ouidane/optical_20260709.webp",
+     "2026-07-16": "areas/bin-el-ouidane/optical_20260713.webp",
+     "2026-08-21": "areas/bin-el-ouidane/optical_20260822.webp",
+     "2026-09-02": "areas/bin-el-ouidane/optical_20260830.webp",
+     "2026-09-14": "areas/bin-el-ouidane/optical_20260912.webp",
+     "2026-09-26": "areas/bin-el-ouidane/optical_20260922.webp",
+     "2026-10-20": "areas/bin-el-ouidane/optical_20261024.webp"
+    }
+   },
+   "series": "areas/bin-el-ouidane/series.json",
+   "evidence": {
+    "dates": {
+     "2026-06-22": "areas/bin-el-ouidane/evidence/20260622.json",
+     "2026-07-04": "areas/bin-el-ouidane/evidence/20260704.json",
+     "2026-07-16": "areas/bin-el-ouidane/evidence/20260716.json",
+     "2026-08-21": "areas/bin-el-ouidane/evidence/20260821.json",
+     "2026-09-02": "areas/bin-el-ouidane/evidence/20260902.json",
+     "2026-09-14": "areas/bin-el-ouidane/evidence/20260914.json",
+     "2026-09-26": "areas/bin-el-ouidane/evidence/20260926.json",
+     "2026-10-08": "areas/bin-el-ouidane/evidence/20261008.json",
+     "2026-10-20": "areas/bin-el-ouidane/evidence/20261020.json"
+    },
+    "pairs": {
+     "2026-06-22_2026-07-04": "areas/bin-el-ouidane/evidence/20260622_20260704.json",
+     "2026-06-22_2026-07-16": "areas/bin-el-ouidane/evidence/20260622_20260716.json",
+     "2026-06-22_2026-08-21": "areas/bin-el-ouidane/evidence/20260622_20260821.json",
+     "2026-06-22_2026-09-02": "areas/bin-el-ouidane/evidence/20260622_20260902.json",
+     "2026-06-22_2026-09-14": "areas/bin-el-ouidane/evidence/20260622_20260914.json",
+     "2026-06-22_2026-09-26": "areas/bin-el-ouidane/evidence/20260622_20260926.json",
+     "2026-06-22_2026-10-08": "areas/bin-el-ouidane/evidence/20260622_20261008.json",
+     "2026-06-22_2026-10-20": "areas/bin-el-ouidane/evidence/20260622_20261020.json",
+     "2026-07-04_2026-07-16": "areas/bin-el-ouidane/evidence/20260704_20260716.json",
+     "2026-07-04_2026-08-21": "areas/bin-el-ouidane/evidence/20260704_20260821.json",
+     "2026-07-04_2026-09-02": "areas/bin-el-ouidane/evidence/20260704_20260902.json",
+     "2026-07-04_2026-09-14": "areas/bin-el-ouidane/evidence/20260704_20260914.json",
+     "2026-07-04_2026-09-26": "areas/bin-el-ouidane/evidence/20260704_20260926.json",
+     "2026-07-04_2026-10-08": "areas/bin-el-ouidane/evidence/20260704_20261008.json",
+     "2026-07-04_2026-10-20": "areas/bin-el-ouidane/evidence/20260704_20261020.json",
+     "2026-07-16_2026-08-21": "areas/bin-el-ouidane/evidence/20260716_20260821.json",
+     "2026-07-16_2026-09-02": "areas/bin-el-ouidane/evidence/20260716_20260902.json",
+     "2026-07-16_2026-09-14": "areas/bin-el-ouidane/evidence/20260716_20260914.json",
+     "2026-07-16_2026-09-26": "areas/bin-el-ouidane/evidence/20260716_20260926.json",
+     "2026-07-16_2026-10-08": "areas/bin-el-ouidane/evidence/20260716_20261008.json",
+     "2026-07-16_2026-10-20": "areas/bin-el-ouidane/evidence/20260716_20261020.json",
+     "2026-08-21_2026-09-02": "areas/bin-el-ouidane/evidence/20260821_20260902.json",
+     "2026-08-21_2026-09-14": "areas/bin-el-ouidane/evidence/20260821_20260914.json",
+     "2026-08-21_2026-09-26": "areas/bin-el-ouidane/evidence/20260821_20260926.json",
+     "2026-08-21_2026-10-08": "areas/bin-el-ouidane/evidence/20260821_20261008.json",
+     "2026-08-21_2026-10-20": "areas/bin-el-ouidane/evidence/20260821_20261020.json",
+     "2026-09-02_2026-09-14": "areas/bin-el-ouidane/evidence/20260902_20260914.json",
+     "2026-09-02_2026-09-26": "areas/bin-el-ouidane/evidence/20260902_20260926.json",
+     "2026-09-02_2026-10-08": "areas/bin-el-ouidane/evidence/20260902_20261008.json",
+     "2026-09-02_2026-10-20": "areas/bin-el-ouidane/evidence/20260902_20261020.json",
+     "2026-09-14_2026-09-26": "areas/bin-el-ouidane/evidence/20260914_20260926.json",
+     "2026-09-14_2026-10-08": "areas/bin-el-ouidane/evidence/20260914_20261008.json",
+     "2026-09-14_2026-10-20": "areas/bin-el-ouidane/evidence/20260914_20261020.json",
+     "2026-09-26_2026-10-08": "areas/bin-el-ouidane/evidence/20260926_20261008.json",
+     "2026-09-26_2026-10-20": "areas/bin-el-ouidane/evidence/20260926_20261020.json",
+     "2026-10-08_2026-10-20": "areas/bin-el-ouidane/evidence/20261008_20261020.json"
+    }
+   },
+   "texts": {
+    "dates": {
+     "2026-06-22": "texts/bin-el-ouidane/20260622.json",
+     "2026-07-04": "texts/bin-el-ouidane/20260704.json",
+     "2026-07-16": "texts/bin-el-ouidane/20260716.json",
+     "2026-08-21": "texts/bin-el-ouidane/20260821.json",
+     "2026-09-02": "texts/bin-el-ouidane/20260902.json",
+     "2026-09-14": "texts/bin-el-ouidane/20260914.json",
+     "2026-09-26": "texts/bin-el-ouidane/20260926.json",
+     "2026-10-08": "texts/bin-el-ouidane/20261008.json",
+     "2026-10-20": "texts/bin-el-ouidane/20261020.json"
+    },
+    "pairs": {
+     "2026-06-22_2026-07-04": "texts/bin-el-ouidane/20260622_20260704.json",
+     "2026-06-22_2026-07-16": "texts/bin-el-ouidane/20260622_20260716.json",
+     "2026-06-22_2026-08-21": "texts/bin-el-ouidane/20260622_20260821.json",
+     "2026-06-22_2026-09-02": "texts/bin-el-ouidane/20260622_20260902.json",
+     "2026-06-22_2026-09-14": "texts/bin-el-ouidane/20260622_20260914.json",
+     "2026-06-22_2026-09-26": "texts/bin-el-ouidane/20260622_20260926.json",
+     "2026-06-22_2026-10-08": "texts/bin-el-ouidane/20260622_20261008.json",
+     "2026-06-22_2026-10-20": "texts/bin-el-ouidane/20260622_20261020.json",
+     "2026-07-04_2026-07-16": "texts/bin-el-ouidane/20260704_20260716.json",
+     "2026-07-04_2026-08-21": "texts/bin-el-ouidane/20260704_20260821.json",
+     "2026-07-04_2026-09-02": "texts/bin-el-ouidane/20260704_20260902.json",
+     "2026-07-04_2026-09-14": "texts/bin-el-ouidane/20260704_20260914.json",
+     "2026-07-04_2026-09-26": "texts/bin-el-ouidane/20260704_20260926.json",
+     "2026-07-04_2026-10-08": "texts/bin-el-ouidane/20260704_20261008.json",
+     "2026-07-04_2026-10-20": "texts/bin-el-ouidane/20260704_20261020.json",
+     "2026-07-16_2026-08-21": "texts/bin-el-ouidane/20260716_20260821.json",
+     "2026-07-16_2026-09-02": "texts/bin-el-ouidane/20260716_20260902.json",
+     "2026-07-16_2026-09-14": "texts/bin-el-ouidane/20260716_20260914.json",
+     "2026-07-16_2026-09-26": "texts/bin-el-ouidane/20260716_20260926.json",
+     "2026-07-16_2026-10-08": "texts/bin-el-ouidane/20260716_20261008.json",
+     "2026-07-16_2026-10-20": "texts/bin-el-ouidane/20260716_20261020.json",
+     "2026-08-21_2026-09-02": "texts/bin-el-ouidane/20260821_20260902.json",
+     "2026-08-21_2026-09-14": "texts/bin-el-ouidane/20260821_20260914.json",
+     "2026-08-21_2026-09-26": "texts/bin-el-ouidane/20260821_20260926.json",
+     "2026-08-21_2026-10-08": "texts/bin-el-ouidane/20260821_20261008.json",
+     "2026-08-21_2026-10-20": "texts/bin-el-ouidane/20260821_20261020.json",
+     "2026-09-02_2026-09-14": "texts/bin-el-ouidane/20260902_20260914.json",
+     "2026-09-02_2026-09-26": "texts/bin-el-ouidane/20260902_20260926.json",
+     "2026-09-02_2026-10-08": "texts/bin-el-ouidane/20260902_20261008.json",
+     "2026-09-02_2026-10-20": "texts/bin-el-ouidane/20260902_20261020.json",
+     "2026-09-14_2026-09-26": "texts/bin-el-ouidane/20260914_20260926.json",
+     "2026-09-14_2026-10-08": "texts/bin-el-ouidane/20260914_20261008.json",
+     "2026-09-14_2026-10-20": "texts/bin-el-ouidane/20260914_20261020.json",
+     "2026-09-26_2026-10-08": "texts/bin-el-ouidane/20260926_20261008.json",
+     "2026-09-26_2026-10-20": "texts/bin-el-ouidane/20260926_20261020.json",
+     "2026-10-08_2026-10-20": "texts/bin-el-ouidane/20261008_20261020.json"
+    }
+   },
+   "context": [
+    {
+     "fact": "Bin El Ouidane dam is on the El Abid river, was built in 1949-1953 and irrigates about 69,500 ha of the Beni Moussa and Tadla plains.",
+     "source": "Wikipedia, \"Bin el Ouidane Dam\""
+    },
+    {
+     "fact": "ORMVAT selected a bid to modernise the Beni Moussa irrigation canals, which are supplied by Bin El Ouidane. The selection is subject to appeal.",
+     "source": "Morocco World News, 28 Sept 2026"
+    }
+   ]
+  },
+  {
+   "id": "tadla-plain",
+   "name": "Tadla irrigated plain, Beni Moussa side",
+   "region": "Beni Mellal-Khenifra, Morocco",
+   "description": "Irrigated fields of the Tadla plain, where the photo shows green fields.",
+   "center": [
+    -6.58,
+    32.3
+   ],
+   "radius_km": 9,
+   "hero": false,
+   "chart": "hv_by_class",
+   "default_dates": [
+    "2026-06-22",
+    "2026-09-26"
+   ],
+   "corners": [
+    [
+     -6.678697,
+     32.378442
+    ],
+    [
+     -6.487498,
+     32.383883
+    ],
+    [
+     -6.481282,
+     32.221619
+    ],
+    [
+     -6.672142,
+     32.216212
+    ]
+   ],
+   "files": {
+    "hv": {
+     "2026-06-22": "areas/tadla-plain/hv_20260622.webp",
+     "2026-07-04": "areas/tadla-plain/hv_20260704.webp",
+     "2026-07-16": "areas/tadla-plain/hv_20260716.webp",
+     "2026-08-21": "areas/tadla-plain/hv_20260821.webp",
+     "2026-09-02": "areas/tadla-plain/hv_20260902.webp",
+     "2026-09-14": "areas/tadla-plain/hv_20260914.webp",
+     "2026-09-26": "areas/tadla-plain/hv_20260926.webp",
+     "2026-10-08": "areas/tadla-plain/hv_20261008.webp",
+     "2026-10-20": "areas/tadla-plain/hv_20261020.webp"
+    },
+    "hh": {
+     "2026-06-22": "areas/tadla-plain/hh_20260622.webp",
+     "2026-07-04": "areas/tadla-plain/hh_20260704.webp",
+     "2026-07-16": "areas/tadla-plain/hh_20260716.webp",
+     "2026-08-21": "areas/tadla-plain/hh_20260821.webp",
+     "2026-09-02": "areas/tadla-plain/hh_20260902.webp",
+     "2026-09-14": "areas/tadla-plain/hh_20260914.webp",
+     "2026-09-26": "areas/tadla-plain/hh_20260926.webp",
+     "2026-10-08": "areas/tadla-plain/hh_20261008.webp",
+     "2026-10-20": "areas/tadla-plain/hh_20261020.webp"
+    },
+    "ratio": {
+     "2026-06-22": "areas/tadla-plain/ratio_20260622.webp",
+     "2026-07-04": "areas/tadla-plain/ratio_20260704.webp",
+     "2026-07-16": "areas/tadla-plain/ratio_20260716.webp",
+     "2026-08-21": "areas/tadla-plain/ratio_20260821.webp",
+     "2026-09-02": "areas/tadla-plain/ratio_20260902.webp",
+     "2026-09-14": "areas/tadla-plain/ratio_20260914.webp",
+     "2026-09-26": "areas/tadla-plain/ratio_20260926.webp",
+     "2026-10-08": "areas/tadla-plain/ratio_20261008.webp",
+     "2026-10-20": "areas/tadla-plain/ratio_20261020.webp"
+    },
+    "optical": "areas/tadla-plain/optical_20260922.webp",
+    "classes": "areas/tadla-plain/classes.png",
+    "change": {
+     "hv": {
+      "2026-06-22_2026-07-04": "areas/tadla-plain/change_hv_20260622_20260704.png",
+      "2026-06-22_2026-07-16": "areas/tadla-plain/change_hv_20260622_20260716.png",
+      "2026-06-22_2026-08-21": "areas/tadla-plain/change_hv_20260622_20260821.png",
+      "2026-06-22_2026-09-02": "areas/tadla-plain/change_hv_20260622_20260902.png",
+      "2026-06-22_2026-09-14": "areas/tadla-plain/change_hv_20260622_20260914.png",
+      "2026-06-22_2026-09-26": "areas/tadla-plain/change_hv_20260622_20260926.png",
+      "2026-06-22_2026-10-08": "areas/tadla-plain/change_hv_20260622_20261008.png",
+      "2026-06-22_2026-10-20": "areas/tadla-plain/change_hv_20260622_20261020.png",
+      "2026-07-04_2026-07-16": "areas/tadla-plain/change_hv_20260704_20260716.png",
+      "2026-07-04_2026-08-21": "areas/tadla-plain/change_hv_20260704_20260821.png",
+      "2026-07-04_2026-09-02": "areas/tadla-plain/change_hv_20260704_20260902.png",
+      "2026-07-04_2026-09-14": "areas/tadla-plain/change_hv_20260704_20260914.png",
+      "2026-07-04_2026-09-26": "areas/tadla-plain/change_hv_20260704_20260926.png",
+      "2026-07-04_2026-10-08": "areas/tadla-plain/change_hv_20260704_20261008.png",
+      "2026-07-04_2026-10-20": "areas/tadla-plain/change_hv_20260704_20261020.png",
+      "2026-07-16_2026-08-21": "areas/tadla-plain/change_hv_20260716_20260821.png",
+      "2026-07-16_2026-09-02": "areas/tadla-plain/change_hv_20260716_20260902.png",
+      "2026-07-16_2026-09-14": "areas/tadla-plain/change_hv_20260716_20260914.png",
+      "2026-07-16_2026-09-26": "areas/tadla-plain/change_hv_20260716_20260926.png",
+      "2026-07-16_2026-10-08": "areas/tadla-plain/change_hv_20260716_20261008.png",
+      "2026-07-16_2026-10-20": "areas/tadla-plain/change_hv_20260716_20261020.png",
+      "2026-08-21_2026-09-02": "areas/tadla-plain/change_hv_20260821_20260902.png",
+      "2026-08-21_2026-09-14": "areas/tadla-plain/change_hv_20260821_20260914.png",
+      "2026-08-21_2026-09-26": "areas/tadla-plain/change_hv_20260821_20260926.png",
+      "2026-08-21_2026-10-08": "areas/tadla-plain/change_hv_20260821_20261008.png",
+      "2026-08-21_2026-10-20": "areas/tadla-plain/change_hv_20260821_20261020.png",
+      "2026-09-02_2026-09-14": "areas/tadla-plain/change_hv_20260902_20260914.png",
+      "2026-09-02_2026-09-26": "areas/tadla-plain/change_hv_20260902_20260926.png",
+      "2026-09-02_2026-10-08": "areas/tadla-plain/change_hv_20260902_20261008.png",
+      "2026-09-02_2026-10-20": "areas/tadla-plain/change_hv_20260902_20261020.png",
+      "2026-09-14_2026-09-26": "areas/tadla-plain/change_hv_20260914_20260926.png",
+      "2026-09-14_2026-10-08": "areas/tadla-plain/change_hv_20260914_20261008.png",
+      "2026-09-14_2026-10-20": "areas/tadla-plain/change_hv_20260914_20261020.png",
+      "2026-09-26_2026-10-08": "areas/tadla-plain/change_hv_20260926_20261008.png",
+      "2026-09-26_2026-10-20": "areas/tadla-plain/change_hv_20260926_20261020.png",
+      "2026-10-08_2026-10-20": "areas/tadla-plain/change_hv_20261008_20261020.png"
+     },
+     "hh": {
+      "2026-06-22_2026-07-04": "areas/tadla-plain/change_hh_20260622_20260704.png",
+      "2026-06-22_2026-07-16": "areas/tadla-plain/change_hh_20260622_20260716.png",
+      "2026-06-22_2026-08-21": "areas/tadla-plain/change_hh_20260622_20260821.png",
+      "2026-06-22_2026-09-02": "areas/tadla-plain/change_hh_20260622_20260902.png",
+      "2026-06-22_2026-09-14": "areas/tadla-plain/change_hh_20260622_20260914.png",
+      "2026-06-22_2026-09-26": "areas/tadla-plain/change_hh_20260622_20260926.png",
+      "2026-06-22_2026-10-08": "areas/tadla-plain/change_hh_20260622_20261008.png",
+      "2026-06-22_2026-10-20": "areas/tadla-plain/change_hh_20260622_20261020.png",
+      "2026-07-04_2026-07-16": "areas/tadla-plain/change_hh_20260704_20260716.png",
+      "2026-07-04_2026-08-21": "areas/tadla-plain/change_hh_20260704_20260821.png",
+      "2026-07-04_2026-09-02": "areas/tadla-plain/change_hh_20260704_20260902.png",
+      "2026-07-04_2026-09-14": "areas/tadla-plain/change_hh_20260704_20260914.png",
+      "2026-07-04_2026-09-26": "areas/tadla-plain/change_hh_20260704_20260926.png",
+      "2026-07-04_2026-10-08": "areas/tadla-plain/change_hh_20260704_20261008.png",
+      "2026-07-04_2026-10-20": "areas/tadla-plain/change_hh_20260704_20261020.png",
+      "2026-07-16_2026-08-21": "areas/tadla-plain/change_hh_20260716_20260821.png",
+      "2026-07-16_2026-09-02": "areas/tadla-plain/change_hh_20260716_20260902.png",
+      "2026-07-16_2026-09-14": "areas/tadla-plain/change_hh_20260716_20260914.png",
+      "2026-07-16_2026-09-26": "areas/tadla-plain/change_hh_20260716_20260926.png",
+      "2026-07-16_2026-10-08": "areas/tadla-plain/change_hh_20260716_20261008.png",
+      "2026-07-16_2026-10-20": "areas/tadla-plain/change_hh_20260716_20261020.png",
+      "2026-08-21_2026-09-02": "areas/tadla-plain/change_hh_20260821_20260902.png",
+      "2026-08-21_2026-09-14": "areas/tadla-plain/change_hh_20260821_20260914.png",
+      "2026-08-21_2026-09-26": "areas/tadla-plain/change_hh_20260821_20260926.png",
+      "2026-08-21_2026-10-08": "areas/tadla-plain/change_hh_20260821_20261008.png",
+      "2026-08-21_2026-10-20": "areas/tadla-plain/change_hh_20260821_20261020.png",
+      "2026-09-02_2026-09-14": "areas/tadla-plain/change_hh_20260902_20260914.png",
+      "2026-09-02_2026-09-26": "areas/tadla-plain/change_hh_20260902_20260926.png",
+      "2026-09-02_2026-10-08": "areas/tadla-plain/change_hh_20260902_20261008.png",
+      "2026-09-02_2026-10-20": "areas/tadla-plain/change_hh_20260902_20261020.png",
+      "2026-09-14_2026-09-26": "areas/tadla-plain/change_hh_20260914_20260926.png",
+      "2026-09-14_2026-10-08": "areas/tadla-plain/change_hh_20260914_20261008.png",
+      "2026-09-14_2026-10-20": "areas/tadla-plain/change_hh_20260914_20261020.png",
+      "2026-09-26_2026-10-08": "areas/tadla-plain/change_hh_20260926_20261008.png",
+      "2026-09-26_2026-10-20": "areas/tadla-plain/change_hh_20260926_20261020.png",
+      "2026-10-08_2026-10-20": "areas/tadla-plain/change_hh_20261008_20261020.png"
+     }
+    },
+    "optical_by_date": {
+     "2026-06-22": "areas/tadla-plain/optical_20260619.webp",
+     "2026-07-04": "areas/tadla-plain/optical_20260709.webp",
+     "2026-07-16": "areas/tadla-plain/optical_20260713.webp",
+     "2026-08-21": "areas/tadla-plain/optical_20260822.webp",
+     "2026-09-02": "areas/tadla-plain/optical_20260830.webp",
+     "2026-09-14": "areas/tadla-plain/optical_20260912.webp",
+     "2026-09-26": "areas/tadla-plain/optical_20260922.webp",
+     "2026-10-20": "areas/tadla-plain/optical_20261024.webp"
+    }
+   },
+   "series": "areas/tadla-plain/series.json",
+   "evidence": {
+    "dates": {
+     "2026-06-22": "areas/tadla-plain/evidence/20260622.json",
+     "2026-07-04": "areas/tadla-plain/evidence/20260704.json",
+     "2026-07-16": "areas/tadla-plain/evidence/20260716.json",
+     "2026-08-21": "areas/tadla-plain/evidence/20260821.json",
+     "2026-09-02": "areas/tadla-plain/evidence/20260902.json",
+     "2026-09-14": "areas/tadla-plain/evidence/20260914.json",
+     "2026-09-26": "areas/tadla-plain/evidence/20260926.json",
+     "2026-10-08": "areas/tadla-plain/evidence/20261008.json",
+     "2026-10-20": "areas/tadla-plain/evidence/20261020.json"
+    },
+    "pairs": {
+     "2026-06-22_2026-07-04": "areas/tadla-plain/evidence/20260622_20260704.json",
+     "2026-06-22_2026-07-16": "areas/tadla-plain/evidence/20260622_20260716.json",
+     "2026-06-22_2026-08-21": "areas/tadla-plain/evidence/20260622_20260821.json",
+     "2026-06-22_2026-09-02": "areas/tadla-plain/evidence/20260622_20260902.json",
+     "2026-06-22_2026-09-14": "areas/tadla-plain/evidence/20260622_20260914.json",
+     "2026-06-22_2026-09-26": "areas/tadla-plain/evidence/20260622_20260926.json",
+     "2026-06-22_2026-10-08": "areas/tadla-plain/evidence/20260622_20261008.json",
+     "2026-06-22_2026-10-20": "areas/tadla-plain/evidence/20260622_20261020.json",
+     "2026-07-04_2026-07-16": "areas/tadla-plain/evidence/20260704_20260716.json",
+     "2026-07-04_2026-08-21": "areas/tadla-plain/evidence/20260704_20260821.json",
+     "2026-07-04_2026-09-02": "areas/tadla-plain/evidence/20260704_20260902.json",
+     "2026-07-04_2026-09-14": "areas/tadla-plain/evidence/20260704_20260914.json",
+     "2026-07-04_2026-09-26": "areas/tadla-plain/evidence/20260704_20260926.json",
+     "2026-07-04_2026-10-08": "areas/tadla-plain/evidence/20260704_20261008.json",
+     "2026-07-04_2026-10-20": "areas/tadla-plain/evidence/20260704_20261020.json",
+     "2026-07-16_2026-08-21": "areas/tadla-plain/evidence/20260716_20260821.json",
+     "2026-07-16_2026-09-02": "areas/tadla-plain/evidence/20260716_20260902.json",
+     "2026-07-16_2026-09-14": "areas/tadla-plain/evidence/20260716_20260914.json",
+     "2026-07-16_2026-09-26": "areas/tadla-plain/evidence/20260716_20260926.json",
+     "2026-07-16_2026-10-08": "areas/tadla-plain/evidence/20260716_20261008.json",
+     "2026-07-16_2026-10-20": "areas/tadla-plain/evidence/20260716_20261020.json",
+     "2026-08-21_2026-09-02": "areas/tadla-plain/evidence/20260821_20260902.json",
+     "2026-08-21_2026-09-14": "areas/tadla-plain/evidence/20260821_20260914.json",
+     "2026-08-21_2026-09-26": "areas/tadla-plain/evidence/20260821_20260926.json",
+     "2026-08-21_2026-10-08": "areas/tadla-plain/evidence/20260821_20261008.json",
+     "2026-08-21_2026-10-20": "areas/tadla-plain/evidence/20260821_20261020.json",
+     "2026-09-02_2026-09-14": "areas/tadla-plain/evidence/20260902_20260914.json",
+     "2026-09-02_2026-09-26": "areas/tadla-plain/evidence/20260902_20260926.json",
+     "2026-09-02_2026-10-08": "areas/tadla-plain/evidence/20260902_20261008.json",
+     "2026-09-02_2026-10-20": "areas/tadla-plain/evidence/20260902_20261020.json",
+     "2026-09-14_2026-09-26": "areas/tadla-plain/evidence/20260914_20260926.json",
+     "2026-09-14_2026-10-08": "areas/tadla-plain/evidence/20260914_20261008.json",
+     "2026-09-14_2026-10-20": "areas/tadla-plain/evidence/20260914_20261020.json",
+     "2026-09-26_2026-10-08": "areas/tadla-plain/evidence/20260926_20261008.json",
+     "2026-09-26_2026-10-20": "areas/tadla-plain/evidence/20260926_20261020.json",
+     "2026-10-08_2026-10-20": "areas/tadla-plain/evidence/20261008_20261020.json"
+    }
+   },
+   "texts": {
+    "dates": {
+     "2026-06-22": "texts/tadla-plain/20260622.json",
+     "2026-07-04": "texts/tadla-plain/20260704.json",
+     "2026-07-16": "texts/tadla-plain/20260716.json",
+     "2026-08-21": "texts/tadla-plain/20260821.json",
+     "2026-09-02": "texts/tadla-plain/20260902.json",
+     "2026-09-14": "texts/tadla-plain/20260914.json",
+     "2026-09-26": "texts/tadla-plain/20260926.json",
+     "2026-10-08": "texts/tadla-plain/20261008.json",
+     "2026-10-20": "texts/tadla-plain/20261020.json"
+    },
+    "pairs": {
+     "2026-06-22_2026-07-04": "texts/tadla-plain/20260622_20260704.json",
+     "2026-06-22_2026-07-16": "texts/tadla-plain/20260622_20260716.json",
+     "2026-06-22_2026-08-21": "texts/tadla-plain/20260622_20260821.json",
+     "2026-06-22_2026-09-02": "texts/tadla-plain/20260622_20260902.json",
+     "2026-06-22_2026-09-14": "texts/tadla-plain/20260622_20260914.json",
+     "2026-06-22_2026-09-26": "texts/tadla-plain/20260622_20260926.json",
+     "2026-06-22_2026-10-08": "texts/tadla-plain/20260622_20261008.json",
+     "2026-06-22_2026-10-20": "texts/tadla-plain/20260622_20261020.json",
+     "2026-07-04_2026-07-16": "texts/tadla-plain/20260704_20260716.json",
+     "2026-07-04_2026-08-21": "texts/tadla-plain/20260704_20260821.json",
+     "2026-07-04_2026-09-02": "texts/tadla-plain/20260704_20260902.json",
+     "2026-07-04_2026-09-14": "texts/tadla-plain/20260704_20260914.json",
+     "2026-07-04_2026-09-26": "texts/tadla-plain/20260704_20260926.json",
+     "2026-07-04_2026-10-08": "texts/tadla-plain/20260704_20261008.json",
+     "2026-07-04_2026-10-20": "texts/tadla-plain/20260704_20261020.json",
+     "2026-07-16_2026-08-21": "texts/tadla-plain/20260716_20260821.json",
+     "2026-07-16_2026-09-02": "texts/tadla-plain/20260716_20260902.json",
+     "2026-07-16_2026-09-14": "texts/tadla-plain/20260716_20260914.json",
+     "2026-07-16_2026-09-26": "texts/tadla-plain/20260716_20260926.json",
+     "2026-07-16_2026-10-08": "texts/tadla-plain/20260716_20261008.json",
+     "2026-07-16_2026-10-20": "texts/tadla-plain/20260716_20261020.json",
+     "2026-08-21_2026-09-02": "texts/tadla-plain/20260821_20260902.json",
+     "2026-08-21_2026-09-14": "texts/tadla-plain/20260821_20260914.json",
+     "2026-08-21_2026-09-26": "texts/tadla-plain/20260821_20260926.json",
+     "2026-08-21_2026-10-08": "texts/tadla-plain/20260821_20261008.json",
+     "2026-08-21_2026-10-20": "texts/tadla-plain/20260821_20261020.json",
+     "2026-09-02_2026-09-14": "texts/tadla-plain/20260902_20260914.json",
+     "2026-09-02_2026-09-26": "texts/tadla-plain/20260902_20260926.json",
+     "2026-09-02_2026-10-08": "texts/tadla-plain/20260902_20261008.json",
+     "2026-09-02_2026-10-20": "texts/tadla-plain/20260902_20261020.json",
+     "2026-09-14_2026-09-26": "texts/tadla-plain/20260914_20260926.json",
+     "2026-09-14_2026-10-08": "texts/tadla-plain/20260914_20261008.json",
+     "2026-09-14_2026-10-20": "texts/tadla-plain/20260914_20261020.json",
+     "2026-09-26_2026-10-08": "texts/tadla-plain/20260926_20261008.json",
+     "2026-09-26_2026-10-20": "texts/tadla-plain/20260926_20261020.json",
+     "2026-10-08_2026-10-20": "texts/tadla-plain/20261008_20261020.json"
+    }
+   },
+   "context": []
+  },
+  {
+   "id": "beni-mellal",
+   "name": "Beni Mellal city and foothills",
+   "region": "Beni Mellal-Khenifra, Morocco",
+   "description": "Beni Mellal city and the hills next to it.",
+   "center": [
+    -6.36,
+    32.335
+   ],
+   "radius_km": 6,
+   "hero": false,
+   "chart": "hv_by_class",
+   "default_dates": [
+    "2026-06-22",
+    "2026-09-26"
+   ],
+   "corners": [
+    [
+     -6.425803,
+     32.38738
+    ],
+    [
+     -6.298225,
+     32.390786
+    ],
+    [
+     -6.294297,
+     32.28253
+    ],
+    [
+     -6.421724,
+     32.279137
+    ]
+   ],
+   "files": {
+    "hv": {
+     "2026-06-22": "areas/beni-mellal/hv_20260622.webp",
+     "2026-07-04": "areas/beni-mellal/hv_20260704.webp",
+     "2026-07-16": "areas/beni-mellal/hv_20260716.webp",
+     "2026-08-21": "areas/beni-mellal/hv_20260821.webp",
+     "2026-09-02": "areas/beni-mellal/hv_20260902.webp",
+     "2026-09-14": "areas/beni-mellal/hv_20260914.webp",
+     "2026-09-26": "areas/beni-mellal/hv_20260926.webp",
+     "2026-10-08": "areas/beni-mellal/hv_20261008.webp",
+     "2026-10-20": "areas/beni-mellal/hv_20261020.webp"
+    },
+    "hh": {
+     "2026-06-22": "areas/beni-mellal/hh_20260622.webp",
+     "2026-07-04": "areas/beni-mellal/hh_20260704.webp",
+     "2026-07-16": "areas/beni-mellal/hh_20260716.webp",
+     "2026-08-21": "areas/beni-mellal/hh_20260821.webp",
+     "2026-09-02": "areas/beni-mellal/hh_20260902.webp",
+     "2026-09-14": "areas/beni-mellal/hh_20260914.webp",
+     "2026-09-26": "areas/beni-mellal/hh_20260926.webp",
+     "2026-10-08": "areas/beni-mellal/hh_20261008.webp",
+     "2026-10-20": "areas/beni-mellal/hh_20261020.webp"
+    },
+    "ratio": {
+     "2026-06-22": "areas/beni-mellal/ratio_20260622.webp",
+     "2026-07-04": "areas/beni-mellal/ratio_20260704.webp",
+     "2026-07-16": "areas/beni-mellal/ratio_20260716.webp",
+     "2026-08-21": "areas/beni-mellal/ratio_20260821.webp",
+     "2026-09-02": "areas/beni-mellal/ratio_20260902.webp",
+     "2026-09-14": "areas/beni-mellal/ratio_20260914.webp",
+     "2026-09-26": "areas/beni-mellal/ratio_20260926.webp",
+     "2026-10-08": "areas/beni-mellal/ratio_20261008.webp",
+     "2026-10-20": "areas/beni-mellal/ratio_20261020.webp"
+    },
+    "optical": "areas/beni-mellal/optical_20260922.webp",
+    "classes": "areas/beni-mellal/classes.png",
+    "change": {
+     "hv": {
+      "2026-06-22_2026-07-04": "areas/beni-mellal/change_hv_20260622_20260704.png",
+      "2026-06-22_2026-07-16": "areas/beni-mellal/change_hv_20260622_20260716.png",
+      "2026-06-22_2026-08-21": "areas/beni-mellal/change_hv_20260622_20260821.png",
+      "2026-06-22_2026-09-02": "areas/beni-mellal/change_hv_20260622_20260902.png",
+      "2026-06-22_2026-09-14": "areas/beni-mellal/change_hv_20260622_20260914.png",
+      "2026-06-22_2026-09-26": "areas/beni-mellal/change_hv_20260622_20260926.png",
+      "2026-06-22_2026-10-08": "areas/beni-mellal/change_hv_20260622_20261008.png",
+      "2026-06-22_2026-10-20": "areas/beni-mellal/change_hv_20260622_20261020.png",
+      "2026-07-04_2026-07-16": "areas/beni-mellal/change_hv_20260704_20260716.png",
+      "2026-07-04_2026-08-21": "areas/beni-mellal/change_hv_20260704_20260821.png",
+      "2026-07-04_2026-09-02": "areas/beni-mellal/change_hv_20260704_20260902.png",
+      "2026-07-04_2026-09-14": "areas/beni-mellal/change_hv_20260704_20260914.png",
+      "2026-07-04_2026-09-26": "areas/beni-mellal/change_hv_20260704_20260926.png",
+      "2026-07-04_2026-10-08": "areas/beni-mellal/change_hv_20260704_20261008.png",
+      "2026-07-04_2026-10-20": "areas/beni-mellal/change_hv_20260704_20261020.png",
+      "2026-07-16_2026-08-21": "areas/beni-mellal/change_hv_20260716_20260821.png",
+      "2026-07-16_2026-09-02": "areas/beni-mellal/change_hv_20260716_20260902.png",
+      "2026-07-16_2026-09-14": "areas/beni-mellal/change_hv_20260716_20260914.png",
+      "2026-07-16_2026-09-26": "areas/beni-mellal/change_hv_20260716_20260926.png",
+      "2026-07-16_2026-10-08": "areas/beni-mellal/change_hv_20260716_20261008.png",
+      "2026-07-16_2026-10-20": "areas/beni-mellal/change_hv_20260716_20261020.png",
+      "2026-08-21_2026-09-02": "areas/beni-mellal/change_hv_20260821_20260902.png",
+      "2026-08-21_2026-09-14": "areas/beni-mellal/change_hv_20260821_20260914.png",
+      "2026-08-21_2026-09-26": "areas/beni-mellal/change_hv_20260821_20260926.png",
+      "2026-08-21_2026-10-08": "areas/beni-mellal/change_hv_20260821_20261008.png",
+      "2026-08-21_2026-10-20": "areas/beni-mellal/change_hv_20260821_20261020.png",
+      "2026-09-02_2026-09-14": "areas/beni-mellal/change_hv_20260902_20260914.png",
+      "2026-09-02_2026-09-26": "areas/beni-mellal/change_hv_20260902_20260926.png",
+      "2026-09-02_2026-10-08": "areas/beni-mellal/change_hv_20260902_20261008.png",
+      "2026-09-02_2026-10-20": "areas/beni-mellal/change_hv_20260902_20261020.png",
+      "2026-09-14_2026-09-26": "areas/beni-mellal/change_hv_20260914_20260926.png",
+      "2026-09-14_2026-10-08": "areas/beni-mellal/change_hv_20260914_20261008.png",
+      "2026-09-14_2026-10-20": "areas/beni-mellal/change_hv_20260914_20261020.png",
+      "2026-09-26_2026-10-08": "areas/beni-mellal/change_hv_20260926_20261008.png",
+      "2026-09-26_2026-10-20": "areas/beni-mellal/change_hv_20260926_20261020.png",
+      "2026-10-08_2026-10-20": "areas/beni-mellal/change_hv_20261008_20261020.png"
+     },
+     "hh": {
+      "2026-06-22_2026-07-04": "areas/beni-mellal/change_hh_20260622_20260704.png",
+      "2026-06-22_2026-07-16": "areas/beni-mellal/change_hh_20260622_20260716.png",
+      "2026-06-22_2026-08-21": "areas/beni-mellal/change_hh_20260622_20260821.png",
+      "2026-06-22_2026-09-02": "areas/beni-mellal/change_hh_20260622_20260902.png",
+      "2026-06-22_2026-09-14": "areas/beni-mellal/change_hh_20260622_20260914.png",
+      "2026-06-22_2026-09-26": "areas/beni-mellal/change_hh_20260622_20260926.png",
+      "2026-06-22_2026-10-08": "areas/beni-mellal/change_hh_20260622_20261008.png",
+      "2026-06-22_2026-10-20": "areas/beni-mellal/change_hh_20260622_20261020.png",
+      "2026-07-04_2026-07-16": "areas/beni-mellal/change_hh_20260704_20260716.png",
+      "2026-07-04_2026-08-21": "areas/beni-mellal/change_hh_20260704_20260821.png",
+      "2026-07-04_2026-09-02": "areas/beni-mellal/change_hh_20260704_20260902.png",
+      "2026-07-04_2026-09-14": "areas/beni-mellal/change_hh_20260704_20260914.png",
+      "2026-07-04_2026-09-26": "areas/beni-mellal/change_hh_20260704_20260926.png",
+      "2026-07-04_2026-10-08": "areas/beni-mellal/change_hh_20260704_20261008.png",
+      "2026-07-04_2026-10-20": "areas/beni-mellal/change_hh_20260704_20261020.png",
+      "2026-07-16_2026-08-21": "areas/beni-mellal/change_hh_20260716_20260821.png",
+      "2026-07-16_2026-09-02": "areas/beni-mellal/change_hh_20260716_20260902.png",
+      "2026-07-16_2026-09-14": "areas/beni-mellal/change_hh_20260716_20260914.png",
+      "2026-07-16_2026-09-26": "areas/beni-mellal/change_hh_20260716_20260926.png",
+      "2026-07-16_2026-10-08": "areas/beni-mellal/change_hh_20260716_20261008.png",
+      "2026-07-16_2026-10-20": "areas/beni-mellal/change_hh_20260716_20261020.png",
+      "2026-08-21_2026-09-02": "areas/beni-mellal/change_hh_20260821_20260902.png",
+      "2026-08-21_2026-09-14": "areas/beni-mellal/change_hh_20260821_20260914.png",
+      "2026-08-21_2026-09-26": "areas/beni-mellal/change_hh_20260821_20260926.png",
+      "2026-08-21_2026-10-08": "areas/beni-mellal/change_hh_20260821_20261008.png",
+      "2026-08-21_2026-10-20": "areas/beni-mellal/change_hh_20260821_20261020.png",
+      "2026-09-02_2026-09-14": "areas/beni-mellal/change_hh_20260902_20260914.png",
+      "2026-09-02_2026-09-26": "areas/beni-mellal/change_hh_20260902_20260926.png",
+      "2026-09-02_2026-10-08": "areas/beni-mellal/change_hh_20260902_20261008.png",
+      "2026-09-02_2026-10-20": "areas/beni-mellal/change_hh_20260902_20261020.png",
+      "2026-09-14_2026-09-26": "areas/beni-mellal/change_hh_20260914_20260926.png",
+      "2026-09-14_2026-10-08": "areas/beni-mellal/change_hh_20260914_20261008.png",
+      "2026-09-14_2026-10-20": "areas/beni-mellal/change_hh_20260914_20261020.png",
+      "2026-09-26_2026-10-08": "areas/beni-mellal/change_hh_20260926_20261008.png",
+      "2026-09-26_2026-10-20": "areas/beni-mellal/change_hh_20260926_20261020.png",
+      "2026-10-08_2026-10-20": "areas/beni-mellal/change_hh_20261008_20261020.png"
+     }
+    },
+    "optical_by_date": {
+     "2026-06-22": "areas/beni-mellal/optical_20260619.webp",
+     "2026-07-04": "areas/beni-mellal/optical_20260709.webp",
+     "2026-07-16": "areas/beni-mellal/optical_20260713.webp",
+     "2026-08-21": "areas/beni-mellal/optical_20260822.webp",
+     "2026-09-02": "areas/beni-mellal/optical_20260830.webp",
+     "2026-09-14": "areas/beni-mellal/optical_20260912.webp",
+     "2026-09-26": "areas/beni-mellal/optical_20260922.webp",
+     "2026-10-20": "areas/beni-mellal/optical_20261024.webp"
+    }
+   },
+   "series": "areas/beni-mellal/series.json",
+   "evidence": {
+    "dates": {
+     "2026-06-22": "areas/beni-mellal/evidence/20260622.json",
+     "2026-07-04": "areas/beni-mellal/evidence/20260704.json",
+     "2026-07-16": "areas/beni-mellal/evidence/20260716.json",
+     "2026-08-21": "areas/beni-mellal/evidence/20260821.json",
+     "2026-09-02": "areas/beni-mellal/evidence/20260902.json",
+     "2026-09-14": "areas/beni-mellal/evidence/20260914.json",
+     "2026-09-26": "areas/beni-mellal/evidence/20260926.json",
+     "2026-10-08": "areas/beni-mellal/evidence/20261008.json",
+     "2026-10-20": "areas/beni-mellal/evidence/20261020.json"
+    },
+    "pairs": {
+     "2026-06-22_2026-07-04": "areas/beni-mellal/evidence/20260622_20260704.json",
+     "2026-06-22_2026-07-16": "areas/beni-mellal/evidence/20260622_20260716.json",
+     "2026-06-22_2026-08-21": "areas/beni-mellal/evidence/20260622_20260821.json",
+     "2026-06-22_2026-09-02": "areas/beni-mellal/evidence/20260622_20260902.json",
+     "2026-06-22_2026-09-14": "areas/beni-mellal/evidence/20260622_20260914.json",
+     "2026-06-22_2026-09-26": "areas/beni-mellal/evidence/20260622_20260926.json",
+     "2026-06-22_2026-10-08": "areas/beni-mellal/evidence/20260622_20261008.json",
+     "2026-06-22_2026-10-20": "areas/beni-mellal/evidence/20260622_20261020.json",
+     "2026-07-04_2026-07-16": "areas/beni-mellal/evidence/20260704_20260716.json",
+     "2026-07-04_2026-08-21": "areas/beni-mellal/evidence/20260704_20260821.json",
+     "2026-07-04_2026-09-02": "areas/beni-mellal/evidence/20260704_20260902.json",
+     "2026-07-04_2026-09-14": "areas/beni-mellal/evidence/20260704_20260914.json",
+     "2026-07-04_2026-09-26": "areas/beni-mellal/evidence/20260704_20260926.json",
+     "2026-07-04_2026-10-08": "areas/beni-mellal/evidence/20260704_20261008.json",
+     "2026-07-04_2026-10-20": "areas/beni-mellal/evidence/20260704_20261020.json",
+     "2026-07-16_2026-08-21": "areas/beni-mellal/evidence/20260716_20260821.json",
+     "2026-07-16_2026-09-02": "areas/beni-mellal/evidence/20260716_20260902.json",
+     "2026-07-16_2026-09-14": "areas/beni-mellal/evidence/20260716_20260914.json",
+     "2026-07-16_2026-09-26": "areas/beni-mellal/evidence/20260716_20260926.json",
+     "2026-07-16_2026-10-08": "areas/beni-mellal/evidence/20260716_20261008.json",
+     "2026-07-16_2026-10-20": "areas/beni-mellal/evidence/20260716_20261020.json",
+     "2026-08-21_2026-09-02": "areas/beni-mellal/evidence/20260821_20260902.json",
+     "2026-08-21_2026-09-14": "areas/beni-mellal/evidence/20260821_20260914.json",
+     "2026-08-21_2026-09-26": "areas/beni-mellal/evidence/20260821_20260926.json",
+     "2026-08-21_2026-10-08": "areas/beni-mellal/evidence/20260821_20261008.json",
+     "2026-08-21_2026-10-20": "areas/beni-mellal/evidence/20260821_20261020.json",
+     "2026-09-02_2026-09-14": "areas/beni-mellal/evidence/20260902_20260914.json",
+     "2026-09-02_2026-09-26": "areas/beni-mellal/evidence/20260902_20260926.json",
+     "2026-09-02_2026-10-08": "areas/beni-mellal/evidence/20260902_20261008.json",
+     "2026-09-02_2026-10-20": "areas/beni-mellal/evidence/20260902_20261020.json",
+     "2026-09-14_2026-09-26": "areas/beni-mellal/evidence/20260914_20260926.json",
+     "2026-09-14_2026-10-08": "areas/beni-mellal/evidence/20260914_20261008.json",
+     "2026-09-14_2026-10-20": "areas/beni-mellal/evidence/20260914_20261020.json",
+     "2026-09-26_2026-10-08": "areas/beni-mellal/evidence/20260926_20261008.json",
+     "2026-09-26_2026-10-20": "areas/beni-mellal/evidence/20260926_20261020.json",
+     "2026-10-08_2026-10-20": "areas/beni-mellal/evidence/20261008_20261020.json"
+    }
+   },
+   "texts": {
+    "dates": {
+     "2026-06-22": "texts/beni-mellal/20260622.json",
+     "2026-07-04": "texts/beni-mellal/20260704.json",
+     "2026-07-16": "texts/beni-mellal/20260716.json",
+     "2026-08-21": "texts/beni-mellal/20260821.json",
+     "2026-09-02": "texts/beni-mellal/20260902.json",
+     "2026-09-14": "texts/beni-mellal/20260914.json",
+     "2026-09-26": "texts/beni-mellal/20260926.json",
+     "2026-10-08": "texts/beni-mellal/20261008.json",
+     "2026-10-20": "texts/beni-mellal/20261020.json"
+    },
+    "pairs": {
+     "2026-06-22_2026-07-04": "texts/beni-mellal/20260622_20260704.json",
+     "2026-06-22_2026-07-16": "texts/beni-mellal/20260622_20260716.json",
+     "2026-06-22_2026-08-21": "texts/beni-mellal/20260622_20260821.json",
+     "2026-06-22_2026-09-02": "texts/beni-mellal/20260622_20260902.json",
+     "2026-06-22_2026-09-14": "texts/beni-mellal/20260622_20260914.json",
+     "2026-06-22_2026-09-26": "texts/beni-mellal/20260622_20260926.json",
+     "2026-06-22_2026-10-08": "texts/beni-mellal/20260622_20261008.json",
+     "2026-06-22_2026-10-20": "texts/beni-mellal/20260622_20261020.json",
+     "2026-07-04_2026-07-16": "texts/beni-mellal/20260704_20260716.json",
+     "2026-07-04_2026-08-21": "texts/beni-mellal/20260704_20260821.json",
+     "2026-07-04_2026-09-02": "texts/beni-mellal/20260704_20260902.json",
+     "2026-07-04_2026-09-14": "texts/beni-mellal/20260704_20260914.json",
+     "2026-07-04_2026-09-26": "texts/beni-mellal/20260704_20260926.json",
+     "2026-07-04_2026-10-08": "texts/beni-mellal/20260704_20261008.json",
+     "2026-07-04_2026-10-20": "texts/beni-mellal/20260704_20261020.json",
+     "2026-07-16_2026-08-21": "texts/beni-mellal/20260716_20260821.json",
+     "2026-07-16_2026-09-02": "texts/beni-mellal/20260716_20260902.json",
+     "2026-07-16_2026-09-14": "texts/beni-mellal/20260716_20260914.json",
+     "2026-07-16_2026-09-26": "texts/beni-mellal/20260716_20260926.json",
+     "2026-07-16_2026-10-08": "texts/beni-mellal/20260716_20261008.json",
+     "2026-07-16_2026-10-20": "texts/beni-mellal/20260716_20261020.json",
+     "2026-08-21_2026-09-02": "texts/beni-mellal/20260821_20260902.json",
+     "2026-08-21_2026-09-14": "texts/beni-mellal/20260821_20260914.json",
+     "2026-08-21_2026-09-26": "texts/beni-mellal/20260821_20260926.json",
+     "2026-08-21_2026-10-08": "texts/beni-mellal/20260821_20261008.json",
+     "2026-08-21_2026-10-20": "texts/beni-mellal/20260821_20261020.json",
+     "2026-09-02_2026-09-14": "texts/beni-mellal/20260902_20260914.json",
+     "2026-09-02_2026-09-26": "texts/beni-mellal/20260902_20260926.json",
+     "2026-09-02_2026-10-08": "texts/beni-mellal/20260902_20261008.json",
+     "2026-09-02_2026-10-20": "texts/beni-mellal/20260902_20261020.json",
+     "2026-09-14_2026-09-26": "texts/beni-mellal/20260914_20260926.json",
+     "2026-09-14_2026-10-08": "texts/beni-mellal/20260914_20261008.json",
+     "2026-09-14_2026-10-20": "texts/beni-mellal/20260914_20261020.json",
+     "2026-09-26_2026-10-08": "texts/beni-mellal/20260926_20261008.json",
+     "2026-09-26_2026-10-20": "texts/beni-mellal/20260926_20261020.json",
+     "2026-10-08_2026-10-20": "texts/beni-mellal/20261008_20261020.json"
+    }
+   },
+   "context": []
+  }
+ ],
+ "optical_dates": [
+  {
+   "radar_date": "2026-06-22",
+   "photo_date": "2026-06-19",
+   "sensor": "HLS L30 (Landsat 8)",
+   "cloud_pct": 5.0,
+   "glint_deg": 22.6,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-07-04",
+   "photo_date": "2026-07-09",
+   "sensor": "HLS S30 (Sentinel-2B)",
+   "cloud_pct": 0.0,
+   "glint_deg": 9.5,
+   "sun_glint": true
+  },
+  {
+   "radar_date": "2026-07-16",
+   "photo_date": "2026-07-13",
+   "sensor": "HLS L30 (Landsat 9)",
+   "cloud_pct": 0.0,
+   "glint_deg": 24.3,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-08-21",
+   "photo_date": "2026-08-22",
+   "sensor": "HLS L30 (Landsat 8)",
+   "cloud_pct": 0.0,
+   "glint_deg": 31.0,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-09-02",
+   "photo_date": "2026-08-30",
+   "sensor": "HLS L30 (Landsat 9)",
+   "cloud_pct": 8.0,
+   "glint_deg": 32.8,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-09-14",
+   "photo_date": "2026-09-12",
+   "sensor": "HLS S30 (Sentinel-2C)",
+   "cloud_pct": 2.0,
+   "glint_deg": 25.4,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-09-26",
+   "photo_date": "2026-09-22",
+   "sensor": "HLS S30 (Sentinel-2C)",
+   "cloud_pct": 0.0,
+   "glint_deg": 29.1,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-10-08",
+   "photo_date": null,
+   "sensor": null,
+   "cloud_pct": null,
+   "glint_deg": null,
+   "sun_glint": false
+  },
+  {
+   "radar_date": "2026-10-20",
+   "photo_date": "2026-10-24",
+   "sensor": "HLS S30 (Sentinel-2A)",
+   "cloud_pct": 0.0,
+   "glint_deg": 40.9,
+   "sun_glint": false
+  }
+ ]
+}

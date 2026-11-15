@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/tadla-plain/20260821_20260926.json",
+  "source_sha256": "3a54518a6819a81b8881c088e0b6f7cf74d49ff1b76b955e32ced4f979a9584b",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 26 septembre 2026, le radar montre 5.72 km2 devenus plus clairs et 2.18 km2 plus sombres en HV sur la plaine du Tadla, dans le cercle de 9 km. La plus grande partie de la surface plus claire, 3.93 km2, se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 36 jours, le HV moyen a varié de 0.14 dB et le HH moyen de 0.1 dB. En HV, 5.72 km2 sont devenus plus clairs de plus de 3 dB et 2.18 km2 plus sombres ; en HH, 9.4 km2 sont devenus plus clairs et 3.0 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants présentaient 3.93 km2 plus clairs et 1.05 km2 plus sombres en HV, avec une variation moyenne de HV de 1.1 dB. Le sol sec rugueux et les champs présentaient 1.28 km2 plus clairs et 0.79 km2 plus sombres en HV. Les arbres, broussailles et pentes accidentées ont varié de 0.08 dB en HV, et le bâti de -0.01 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible des champs plus clairs : de nouvelles cultures semées après la récolte d'été, qui ajoutent de la diffusion de volume ; les registres de semis ou une visite de terrain le confirmeraient. Cause possible des champs plus sombres : des parcelles récoltées ou labourées ; la photo optique les montrerait."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les bords de champs orientés à l'opposé du radar peuvent paraître plus sombres. Les petites taches sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un office d'irrigation pourrait comparer les 3.93 km2 de champs plus clairs avec ses registres de semis et de distribution d'eau, car ces parcelles portent actuellement une culture."
+    }
+  ]
+}

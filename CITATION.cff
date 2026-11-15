@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: If you use Backscatter, please cite it as below.
+title: Backscatter
+abstract: NISAR L-band radar of the Beni Mellal-Khenifra region turned into maps and checked plain-language readings, made for the NASA Space Apps Challenge 2026.
+type: software
+license: Apache-2.0
+date-released: 2026-11-15
+authors:
+  - given-names: Abdellah
+    family-names: Ayad
+    affiliation: InterPixel
+  - given-names: Khalid
+    family-names: Raouf
+    affiliation: InterPixel

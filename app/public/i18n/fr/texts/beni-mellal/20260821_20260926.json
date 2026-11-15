@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260821_20260926.json",
+  "source_sha256": "ef26c472936ee3270add4222ae3404b7a9feb621165315966e044cd49f9c399d",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 26 septembre 2026, le radar montre 2.33 km2 devenant plus clairs en HV autour de Beni Mellal, contre 0.55 km2 plus sombres. Les champs changeants représentent 1.77 km2 de la surface plus claire.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 36 jours, le HV moyen a varié de 0.05 dB et le HH moyen de 0.01 dB. En HV, 2.33 km2 sont devenus plus clairs de plus de 3 dB et 0.55 km2 plus sombres ; en HH, 2.42 km2 sont devenus plus clairs et 0.54 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont augmenté de 1.71 dB en HV et de 1.94 dB en HH en moyenne. Le sol sec rugueux et les champs ont eu 0.28 km2 plus clairs en HV. Les arbres, broussailles et pentes accidentées ont eu 0.17 km2 plus clairs et 0.12 km2 plus sombres, et le bâti a baissé de 0.19 dB en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus clairs : des cultures semées fin août et qui poussent en septembre, ce qui ajoute de la diffusion de volume ; une visite de terrain le confirmerait. Cause possible pour les quelques zones plus sombres : des parcelles récoltées ou dégagées en septembre ; la photo optique les montrerait."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser cette paire pour cartographier les nouvelles cultures autour de la ville. Un bureau agricole pourrait comparer les 1.77 km2 de champs plus clairs à ses registres de semis."
+    }
+  ]
+}

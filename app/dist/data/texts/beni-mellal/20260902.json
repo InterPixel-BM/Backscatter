@@ -1,0 +1,58 @@
+{
+ "id": "beni-mellal/2026-09-02",
+ "kind": "interpret",
+ "area": "beni-mellal",
+ "date": "2026-09-02",
+ "date_a": null,
+ "date_b": null,
+ "title": "Beni Mellal city and foothills on 2 Sep 2026",
+ "summary": "On 2 Sep 2026 the radar shows Beni Mellal city and its foothills inside a 6 km circle, where built-up land covers 12.2% and trees, shrub and rugged slopes 52.5%. No flag applies to this date, and 100.0% of the circle has data.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "Built-up land is the brightest surface, at 6.07 dB in HH, while the circle averages -1.81 dB in HH and -13.8 dB in HV. The ratio of HV to HH over the circle is -11.99 dB."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Built-up land has an HV:HH ratio of -17.15 dB, the lowest of all types, because walls send the pulse straight back in HH. Trees, shrub and rugged slopes, 59.32 km2, give the strongest land HV, -12.84 dB, from leaves and branches. Rough dry ground and fields sit at -10.46 dB in HH and -18.71 dB in HV. Changing fields, 4.8%, are at -16.73 dB in HV."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "No flag applies on this date. One track only, so slopes facing away from the radar can fall in shadow. Possible cause of bright points among the fields: farm buildings and walls; the optical photo would show them."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 113.1,
+   "unit": "km2"
+  },
+  {
+   "label": "Trees, shrub and rugged slopes",
+   "evidence_field": "terrain.1.pct",
+   "value": 52.5,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -1.81,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -13.8,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/beni-mellal/evidence/20260902.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "79bf0c968ef8e42c78e529771b5c3dce68352000ea7dc74bd38c4c7fc4ce62dc",
+ "check": {
+  "passed": true,
+  "numbers_checked": 19,
+  "checker": "ai/check_numbers.py"
+ }
+}

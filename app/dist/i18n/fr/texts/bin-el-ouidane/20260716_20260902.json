@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260716_20260902.json",
+  "source_sha256": "f3e58a821abf4bb538b7deeac8fed297a10c1dd14f4c8f5b2c2abbfa1950ae5d",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 16 juillet au 2 septembre 2026, le radar montre le lac passant de 33.83 km2 à 29.75 km2, soit -12.1%. Le contour du 16 juillet a 17.1% de sa longueur sur la terre ferme dans la photo optique, donc une partie de cette perte peut être une erreur de mesure.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 48 jours, le lac a changé de -4.08 km2. La HV moyenne n'a pas bougé, avec une variation de 0.0 dB, tandis que la HH moyenne a augmenté de 0.48 dB. En HH, 1.36 km2 sont devenus plus clairs de plus de 3 dB et 0.26 km2 plus sombres ; en HV, 0.42 km2 sont devenus plus clairs et 0.31 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le type Eau libre s'est assombri de 0.7 dB en HH. Le sol sec rugueux et les champs ont eu 0.56 km2 plus clairs en HH, en hausse de 0.55 dB. Le bâti a augmenté de 0.59 dB en HH, et le type Champs changeants a baissé de 0.32 dB en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : des pentes ombragées rattachées au masque du lac le 16 juillet ; les contours sur la carte le montreraient. Cause possible : un réel abaissement estival ; le relevé de niveau du barrage le confirmerait. Cause possible pour la HH plus élevée sur le bâti : une petite différence d'étalonnage entre les dates."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement, mais le chiffre du lac du 16 juillet demande de la prudence. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 17.1% et 8.6% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Vérifier la perte de 4.08 km2 avec le relevé de niveau du barrage avant de l'utiliser. Pour un chiffre estival plus ferme, partir d'une date avec moins de contour sur la terre ferme."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/tadla-plain/20260704_20260902.json",
+  "source_sha256": "39ee0aaa36dd3ea44e59d7256222e9d4636c3cb221ded6ca42ab0df3891b1fc1",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 4 juillet au 2 septembre 2026, le radar montre 6.44 km2 devenus plus clairs et 12.21 km2 plus sombres en HV sur la plaine du Tadla, dans le cercle de 9 km. La plus grande partie de la surface plus sombre, 9.56 km2, se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 60 jours, le HV moyen a varié de -0.12 dB et le HH moyen de 0.45 dB. En HV, 6.44 km2 sont devenus plus clairs de plus de 3 dB et 12.21 km2 plus sombres ; en HH, 12.98 km2 sont devenus plus clairs et 10.22 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants présentaient 4.32 km2 plus clairs et 9.56 km2 plus sombres en HV, avec une variation moyenne de HV de -1.24 dB. Le sol sec rugueux et les champs présentaient 1.56 km2 plus clairs et 1.84 km2 plus sombres en HV. Les arbres, broussailles et pentes accidentées ont varié de 0.07 dB en HV, et le bâti de 0.47 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible des champs plus sombres : les récoltes d'été, qui retirent les plantes qui diffusent le HV ; les registres de récolte de l'office d'irrigation le confirmeraient. Cause possible des champs plus clairs : des cultures semées ou en croissance sur d'autres parcelles ; une visite de terrain permettrait de le vérifier. Cause possible d'une partie de la hausse de HH, bâti compris : une petite différence d'étalonnage entre les acquisitions ; des cibles stables sur davantage de dates permettraient de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA ne dispose d'aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Une seule trace, donc les bords de champs orientés à l'opposé du radar peuvent paraître plus sombres."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un office d'irrigation pourrait comparer les 9.56 km2 de champs plus sombres avec ses registres de récolte et de distribution d'eau. Un assureur pourrait utiliser ce changement daté pour confirmer la date de récolte d'une parcelle."
+    }
+  ]
+}

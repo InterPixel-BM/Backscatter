@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260622_20260716.json",
+  "source_sha256": "eb8b977642e077d0bcc31288b24c3a45419cf1e8b1267d668596629a52c156ad",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 16 juillet 2026, le radar montre le lac passant de 31.35 km2 à 33.83 km2, tandis que les terres alentour sont restées presque identiques. Comme 17.1% du contour du 16 juillet tombe sur la terre ferme dans la photo optique, une partie de cette hausse n'est peut-être pas de l'eau.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de 2.48 km2, soit 7.9%, en 24 jours. La HV moyenne n'a varié que de 0.05 dB et la HH moyenne de 0.08 dB. En HV, 0.35 km2 sont devenus plus clairs de plus de 3 dB et 0.31 km2 plus sombres ; en HH, 0.83 km2 sont devenus plus clairs."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le type Eau libre est devenu plus clair en HH de 1.18 dB en moyenne, avec 0.31 km2 plus clairs. Les arbres, broussailles et pentes accidentées n'ont eu que 0.16 km2 plus clairs et 0.11 km2 plus sombres en HV, et le sol sec rugueux et les champs 0.07 km2 plus clairs et 0.09 km2 plus sombres."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : des pentes sombres ou une ombre radar rattachées au masque du lac le 16 juillet, ce que suggère la forte part du contour sur la terre sèche ; vérifier le contour par rapport à la photo le montrerait. Cause possible : une hausse réelle du niveau de l'eau ; le relevé de niveau du barrage le confirmerait. Cause possible pour l'eau plus claire en HH : le vent qui rend la surface du lac plus rugueuse ; les relevés de vent de cette matinée permettraient de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates n'est signalée, mais la surface du lac du 16 juillet demande une prudence particulière, avec 17.1% de son contour sur la terre ferme contre 11.5% le 22 juin. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Ne pas utiliser la surface du lac du 16 juillet pour des décisions tant que le relevé de niveau du barrage ne la confirme pas. La comparer avec la date suivante de la série avant de lire une tendance."
+    }
+  ]
+}

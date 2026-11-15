@@ -1,0 +1,96 @@
+{
+ "kind": "date",
+ "area": {
+  "id": "bin-el-ouidane",
+  "name": "Bin El Ouidane reservoir",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 10,
+  "center": [
+   -6.384,
+   32.113
+  ]
+ },
+ "date": "2026-07-16",
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "area_km2": 314.16,
+ "with_data_km2": 314.05,
+ "with_data_pct": 100.0,
+ "terrain": [
+  {
+   "class_id": 1,
+   "name": "Open water",
+   "km2": 30.46,
+   "pct": 9.7,
+   "hh_db": -17.61,
+   "hv_db": -22.75,
+   "hv_hh_db": -5.13
+  },
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "km2": 5.69,
+   "pct": 1.8,
+   "hh_db": -2.22,
+   "hv_db": -15.48,
+   "hv_hh_db": -13.26
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "km2": 192.98,
+   "pct": 61.4,
+   "hh_db": -6.89,
+   "hv_db": -12.76,
+   "hv_hh_db": -5.87
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "km2": 0.6,
+   "pct": 0.2,
+   "hh_db": -3.55,
+   "hv_db": -8.21,
+   "hv_hh_db": -4.66
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "km2": 75.43,
+   "pct": 24.0,
+   "hh_db": -11.01,
+   "hv_db": -18.71,
+   "hv_hh_db": -7.7
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "km2": 8.73,
+   "pct": 2.8,
+   "hh_db": -15.72,
+   "hv_db": -21.35,
+   "hv_hh_db": -5.63
+  }
+ ],
+ "mean_hh_db": -7.97,
+ "mean_hv_db": -14.26,
+ "mean_hv_hh_db": -6.28,
+ "water_km2": 33.83,
+ "lake_on_optical_land_pct": 17.1,
+ "flags": [],
+ "context": [
+  {
+   "fact": "Bin El Ouidane dam is on the El Abid river, was built in 1949-1953 and irrigates about 69,500 ha of the Beni Moussa and Tadla plains.",
+   "source": "Wikipedia, \"Bin el Ouidane Dam\""
+  },
+  {
+   "fact": "ORMVAT selected a bid to modernise the Beni Moussa irrigation canals, which are supplied by Bin El Ouidane. The selection is subject to appeal.",
+   "source": "Morocco World News, 28 Sept 2026"
+  }
+ ]
+}

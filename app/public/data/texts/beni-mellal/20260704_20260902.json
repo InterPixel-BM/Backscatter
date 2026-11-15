@@ -1,0 +1,66 @@
+{
+ "id": "beni-mellal/2026-07-04_2026-09-02",
+ "kind": "compare",
+ "area": "beni-mellal",
+ "date": null,
+ "date_a": "2026-07-04",
+ "date_b": "2026-09-02",
+ "title": "Beni Mellal city and foothills, 4 Jul to 2 Sep 2026",
+ "summary": "From 4 Jul to 2 Sep 2026 the radar shows 2.41 km2 turning darker and 1.62 km2 brighter in HV around Beni Mellal, much of it on the changing fields. Mean HH over the 6 km circle rose by 0.53 dB, built-up land included.",
+ "sections": [
+  {
+   "heading": "What changed",
+   "text": "Over 60 days mean HV moved by -0.15 dB. In HV, 1.62 km2 turned brighter by more than 3 dB and 2.41 km2 darker; in HH, 2.52 km2 turned brighter and 1.49 km2 darker."
+  },
+  {
+   "heading": "Where, by terrain type",
+   "text": "The changing fields had 1.72 km2 darker and 1.1 km2 brighter in HV, with a mean HV change of -0.8 dB. Built-up land, which should be stable, rose 0.56 dB in HH and fell 0.46 dB in HV. Trees, shrub and rugged slopes rose 0.47 dB in HH and rough dry ground and fields 0.45 dB."
+  },
+  {
+   "heading": "Possible causes",
+   "text": "Possible cause for the darker fields: summer harvests; harvest records would confirm it. Possible cause for the brighter fields: new crops sown after the harvest; a field visit would check it. Possible cause for the HH rise, built-up land included: a small calibration difference between the acquisitions; stable targets on more dates would check it."
+  },
+  {
+   "heading": "Limits",
+   "text": "Neither date carries a flag. NASA has no NISAR data from 27 Jul to 10 Aug 2026, so nothing between 16 Jul and 21 Aug 2026 is seen. One track only, so slopes facing away from the radar can fall in shadow."
+  },
+  {
+   "heading": "What an agency could do next",
+   "text": "A farm office could map which plots were harvested and which were sown again. Treat the HH rise as uncertain until stable targets confirm it."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Days between",
+   "evidence_field": "days_between",
+   "value": 60,
+   "unit": "days"
+  },
+  {
+   "label": "Brighter in HV",
+   "evidence_field": "brighter_km2.hv",
+   "value": 1.62,
+   "unit": "km2"
+  },
+  {
+   "label": "Darker in HV",
+   "evidence_field": "darker_km2.hv",
+   "value": 2.41,
+   "unit": "km2"
+  },
+  {
+   "label": "Mean HV change",
+   "evidence_field": "diff.mean_hv_db",
+   "value": -0.15,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/beni-mellal/evidence/20260704_20260902.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "5b255e0284795c97570bf6aeb95099ac899e94c1732b4ebf36bc8d7f7e5ae1e7",
+ "check": {
+  "passed": true,
+  "numbers_checked": 22,
+  "checker": "ai/check_numbers.py"
+ }
+}

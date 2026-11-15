@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260914_20260926.json",
+  "source_sha256": "95237a0dbd5a89a844374f17718760c4019e39eb10720ae34a789cf0e1cf6853",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 14 septembre au 26 septembre 2026, le lac est passé de 30.17 km2 à 29.82 km2, une variation de -1.2%. Les terres alentour sont restées calmes, avec 0.31 km2 plus clairs et 0.25 km2 plus sombres en HV.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 12 jours, le lac a perdu 0.35 km2. La HV moyenne a varié de 0.03 dB et la HH moyenne de -0.04 dB. En HH, 0.41 km2 sont devenus plus clairs de plus de 3 dB et 0.44 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le type Champs changeants a baissé de 0.98 dB en HV en moyenne, le plus grand changement de tous les types, sur une très petite surface. Les arbres, broussailles et pentes accidentées ont eu 0.13 km2 plus clairs et 0.1 km2 plus sombres en HV. Le sol nu lisse a baissé de 0.29 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : un abaissement lent dû à l'irrigation et à l'évaporation ; le relevé de niveau du barrage le confirmerait. Cause possible pour les champs changeants : une récolte sur quelques parcelles, qui retire les plantes qui diffusent la HV ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Les surfaces du lac sont approximatives : 9.7% et 9.2% du contour tombent sur la terre ferme dans la photo optique. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Lire cette paire comme la fin calme de l'été et utiliser ces deux dates comme référence pour les dates d'automne. Comparer la perte de 0.35 km2 avec la variation de niveau du barrage sur les mêmes 12 jours."
+    }
+  ]
+}

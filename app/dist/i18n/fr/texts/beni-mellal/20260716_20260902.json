@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260716_20260902.json",
+  "source_sha256": "3dc6c7f17134dbf15e352325fdd963eeae8859a4fceda1d39d49e164c33f6436",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 16 juillet au 2 septembre 2026, le radar montre 1.73 km2 devenant plus clairs et 1.39 km2 plus sombres en HV autour de Beni Mellal, en grande partie sur les champs changeants. Le HH moyen sur le cercle de 6 km a augmenté de 0.5 dB, bâti compris.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 48 jours, le HV moyen a varié de 0.04 dB. En HV, 1.73 km2 sont devenus plus clairs de plus de 3 dB et 1.39 km2 plus sombres ; en HH, 2.49 km2 sont devenus plus clairs et 0.96 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont eu 1.17 km2 plus clairs et 0.95 km2 plus sombres en HV, de sorte que leur HV moyen n'a varié que de -0.07 dB. Le bâti, qui devrait être stable, a augmenté de 0.52 dB en HH. Les arbres, broussailles et pentes accidentées ont augmenté de 0.45 dB en HH et le sol sec rugueux et les champs de 0.48 dB."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les changements des champs : des récoltes sur certaines parcelles et de nouvelles cultures sur d'autres ; les registres de récolte et de semis le confirmeraient. Cause possible pour la hausse du HH, bâti compris : une petite différence d'étalonnage entre les acquisitions ; des cibles stables sur davantage de dates le vérifieraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a pas de données NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait cartographier les parcelles récoltées et celles semées à nouveau. Considérer la hausse du HH comme incertaine jusqu'à ce que des cibles stables la confirment."
+    }
+  ]
+}

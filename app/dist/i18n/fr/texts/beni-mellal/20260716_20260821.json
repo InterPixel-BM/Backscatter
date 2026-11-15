@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260716_20260821.json",
+  "source_sha256": "f669468b5eef852fdab3f996feba185162be29d09b170373f538a4fe5237cc23",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 16 juillet au 21 août 2026, le radar montre 1.21 km2 devenant plus clairs et 1.36 km2 plus sombres en HV autour de Beni Mellal, en grande partie sur les champs changeants. Le HH moyen sur le cercle de 6 km a augmenté de 0.47 dB, bâti compris.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 36 jours, le HV moyen a varié de 0.06 dB. En HV, 1.21 km2 sont devenus plus clairs de plus de 3 dB et 1.36 km2 plus sombres ; en HH, 1.9 km2 sont devenus plus clairs et 1.03 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont eu 0.66 km2 plus clairs et 0.93 km2 plus sombres en HV, avec une variation du HV moyen de -0.75 dB. Le bâti, qui devrait être stable, a augmenté de 0.53 dB en HH. Les arbres, broussailles et pentes accidentées ont augmenté de 0.34 dB en HH et le sol sec rugueux et les champs de 0.39 dB."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus sombres : les récoltes de fin d'été ; les registres de récolte le confirmeraient. Cause possible pour les champs plus clairs : des semis précoces ; une visite de terrain le vérifierait. Cause possible pour la hausse du HH, bâti compris : une petite différence d'étalonnage entre les acquisitions ; des cibles stables sur davantage de dates le vérifieraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a pas de données NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait rapprocher les parcelles plus sombres de ses registres de récolte. Considérer la hausse du HH comme incertaine jusqu'à ce que des cibles stables la confirment."
+    }
+  ]
+}

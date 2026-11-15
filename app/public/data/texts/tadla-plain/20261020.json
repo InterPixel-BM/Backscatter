@@ -1,0 +1,58 @@
+{
+ "id": "tadla-plain/2026-10-20",
+ "kind": "interpret",
+ "area": "tadla-plain",
+ "date": "2026-10-20",
+ "date_a": null,
+ "date_b": null,
+ "title": "Tadla irrigated plain, Beni Moussa side on 20 Oct 2026",
+ "summary": "On 20 Oct 2026 the radar shows the irrigated Tadla plain inside a 9 km circle, where changing fields cover 9.6% and rough dry ground and fields 42.5%. This date carries a flag for a backscatter shift, so its values are less reliable than those of an unflagged date.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "The circle averages -5.64 dB in HH and -16.35 dB in HV. Built-up land is the brightest type, at 3.7 dB in HH, and smooth bare ground the darkest, at -21.02 dB in HV."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Changing fields, 24.35 km2, are the plots whose HV moved most during the season; on this date they sit at -16.93 dB in HV and -8.85 dB in HH. Trees, shrub and rugged slopes, 22.6% of the circle, give the strongest HV, -13.67 dB, from leaves and branches. Smooth bare ground, 49.29 km2, is dark in both channels, -13.39 dB in HH, because dry, smooth soil reflects the pulse away."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "One flag applies: backscatter over built-up land shifted more than 0.5 dB from its June-September median, a possible processing offset or widespread wet conditions. Possible cause: a processing offset in this product; reprocessed files would settle it. Possible cause: rain wetting soil and walls; rain records would check it. One track only, so slopes facing away from the radar can fall in shadow."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 254.48,
+   "unit": "km2"
+  },
+  {
+   "label": "Rough dry ground and fields",
+   "evidence_field": "terrain.3.pct",
+   "value": 42.5,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -5.64,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -16.35,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/tadla-plain/evidence/20261020.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "69f3727c914199333c99a1c2ec7d8ee691ef6c8f04e2c1188712b5fbc7a742f1",
+ "check": {
+  "passed": true,
+  "numbers_checked": 19,
+  "checker": "ai/check_numbers.py"
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260821_20260902.json",
+  "source_sha256": "9ecd4eaed06bdc6fb8023cd4e2fa57fe18d28660c712175d2c5e261fd7678804",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 2 septembre 2026, le radar montre le lac passant de 30.63 km2 à 29.75 km2 tandis que les terres ont à peine changé. Seuls 0.23 km2 sont devenus plus clairs et 0.27 km2 plus sombres en HV sur les 12 jours.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de -0.88 km2, soit -2.9%. La HV moyenne a augmenté de 0.1 dB et la HH moyenne de 0.16 dB. En HH, 0.39 km2 sont devenus plus clairs de plus de 3 dB et 0.26 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les arbres, broussailles et pentes accidentées ont eu 0.09 km2 plus clairs et 0.1 km2 plus sombres en HV. Le petit type Champs changeants a perdu 1.06 dB en HV en moyenne, le plus grand changement de tous les types, mais il couvre très peu du cercle. Le sol sec rugueux et les champs ont eu 0.05 km2 plus clairs et 0.05 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival, avec de l'eau lâchée pour l'irrigation et perdue par évaporation ; le relevé des lâchers du barrage le confirmerait. Cause possible pour les champs changeants : une récolte ou un labour, qui retire les plantes qui diffusent la HV ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Les surfaces du lac sont approximatives : 10.4% et 8.6% du contour tombent sur la terre ferme dans la photo optique. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Comparer la perte de 0.88 km2 avec les volumes lâchés par le barrage sur les mêmes 12 jours. Continuer à suivre le lac tous les 12 jours pour voir si l'abaissement se poursuit."
+    }
+  ]
+}

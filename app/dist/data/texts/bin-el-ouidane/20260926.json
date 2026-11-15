@@ -1,0 +1,70 @@
+{
+ "id": "bin-el-ouidane/2026-09-26",
+ "kind": "interpret",
+ "area": "bin-el-ouidane",
+ "date": "2026-09-26",
+ "date_a": null,
+ "date_b": null,
+ "title": "Bin El Ouidane reservoir on 26 Sep 2026",
+ "summary": "On 26 Sep 2026 the radar shows a lake of 29.82 km2 inside the 10 km circle around Bin El Ouidane. Trees, shrub and rugged slopes cover 61.4% of the circle, and no flag applies to this date.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "The lake is the darkest surface in the circle: the open water type averages -18.17 dB in HH and -22.85 dB in HV, against a circle mean of -7.59 dB and -14.26 dB. That type covers 30.46 km2, a little more than the lake on this date, because it is drawn from the whole season."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Trees, shrub and rugged slopes have the brightest HV of the large types, -12.77 dB, because leaves and branches scatter the pulse in many directions. Rough dry ground and fields, 24.0%, give medium echoes from soil and stones. Built-up land is only 1.8%, but its HV:HH ratio of -13.63 dB is the lowest of all types, the double-bounce signature of walls."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "The lake outline is approximate: 9.2% of it falls on land in the optical photo. Possible cause: radar shadow on steep shore slopes facing away from the single viewing direction. A shoreline survey or the dam's level record would check it."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Lake area, 26 Sep",
+   "evidence_field": "water_km2",
+   "value": 29.82,
+   "unit": "km2"
+  },
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 314.05,
+   "unit": "km2"
+  },
+  {
+   "label": "Trees, shrub and rugged slopes",
+   "evidence_field": "terrain.2.pct",
+   "value": 61.4,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -7.59,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -14.26,
+   "unit": "dB"
+  },
+  {
+   "label": "Lake outline on dry land",
+   "evidence_field": "lake_on_optical_land_pct",
+   "value": 9.2,
+   "unit": "%"
+  }
+ ],
+ "evidence_file": "areas/bin-el-ouidane/evidence/20260926.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "50f925b0dfd466f12a41432c5a505fe36c67fabd281bdf7a9c2ac167f9cc22a4",
+ "check": {
+  "passed": true,
+  "numbers_checked": 19,
+  "checker": "ai/check_numbers.py"
+ }
+}

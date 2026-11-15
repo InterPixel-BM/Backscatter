@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260622_20260914.json",
+  "source_sha256": "8a2f519e274d9f694dc24215f2d68192416a6dc6287ea54cadc8906b56e9d1fc",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 14 septembre 2026, le radar montre le lac passant de 31.35 km2 à 30.17 km2, une variation de -3.8%. La HH sur les terres a augmenté de 0.5 dB en moyenne sur les 84 jours.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a perdu 1.18 km2. En HH, 3.21 km2 sont devenus plus clairs de plus de 3 dB et 0.29 km2 plus sombres. La HV a été plus stable, la HV moyenne variant de 0.02 dB, avec 0.78 km2 plus clairs et 0.47 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le sol sec rugueux et les champs ont eu 1.2 km2 plus clairs en HH, en hausse de 0.46 dB en moyenne. Le type Champs changeants a augmenté de 1.23 dB en HV et de 1.55 dB en HH. Le type Eau libre a eu 0.73 km2 plus clairs en HH, et le bâti a augmenté de 0.36 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival ; le relevé de niveau du barrage le confirmerait. Cause possible pour la rive plus claire : le sol laissé à sec par la baisse de l'eau renvoie plus d'écho que l'eau. Cause possible pour les champs changeants : des cultures en croissance sur quelques parcelles ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 11.5% et 9.7% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Comparer la perte de 1.18 km2 avec la variation de niveau propre au barrage. Visiter les champs changeants pour savoir quelles cultures font augmenter la HV en cette saison."
+    }
+  ]
+}

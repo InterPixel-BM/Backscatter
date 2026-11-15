@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260716_20260914.json",
+  "source_sha256": "21f10703807ead2265822366a93c7a2c03d9e8a8dbdd1bccf83c78e155818633",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 16 juillet au 14 septembre 2026, le radar montre 2.81 km2 devenant plus clairs en HV autour de Beni Mellal, contre 1.48 km2 plus sombres, surtout sur les champs changeants. Le HH est devenu plus clair sur 5.27 km2, et le HH moyen a augmenté de 0.45 dB.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 60 jours, le HV moyen a varié de 0.04 dB. En HV, 2.81 km2 sont devenus plus clairs de plus de 3 dB et 1.48 km2 plus sombres ; en HH, 5.27 km2 sont devenus plus clairs et 1.08 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont eu 1.95 km2 plus clairs et 0.91 km2 plus sombres en HV, en hausse de 0.83 dB, et 2.12 km2 plus clairs en HH. Le sol sec rugueux et les champs ont eu 1.53 km2 plus clairs en HH, en hausse de 0.86 dB, et les arbres, broussailles et pentes accidentées 0.91 km2. Le bâti a augmenté de 0.39 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus clairs : de nouvelles cultures semées en fin d'été ; les registres de semis ou une visite de terrain le confirmeraient. Cause possible pour le HH plus clair sur le sol rugueux : un travail du sol qui le rend plus rugueux ; la photo optique le montrerait. Cause possible pour une partie de la hausse du HH : une petite différence d'étalonnage entre les acquisitions."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a pas de données NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait comparer les 1.95 km2 de champs plus clairs à ses registres de semis. Considérer les variations du HH inférieures à un dB comme incertaines jusqu'à ce que des cibles stables les confirment."
+    }
+  ]
+}

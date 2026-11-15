@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260704_20260914.json",
+  "source_sha256": "9389d2c653713364d2c838202e5d353cac68146037913775685da85ae1d71bef",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 4 juillet au 14 septembre 2026, le radar montre le lac passant de 31.86 km2 à 30.17 km2, une variation de -5.3%. La HH sur les terres a augmenté de 0.44 dB en moyenne sur les 72 jours.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a perdu 1.69 km2. En HH, 2.8 km2 sont devenus plus clairs de plus de 3 dB et 0.28 km2 plus sombres. La HV moyenne a varié de -0.09 dB, avec 0.64 km2 plus clairs et 0.47 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le sol sec rugueux et les champs ont eu 1.03 km2 plus clairs en HH, en hausse de 0.5 dB. Le type Eau libre a eu 0.64 km2 plus clairs en HH, ce qui correspond à une rive qui s'est déplacée. Le type Champs changeants a augmenté de 1.16 dB en HV et de 1.24 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival ; les relevés du barrage le confirmeraient. Cause possible pour la rive plus claire : le sol laissé à sec par la baisse de l'eau renvoie plus d'écho que l'eau. Cause possible pour les champs changeants : des cultures en croissance sur quelques parcelles ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 12.7% et 9.7% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Comparer la perte de 1.69 km2 avec la variation de niveau du barrage sur les mêmes 72 jours. Cartographier les segments de rive devenus plus clairs pour voir où l'eau a reculé."
+    }
+  ]
+}

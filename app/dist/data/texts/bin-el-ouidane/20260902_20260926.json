@@ -1,0 +1,78 @@
+{
+ "id": "bin-el-ouidane/2026-09-02_2026-09-26",
+ "kind": "compare",
+ "area": "bin-el-ouidane",
+ "date": null,
+ "date_a": "2026-09-02",
+ "date_b": "2026-09-26",
+ "title": "Bin El Ouidane reservoir, 2 Sep to 26 Sep 2026",
+ "summary": "From 2 Sep to 26 Sep 2026 the radar shows a lake that hardly changed, 29.75 km2 and then 29.82 km2. Mean HV over the circle did not move, with a change of 0.0 dB.",
+ "sections": [
+  {
+   "heading": "What changed",
+   "text": "The lake changed by 0.07 km2, or 0.2%, in 24 days. In HV, 0.32 km2 turned brighter by more than 3 dB and 0.21 km2 darker. Mean HH fell by 0.1 dB, with 0.44 km2 brighter and 0.28 km2 darker in HH."
+  },
+  {
+   "heading": "Where, by terrain type",
+   "text": "Trees, shrub and rugged slopes had 0.11 km2 brighter and 0.08 km2 darker in HV. The changing fields type rose by 0.42 dB in HV and 0.41 dB in HH on average. Rough dry ground and fields had 0.07 km2 brighter and 0.05 km2 darker in HV."
+  },
+  {
+   "heading": "Possible causes",
+   "text": "Possible cause for the steady lake: releases for irrigation balanced by inflow, or little use of the reservoir at that time; the dam's release record would show which. Possible cause for the changing fields: young crops growing; a field visit would check it."
+  },
+  {
+   "heading": "Limits",
+   "text": "Neither date carries a flag. Lake areas are approximate: 8.6% and 9.2% of the outline falls on land in the optical photo. One track only, so slopes facing away from the radar can fall in shadow."
+  },
+  {
+   "heading": "What an agency could do next",
+   "text": "Use this pair as evidence of a stable reservoir in September. Check the dam's records to see whether releases stopped or were balanced by inflow."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Days between",
+   "evidence_field": "days_between",
+   "value": 24,
+   "unit": "days"
+  },
+  {
+   "label": "Lake change",
+   "evidence_field": "diff.water_km2",
+   "value": 0.07,
+   "unit": "km2"
+  },
+  {
+   "label": "Lake change",
+   "evidence_field": "diff.water_pct",
+   "value": 0.2,
+   "unit": "%"
+  },
+  {
+   "label": "Brighter in HV",
+   "evidence_field": "brighter_km2.hv",
+   "value": 0.32,
+   "unit": "km2"
+  },
+  {
+   "label": "Darker in HV",
+   "evidence_field": "darker_km2.hv",
+   "value": 0.21,
+   "unit": "km2"
+  },
+  {
+   "label": "Mean HV change",
+   "evidence_field": "diff.mean_hv_db",
+   "value": 0.0,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/bin-el-ouidane/evidence/20260902_20260926.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "c3ac2a2e5df6fd139ec06cd8282c3a3d7d89c1aa84bc4ed9fe353f7a3b7a40a5",
+ "check": {
+  "passed": true,
+  "numbers_checked": 26,
+  "checker": "ai/check_numbers.py"
+ }
+}

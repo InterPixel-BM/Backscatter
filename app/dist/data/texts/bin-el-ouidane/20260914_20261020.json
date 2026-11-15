@@ -1,0 +1,78 @@
+{
+ "id": "bin-el-ouidane/2026-09-14_2026-10-20",
+ "kind": "compare",
+ "area": "bin-el-ouidane",
+ "date": null,
+ "date_a": "2026-09-14",
+ "date_b": "2026-10-20",
+ "title": "Bin El Ouidane reservoir, 14 Sep to 20 Oct 2026",
+ "summary": "Between 14 Sep and 20 Oct 2026 the lake went from 30.17 km2 to 28.52 km2, while the whole circle got brighter, with mean HH up 1.35 dB. The 20 Oct date carries a flag, so this brightening should not be read as change on the ground.",
+ "sections": [
+  {
+   "heading": "What changed",
+   "text": "Over 36 days the lake changed by -1.65 km2, or -5.5%. HH turned brighter by more than 3 dB on 25.66 km2 and darker on only 0.25 km2. HV turned brighter on 13.78 km2, and mean HV rose by 0.92 dB."
+  },
+  {
+   "heading": "Where, by terrain type",
+   "text": "The brightening covers every type. Rough dry ground and fields had 13.14 km2 brighter in HH and rose 2.22 dB on average, and trees, shrub and rugged slopes had 8.16 km2 brighter. Built-up land, which should stay stable, rose 2.31 dB in HH."
+  },
+  {
+   "heading": "Possible causes",
+   "text": "Possible cause: a processing offset in the 20 Oct product, since buildings brightened like fields; reprocessed files would settle it. Possible cause: a wet surface after rain; local rain records for October would check it. Possible cause for the lake: drawdown continuing into autumn; the dam's level records would confirm it."
+  },
+  {
+   "heading": "Limits",
+   "text": "20 Oct 2026 carries a flag: backscatter over built-up land shifted more than 0.5 dB from its June-September median, a possible processing offset or widespread wet conditions. It lowers confidence in every number from that date. Lake areas are approximate: 9.7% and 8.2% of the outline falls on land in the optical photo."
+  },
+  {
+   "heading": "What an agency could do next",
+   "text": "Use an unflagged date for a firm lake figure, check rain records for October, and ask NASA whether the October products will be reprocessed."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Days between",
+   "evidence_field": "days_between",
+   "value": 36,
+   "unit": "days"
+  },
+  {
+   "label": "Lake change",
+   "evidence_field": "diff.water_km2",
+   "value": -1.65,
+   "unit": "km2"
+  },
+  {
+   "label": "Lake change",
+   "evidence_field": "diff.water_pct",
+   "value": -5.5,
+   "unit": "%"
+  },
+  {
+   "label": "Brighter in HV",
+   "evidence_field": "brighter_km2.hv",
+   "value": 13.78,
+   "unit": "km2"
+  },
+  {
+   "label": "Darker in HV",
+   "evidence_field": "darker_km2.hv",
+   "value": 0.26,
+   "unit": "km2"
+  },
+  {
+   "label": "Mean HV change",
+   "evidence_field": "diff.mean_hv_db",
+   "value": 0.92,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/bin-el-ouidane/evidence/20260914_20261020.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "e05e3fd46fb869d42539736f50af5c93e8e30dc107594e5a98e87bfd0b453e0a",
+ "check": {
+  "passed": true,
+  "numbers_checked": 24,
+  "checker": "ai/check_numbers.py"
+ }
+}

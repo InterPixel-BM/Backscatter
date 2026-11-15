@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260622_20260704.json",
+  "source_sha256": "07f5be93044b9a9e424c543b4d1c42a745958eb41f4b7d87304d037e1b2a64ce",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 4 juillet 2026, le radar montre peu de changement dans et autour de Beni Mellal : 0.36 km2 sont devenus plus clairs et 0.62 km2 plus sombres en HV dans le cercle de 6 km. La plus grande zone plus sombre, 0.37 km2, se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 12 jours, le HV moyen a varié de 0.08 dB et le HH moyen de -0.04 dB. En HV, 0.36 km2 sont devenus plus clairs de plus de 3 dB et 0.62 km2 plus sombres. En HH, 0.43 km2 sont devenus plus clairs et 0.62 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont eu 0.37 km2 plus sombres et 0.12 km2 plus clairs en HV, et leur HV moyen a baissé de 0.16 dB. Les arbres, broussailles et pentes accidentées ont eu 0.1 km2 plus clairs et 0.08 km2 plus sombres. Le bâti a à peine bougé, avec 0.06 km2 plus clairs et 0.06 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus sombres : les dernières récoltes du début de l'été, qui enlèvent les plantes qui diffusent le HV ; une visite de terrain ou la photo optique le confirmerait. Cause possible pour les petits changements ailleurs : le chatoiement et de petites différences d'humidité du sol ; une date ultérieure montrerait s'ils persistent."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Des zones de quelques centièmes de km2 sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser cette paire comme référence calme pour la ville. Un bureau agricole pourrait comparer les zones de champs plus sombres à son calendrier de récolte."
+    }
+  ]
+}

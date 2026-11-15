@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260902_20260926.json",
+  "source_sha256": "bfba306e581ff32a462978446eff2695bf976b57def22396b09acfd7537c3202",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 2 septembre au 26 septembre 2026, le radar montre 1.51 km2 devenant plus clairs en HV autour de Beni Mellal, contre 0.42 km2 plus sombres. Les champs changeants portent la majeure partie de la surface plus claire, 1.13 km2.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 24 jours, le HV moyen a augmenté de 0.07 dB et le HH moyen a varié de -0.02 dB. En HV, 1.51 km2 sont devenus plus clairs de plus de 3 dB et 0.42 km2 plus sombres ; en HH, 1.71 km2 sont devenus plus clairs et 0.39 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont augmenté de 1.03 dB en HV et de 1.34 dB en HH en moyenne. Le sol sec rugueux et les champs ont eu 0.19 km2 plus clairs en HV et ont augmenté de 0.1 dB. Les arbres, broussailles et pentes accidentées ont eu 0.12 km2 plus clairs et 0.1 km2 plus sombres, et le bâti a augmenté de 0.08 dB en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus clairs : des cultures qui poussent en septembre, ce qui ajoute de la diffusion de volume ; une visite de terrain le confirmerait. Cause possible pour les quelques zones plus sombres : des parcelles récoltées ou dégagées ; la photo optique les montrerait."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait comparer les 1.13 km2 de champs plus clairs à ses registres de semis. La ville elle-même est restée stable, donc cette paire donne une vue nette de l'activité agricole."
+    }
+  ]
+}

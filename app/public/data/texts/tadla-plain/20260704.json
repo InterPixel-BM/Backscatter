@@ -1,0 +1,58 @@
+{
+ "id": "tadla-plain/2026-07-04",
+ "kind": "interpret",
+ "area": "tadla-plain",
+ "date": "2026-07-04",
+ "date_a": null,
+ "date_b": null,
+ "title": "Tadla irrigated plain, Beni Moussa side on 4 Jul 2026",
+ "summary": "On 4 Jul 2026 the radar shows the irrigated Tadla plain inside a 9 km circle, where changing fields cover 9.6% and rough dry ground and fields 42.5%. No flag applies to this date, and 100.0% of the circle has data.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "The circle averages -8.0 dB in HH and -17.35 dB in HV. Built-up land is the brightest type, at 1.26 dB in HH, and smooth bare ground the darkest, at -22.23 dB in HV."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Changing fields, 24.35 km2, are the plots whose HV moved most during the season; on this date they sit at -17.44 dB in HV and -10.39 dB in HH. Trees, shrub and rugged slopes, 22.6% of the circle, give the strongest HV, -14.57 dB, from leaves and branches. Smooth bare ground, 49.29 km2, is dark in both channels, -16.37 dB in HH, because dry, smooth soil reflects the pulse away."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "No flag applies on this date. One track only, so field edges facing away from the radar can look darker. Possible cause of the medium HV on changing fields: some plots already harvested and others still standing; the optical photo or a field visit would check it."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 254.48,
+   "unit": "km2"
+  },
+  {
+   "label": "Rough dry ground and fields",
+   "evidence_field": "terrain.3.pct",
+   "value": 42.5,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -8.0,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -17.35,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/tadla-plain/evidence/20260704.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "b9bffe194329c2740921087e3386a1d74bd7bef69494b3ed2cc1bb835fdfd6f0",
+ "check": {
+  "passed": true,
+  "numbers_checked": 19,
+  "checker": "ai/check_numbers.py"
+ }
+}

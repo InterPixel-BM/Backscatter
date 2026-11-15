@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260622_20261008.json",
+  "source_sha256": "f8b6fb1ad4d79dfdc7f81a4538f4392791ba68433a812c6fe89fe15d6f12ce4f",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 22 juin et le 8 octobre 2026, le lac est passé de 31.35 km2 à 29.91 km2, tandis que tout le cercle est devenu plus clair, avec une HH moyenne en hausse de 1.75 dB. La date du 8 octobre porte deux signalements, donc cet éclaircissement ne doit pas être lu comme un changement au sol.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 108 jours, le lac a changé de -1.44 km2, soit -4.6%. La HH est devenue plus claire de plus de 3 dB sur 41.12 km2 et plus sombre sur seulement 0.1 km2. La HV est devenue plus claire sur 7.7 km2."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "L'éclaircissement touche tous les types. Le sol sec rugueux et les champs ont eu 18.02 km2 plus clairs en HH, et les arbres, broussailles et pentes accidentées 10.3 km2. Le bâti, qui devrait rester stable, a augmenté de 2.33 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : un décalage de traitement dans le produit du 8 octobre, puisque les bâtiments se sont éclaircis comme les champs ; des fichiers retraités trancheraient la question. Cause possible : une surface humide après la pluie ; les relevés de pluie locaux du début octobre permettraient de le vérifier. Cause possible pour le lac : l'abaissement estival ; les relevés de niveau du barrage le confirmeraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Le 8 octobre 2026 porte deux signalements : le seuil d'eau du lac a bougé de plus de 1.0 dB par rapport à la date précédente, et la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre. Les deux réduisent la confiance dans chaque chiffre de cette date. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser une date non signalée pour un chiffre ferme du lac en fin d'été, vérifier les relevés de pluie du début octobre, et demander à la NASA si les produits d'octobre seront retraités."
+    }
+  ]
+}

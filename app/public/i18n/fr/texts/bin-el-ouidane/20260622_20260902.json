@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260622_20260902.json",
+  "source_sha256": "c32c045b294d797bc05ee51edfa0c4a812b0030d6940dd9dcf63c5d245d0f80c",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 2 septembre 2026, le radar montre le lac passant de 31.35 km2 à 29.75 km2, soit -5.1%. Sur les mêmes 72 jours, la HH a augmenté sur l'ensemble des terres tandis que la HV est restée presque identique.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a perdu 1.6 km2. La HV moyenne a varié de 0.05 dB, mais la HH moyenne a augmenté de 0.56 dB, avec 2.45 km2 plus clairs en HH de plus de 3 dB et seulement 0.23 km2 plus sombres. En HV, 0.61 km2 sont devenus plus clairs et 0.39 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le sol sec rugueux et les champs ont eu 1.0 km2 plus clairs en HH et ont augmenté de 0.53 dB en moyenne. Les arbres, broussailles et pentes accidentées ont augmenté de 0.56 dB en HH. Le bâti, qui devrait être stable, a augmenté de 0.6 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival dû à l'irrigation et à l'évaporation ; les relevés du barrage le confirmeraient. Cause possible pour la HH plus élevée sur tous les types, bâti compris : une petite différence d'étalonnage entre les deux acquisitions ; des cibles stables sur davantage de dates permettraient de le vérifier. Cause possible sur les champs : un sol plus rugueux et plus sec après la récolte."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 11.5% et 8.6% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Rapporter la perte du lac de 1.6 km2 avec la variation de niveau propre au barrage. Considérer la hausse de la HH comme incertaine tant qu'elle n'est pas vérifiée sur des cibles stables."
+    }
+  ]
+}

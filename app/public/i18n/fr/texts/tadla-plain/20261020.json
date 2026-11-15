@@ -1,0 +1,22 @@
+{
+  "lang": "fr",
+  "source": "texts/tadla-plain/20261020.json",
+  "source_sha256": "c82eaf543f0c78ea3b90aef2128b9800a186ae6dc44f073f2debff6f6fa208f3",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Le 20 octobre 2026, le radar montre la plaine irriguée du Tadla dans un cercle de 9 km, où les champs changeants couvrent 9.6% et le sol sec rugueux et les champs 42.5%. Cette date porte un signalement pour un décalage de rétrodiffusion, donc ses valeurs sont moins fiables que celles d'une date non signalée.",
+  "sections": [
+    {
+      "heading": "Ce que montre le radar ici",
+      "text": "Le cercle a une moyenne de -5.64 dB en HH et de -16.35 dB en HV. Le bâti est le type le plus clair, à 3.7 dB en HH, et le sol nu lisse le plus sombre, à -21.02 dB en HV."
+    },
+    {
+      "heading": "Types de terrain et leur signification",
+      "text": "Les champs changeants, 24.35 km2, sont les parcelles dont le HV a le plus varié au cours de la saison ; à cette date, ils se situent à -16.93 dB en HV et -8.85 dB en HH. Les arbres, broussailles et pentes accidentées, 22.6% du cercle, donnent le HV le plus fort, -13.67 dB, grâce aux feuilles et aux branches. Le sol nu lisse, 49.29 km2, est sombre dans les deux canaux, -13.39 dB en HH, car un sol sec et lisse réfléchit l'impulsion dans une autre direction."
+    },
+    {
+      "heading": "Notes sur la qualité des données",
+      "text": "Un signalement s'applique : la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre, signe possible d'un décalage de traitement ou de conditions humides étendues. Cause possible : un décalage de traitement dans ce produit ; des fichiers retraités trancheraient la question. Cause possible : la pluie qui mouille le sol et les murs ; les relevés de pluie permettraient de le vérifier. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260821_20260926.json",
+  "source_sha256": "0e992234aa9da07ede15a9b9f870a0464efeed7686bc177488df83f266e92e94",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 26 septembre 2026, le radar montre le lac passant de 30.63 km2 à 29.82 km2 sur 36 jours. Les terres ont peu changé : 0.4 km2 sont devenus plus clairs et 0.29 km2 plus sombres en HV.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de -0.81 km2, soit -2.6%. La HV moyenne a augmenté de 0.1 dB et la HH moyenne de 0.06 dB. En HH, 0.66 km2 sont devenus plus clairs de plus de 3 dB et 0.35 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les arbres, broussailles et pentes accidentées ont eu la plus grande zone plus claire en HV, 0.15 km2, et 0.11 km2 plus sombres. Le type Champs changeants a baissé de 0.65 dB en HV tout en augmentant de 0.41 dB en HH. Le sol sec rugueux et les champs ont eu 0.09 km2 plus clairs et 0.07 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival dû à l'irrigation et à l'évaporation ; les relevés de lâchers et de niveau du barrage le confirmeraient. Cause possible pour les champs changeants : une récolte, qui abaisse la HV, avec un sol laissé rugueux, qui maintient la HH ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Les surfaces du lac sont approximatives : 10.4% et 9.2% du contour tombent sur la terre ferme dans la photo optique. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Comparer la perte de 0.81 km2 avec les chiffres propres au barrage pour les mêmes 36 jours afin de relier la surface au volume. Utiliser cette paire comme référence propre de fin d'été."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/tadla-plain/20260622_20260704.json",
+  "source_sha256": "3f3bfd0b35bf5f29d712993ca383f2c2ae926269299c2d5db2db048fbe76359f",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 22 juin au 4 juillet 2026, le radar montre 1.13 km2 devenus plus clairs et 5.06 km2 plus sombres en HV sur la plaine du Tadla, dans le cercle de 9 km. La plus grande partie de la surface plus sombre, 3.59 km2, se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 12 jours, le HV moyen a varié de -0.09 dB et le HH moyen de -0.07 dB. En HV, 1.13 km2 sont devenus plus clairs de plus de 3 dB et 5.06 km2 plus sombres ; en HH, 2.26 km2 sont devenus plus clairs et 4.92 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants présentaient 0.42 km2 plus clairs et 3.59 km2 plus sombres en HV, avec une variation moyenne de HV de -0.74 dB. Le sol sec rugueux et les champs présentaient 0.5 km2 plus clairs et 1.15 km2 plus sombres en HV. Les arbres, broussailles et pentes accidentées ont varié de 0.04 dB en HV, et le bâti de -0.04 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible des champs plus sombres : les récoltes d'été, qui retirent les plantes qui diffusent le HV ; les registres de récolte de l'office d'irrigation le confirmeraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les bords de champs orientés à l'opposé du radar peuvent paraître plus sombres. Les petites taches sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un office d'irrigation pourrait comparer les 3.59 km2 de champs plus sombres avec ses registres de récolte et de distribution d'eau. Un assureur pourrait utiliser ce changement daté pour confirmer la date de récolte d'une parcelle."
+    }
+  ]
+}

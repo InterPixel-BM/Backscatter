@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20261008_20261020.json",
+  "source_sha256": "02392d54335186f211eb88be71eb7ad4c062ee38bb2c1d49cebf411e58c4ab45",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 8 octobre et le 20 octobre 2026, le radar ne montre presque aucun changement autour de Beni Mellal : 0.36 km2 sont devenus plus clairs et 0.55 km2 plus sombres en HV. Les deux dates portent le même signalement, elles partagent donc le décalage d'octobre et chaque chiffre ici doit être lu avec une faible confiance.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 12 jours, le HV moyen a varié de -0.07 dB et le HH moyen de -0.14 dB. En HV, 0.36 km2 sont devenus plus clairs de plus de 3 dB et 0.55 km2 plus sombres ; en HH, 0.4 km2 sont devenus plus clairs et 0.47 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont baissé de 0.39 dB en HV, avec 0.2 km2 plus sombres. Le sol sec rugueux et les champs ont eu 0.11 km2 plus clairs et 0.17 km2 plus sombres en HV, et les arbres, broussailles et pentes accidentées 0.11 km2 plus clairs et 0.11 km2 plus sombres. Le bâti a baissé de 0.16 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour la scène stable : les deux dates portent le même décalage d'octobre, qui s'annule donc entre elles ; des fichiers retraités le montreraient. Cause possible pour les champs plus sombres : quelques parcelles récoltées ou labourées ; une visite de terrain le vérifierait."
+    },
+    {
+      "heading": "Limites",
+      "text": "Les deux dates portent un signalement : la rétrodiffusion sur le bâti s'est décalée de plus de 0.5 dB par rapport à sa médiane de juin-septembre, ce qui peut indiquer un décalage de traitement ou des conditions humides étendues. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Ne pas utiliser cette paire seule. Comparer chaque date d'octobre à une date d'été non signalée, et demander à la NASA si les produits d'octobre seront retraités."
+    }
+  ]
+}

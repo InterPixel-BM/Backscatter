@@ -1,0 +1,23 @@
+{
+  "name": "backscatter",
+  "private": true,
+  "license": "Apache-2.0",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "check-data": "node scripts/check-data.mjs",
+    "check-translations": "node scripts/check-translations.mjs"
+  },
+  "dependencies": {
+    "chart.js": "4.6.1",
+    "maplibre-gl": "6.18.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vite": "8.3.8"
+  }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "bin-el-ouidane/2026-06-22",
+ "kind": "interpret",
+ "area": "bin-el-ouidane",
+ "date": "2026-06-22",
+ "date_a": null,
+ "date_b": null,
+ "title": "Bin El Ouidane reservoir on 22 Jun 2026",
+ "summary": "On 22 Jun 2026 the radar shows a lake of 31.35 km2 inside the 10 km circle around Bin El Ouidane. No flag applies to this date, and trees, shrub and rugged slopes cover 61.4% of the circle.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "The lake is the darkest surface in the circle, with the open water type at -18.8 dB in HH and -22.97 dB in HV, against a circle mean of -8.05 dB in HH and -14.31 dB in HV. The lake method measures 31.35 km2 of water, a little more than the 30.46 km2 open water type, which is drawn from the whole season."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Trees, shrub and rugged slopes, 192.98 km2, give the brightest HV of the large types, -12.82 dB, because leaves and branches scatter the pulse in many directions. Rough dry ground and fields cover 24.0% with medium echoes from soil and stones. Built-up land is 1.8% of the circle, and its HV:HH ratio of -13.05 dB is the lowest, the double-bounce signature of walls."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "No flag applies. The lake outline is approximate: 11.5% of it falls on land in the optical photo. Possible cause: radar shadow on steep slopes facing away from the single viewing direction, or water standing higher than when the photo was taken. The dam's level record for this date would check it."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Lake area, 22 Jun",
+   "evidence_field": "water_km2",
+   "value": 31.35,
+   "unit": "km2"
+  },
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 314.05,
+   "unit": "km2"
+  },
+  {
+   "label": "Trees, shrub and rugged slopes",
+   "evidence_field": "terrain.2.pct",
+   "value": 61.4,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -8.05,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -14.31,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/bin-el-ouidane/evidence/20260622.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "31caa8777ef0ec6e17b32774e4d6d9476d38cab13fea09632d3a779b05b95e43",
+ "check": {
+  "passed": true,
+  "numbers_checked": 20,
+  "checker": "ai/check_numbers.py"
+ }
+}

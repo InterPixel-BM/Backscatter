@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260914_20260926.json",
+  "source_sha256": "760a3929cab5be0ad9b591f0d7bee542df5c6e5da490329723376791bc62a6a9",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 14 septembre au 26 septembre 2026, le radar montre une scène calme autour de Beni Mellal : 0.68 km2 sont devenus plus clairs et 0.41 km2 plus sombres en HV. Le HH a perdu plus de surface qu'il n'en a gagné, avec 1.26 km2 plus sombres.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 12 jours, le HV moyen a augmenté de 0.07 dB et le HH moyen de 0.03 dB. En HV, 0.68 km2 sont devenus plus clairs de plus de 3 dB et 0.41 km2 plus sombres. En HH, 0.89 km2 sont devenus plus clairs et 1.26 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont eu 0.34 km2 plus clairs et 0.15 km2 plus sombres en HV. Le sol nu lisse a baissé de 0.77 dB en HH, et le sol sec rugueux et les champs ont baissé de 0.34 dB en HH. Les arbres, broussailles et pentes accidentées ont eu 0.15 km2 plus clairs et 0.11 km2 plus sombres en HV, et le bâti a augmenté de 0.12 dB en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le HH plus sombre sur le sol nu et le sol rugueux : un sol qui sèche ou se tasse après le travail du sol, ce qui lisse la surface ; une visite de terrain le vérifierait. Cause possible pour les champs plus clairs : des cultures encore en croissance ; la photo optique les montrerait."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser cette paire comme référence calme avant les dates d'octobre. Un bureau agricole pourrait comparer les zones de HH plus sombre à son calendrier de travaux des champs."
+    }
+  ]
+}

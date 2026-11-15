@@ -1,0 +1,14 @@
+{
+  "product_name": "Backscatter",
+  "statement": "NISAR L-band radar of the same place on two dates, what changed, and the measurements behind every sentence.",
+  "team_name": "InterPixel",
+  "event": "NASA Space Apps Challenge 2026, Beni Mellal, challenge \"Dancing with the SARs\"",
+  "placeholders": [],
+  "contact_email": null,
+  "team_members": [{ "name": "Abdellah Ayad" }, { "name": "Khalid Raouf" }],
+  "call_timezone": "Africa/Casablanca",
+  "call_timezone_label": "Morocco time",
+  "call_slot_minutes": 30,
+  "call_booking_days_ahead": 14,
+  "call_hours": []
+}

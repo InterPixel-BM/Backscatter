@@ -1,0 +1,58 @@
+{
+ "id": "beni-mellal/2026-09-14",
+ "kind": "interpret",
+ "area": "beni-mellal",
+ "date": "2026-09-14",
+ "date_a": null,
+ "date_b": null,
+ "title": "Beni Mellal city and foothills on 14 Sep 2026",
+ "summary": "On 14 Sep 2026 the radar shows Beni Mellal city and its foothills inside a 6 km circle, with built-up land on 12.2% and trees, shrub and rugged slopes on 52.5%. No flag applies to this date.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "Built-up land reaches 5.93 dB in HH against a circle mean of -1.86 dB. HV averages -13.8 dB over the circle, and smooth bare ground is the darkest type at -21.94 dB in HV."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Built-up land, 13.75 km2, has an HV:HH ratio of -17.06 dB, where walls bounce the pulse straight back. Trees, shrub and rugged slopes give HV of -12.88 dB from leaves and branches. Rough dry ground and fields, 27.3%, sit at -10.07 dB in HH. Changing fields cover 5.4 km2 at -15.84 dB in HV and -7.7 dB in HH."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "No flag applies. One track only, so slopes facing away from the radar can fall in shadow. Possible cause of the brighter HH on changing fields: young crops or freshly worked soil; a field visit would check it."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 113.1,
+   "unit": "km2"
+  },
+  {
+   "label": "Trees, shrub and rugged slopes",
+   "evidence_field": "terrain.1.pct",
+   "value": 52.5,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -1.86,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -13.8,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/beni-mellal/evidence/20260914.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "48a8f5ffa1a6ad073b8c5be37df6ee6cf7a9274e3b66d0d5f3ed3e4ff6faf992",
+ "check": {
+  "passed": true,
+  "numbers_checked": 19,
+  "checker": "ai/check_numbers.py"
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "kind": "pair",
+ "area": {
+  "id": "bin-el-ouidane",
+  "name": "Bin El Ouidane reservoir",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 10,
+  "center": [
+   -6.384,
+   32.113
+  ]
+ },
+ "date_a": "2026-07-16",
+ "date_b": "2026-10-08",
+ "days_between": 84,
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "a": {
+  "date": "2026-07-16",
+  "area_km2": 314.16,
+  "with_data_km2": 314.05,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 1,
+    "name": "Open water",
+    "km2": 30.46,
+    "pct": 9.7,
+    "hh_db": -17.61,
+    "hv_db": -22.75,
+    "hv_hh_db": -5.13
+   },
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 5.69,
+    "pct": 1.8,
+    "hh_db": -2.22,
+    "hv_db": -15.48,
+    "hv_hh_db": -13.26
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 192.98,
+    "pct": 61.4,
+    "hh_db": -6.89,
+    "hv_db": -12.76,
+    "hv_hh_db": -5.87
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 0.6,
+    "pct": 0.2,
+    "hh_db": -3.55,
+    "hv_db": -8.21,
+    "hv_hh_db": -4.66
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 75.43,
+    "pct": 24.0,
+    "hh_db": -11.01,
+    "hv_db": -18.71,
+    "hv_hh_db": -7.7
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 8.73,
+    "pct": 2.8,
+    "hh_db": -15.72,
+    "hv_db": -21.35,
+    "hv_hh_db": -5.63
+   }
+  ],
+  "mean_hh_db": -7.97,
+  "mean_hv_db": -14.26,
+  "mean_hv_hh_db": -6.28,
+  "water_km2": 33.83,
+  "lake_on_optical_land_pct": 17.1,
+  "flags": []
+ },
+ "b": {
+  "date": "2026-10-08",
+  "area_km2": 314.16,
+  "with_data_km2": 314.05,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 1,
+    "name": "Open water",
+    "km2": 30.46,
+    "pct": 9.7,
+    "hh_db": -16.45,
+    "hv_db": -22.38,
+    "hv_hh_db": -5.93
+   },
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 5.69,
+    "pct": 1.8,
+    "hh_db": 0.1,
+    "hv_db": -14.02,
+    "hv_hh_db": -14.12
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 192.98,
+    "pct": 61.4,
+    "hh_db": -5.43,
+    "hv_db": -12.05,
+    "hv_hh_db": -6.63
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 0.6,
+    "pct": 0.2,
+    "hh_db": -2.41,
+    "hv_db": -8.42,
+    "hv_hh_db": -6.01
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 75.43,
+    "pct": 24.0,
+    "hh_db": -8.49,
+    "hv_db": -17.2,
+    "hv_hh_db": -8.71
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 8.73,
+    "pct": 2.8,
+    "hh_db": -13.36,
+    "hv_db": -20.27,
+    "hv_hh_db": -6.91
+   }
+  ],
+  "mean_hh_db": -6.3,
+  "mean_hv_db": -13.47,
+  "mean_hv_hh_db": -7.17,
+  "water_km2": 29.91,
+  "lake_on_optical_land_pct": 8.9,
+  "flags": [
+   {
+    "code": "water_threshold_jump",
+    "text": "Lake water threshold moves more than 1.0 dB from the previous date"
+   },
+   {
+    "code": "backscatter_shift",
+    "text": "Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions"
+   }
+  ]
+ },
+ "diff": {
+  "mean_hv_db": 0.79,
+  "mean_hh_db": 1.67,
+  "water_km2": -3.92,
+  "water_pct": -11.6
+ },
+ "brighter_km2": {
+  "hv": 8.75,
+  "hh": 34.36
+ },
+ "darker_km2": {
+  "hv": 0.25,
+  "hh": 0.14
+ },
+ "by_class": [
+  {
+   "class_id": 1,
+   "name": "Open water",
+   "brighter_hv_km2": 0.08,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 0.36,
+   "brighter_hh_km2": 1.17,
+   "darker_hh_km2": 0.0,
+   "hh_db_change": 1.16
+  },
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "brighter_hv_km2": 1.03,
+   "darker_hv_km2": 0.01,
+   "hv_db_change": 1.46,
+   "brighter_hh_km2": 2.76,
+   "darker_hh_km2": 0.01,
+   "hh_db_change": 2.32
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "brighter_hv_km2": 2.44,
+   "darker_hv_km2": 0.13,
+   "hv_db_change": 0.71,
+   "brighter_hh_km2": 9.92,
+   "darker_hh_km2": 0.05,
+   "hh_db_change": 1.47
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "brighter_hv_km2": 0.12,
+   "darker_hv_km2": 0.06,
+   "hv_db_change": -0.21,
+   "brighter_hh_km2": 0.19,
+   "darker_hh_km2": 0.04,
+   "hh_db_change": 1.14
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "brighter_hv_km2": 4.91,
+   "darker_hv_km2": 0.03,
+   "hv_db_change": 1.51,
+   "brighter_hh_km2": 18.46,
+   "darker_hh_km2": 0.02,
+   "hh_db_change": 2.52
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "brighter_hv_km2": 0.14,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 1.08,
+   "brighter_hh_km2": 1.8,
+   "darker_hh_km2": 0.0,
+   "hh_db_change": 2.36
+  }
+ ],
+ "caveats": [
+  "Brighter and darker count pixels inside the circle whose backscatter changed by more than +3 dB or less than -3 dB between the two dates, on the speckle-filtered images.",
+  "NASA has no NISAR data from 2026-07-27 to 2026-08-10, so nothing between 2026-07-16 and 2026-08-21 is seen.",
+  "2026-10-08: Lake water threshold moves more than 1.0 dB from the previous date.",
+  "2026-10-08: Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions.",
+  "Lake areas are approximate: 17.1% (2026-07-16) and 8.9% (2026-10-08) of the radar lake outline falls on land in the 2026-09-22 optical photo."
+ ],
+ "context": [
+  {
+   "fact": "Bin El Ouidane dam is on the El Abid river, was built in 1949-1953 and irrigates about 69,500 ha of the Beni Moussa and Tadla plains.",
+   "source": "Wikipedia, \"Bin el Ouidane Dam\""
+  },
+  {
+   "fact": "ORMVAT selected a bid to modernise the Beni Moussa irrigation canals, which are supplied by Bin El Ouidane. The selection is subject to appeal.",
+   "source": "Morocco World News, 28 Sept 2026"
+  }
+ ]
+}

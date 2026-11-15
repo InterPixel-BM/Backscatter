@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <title></title>
+  </head>
+  <body>
+    <header class="sheet-head">
+      <div class="title-block">
+        <h1><a id="product-name" class="home-link" href="#home"></a></h1>
+        <p id="statement"></p>
+      </div>
+      <div class="head-side">
+        <div class="prefs" id="prefs"></div>
+        <div role="tablist" class="tabs">
+          <button role="tab" id="tab-explore" aria-controls="panel-explore" aria-selected="false"></button>
+          <button role="tab" id="tab-service" aria-controls="panel-service" aria-selected="false" tabindex="-1"></button>
+          <button role="tab" id="tab-method" aria-controls="panel-method" aria-selected="false" tabindex="-1"></button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="panel-home" class="panel" hidden></section>
+      <section id="panel-explore" role="tabpanel" aria-labelledby="tab-explore" class="panel" hidden></section>
+      <section id="panel-service" role="tabpanel" aria-labelledby="tab-service" class="panel" hidden></section>
+      <section id="panel-method" role="tabpanel" aria-labelledby="tab-method" class="panel" hidden></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

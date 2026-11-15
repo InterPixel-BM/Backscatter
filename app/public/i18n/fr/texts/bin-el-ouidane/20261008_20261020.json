@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20261008_20261020.json",
+  "source_sha256": "778248bd3636dff371bfc37ffe5d4825f5747741751becbe5fd39b1f0dd345c8",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 8 octobre et le 20 octobre 2026, les terres ont à peine changé, tandis que le lac est passé de 29.91 km2 à 28.52 km2. Les deux dates portent des signalements, donc la variation du lac et tous les autres chiffres ici doivent être lus avec une faible confiance.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 12 jours, le lac a changé de -1.39 km2, soit -4.6%. La HV moyenne et la HH moyenne ont toutes deux varié de 0.1 dB. En HV, 0.86 km2 sont devenus plus clairs de plus de 3 dB et 0.22 km2 plus sombres ; en HH, 0.95 km2 sont devenus plus clairs et 0.29 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le bâti a augmenté de 0.52 dB en HV et de 0.34 dB en HH. Le sol sec rugueux et les champs ont eu 0.32 km2 plus clairs en HV, et les arbres, broussailles et pentes accidentées 0.24 km2. Le type Eau libre a baissé de 0.37 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : les deux dates partagent le même décalage d'octobre, ce qui explique pourquoi les terres paraissent stables entre elles ; des fichiers retraités le montreraient. Cause possible pour le lac : un réel abaissement, ou un seuil du lac qui a bougé le 8 octobre ; les relevés de niveau du barrage permettraient de les distinguer."
+    },
+    {
+      "heading": "Limites",
+      "text": "Le 8 octobre 2026 porte deux signalements : le seuil d'eau du lac a bougé de plus de 1.0 dB par rapport à la date précédente, et la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre. Le 20 octobre 2026 porte aussi le signalement de rétrodiffusion. Les surfaces du lac sont approximatives : 8.9% et 8.2% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Ne pas utiliser cette paire seule. Comparer chaque date d'octobre avec une date d'été non signalée, et demander à la NASA si les produits d'octobre seront retraités."
+    }
+  ]
+}

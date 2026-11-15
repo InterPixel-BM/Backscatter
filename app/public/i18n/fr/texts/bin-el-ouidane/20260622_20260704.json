@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260622_20260704.json",
+  "source_sha256": "285996986da7fad63301add8b903bd2cea8629bfa2314ef34eeb62c9cdff7613",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Sur les 12 jours du 22 juin au 4 juillet 2026, le radar ne montre presque aucun changement autour de Bin El Ouidane. Le lac s'est légèrement agrandi, de 31.35 km2 à 31.86 km2, et seuls 0.27 km2 du cercle sont devenus plus clairs en HV.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "La surface du lac a changé de 0.51 km2, soit 1.6%, ce qui est faible par rapport à l'incertitude sur le contour décrite dans Limites. En HV, 0.27 km2 sont devenus plus clairs de plus de 3 dB et 0.2 km2 plus sombres, et la HV moyenne a varié de 0.11 dB. La HH donne la même image calme, avec 0.43 km2 plus clairs, 0.26 km2 plus sombres et une variation moyenne de 0.06 dB."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Aucun type de terrain ne se distingue. Les arbres, broussailles et pentes accidentées ont eu 0.1 km2 plus clairs et 0.07 km2 plus sombres en HV, le sol sec rugueux et les champs 0.07 km2 plus clairs, et le type Champs changeants 0.05 km2 plus clairs et 0.05 km2 plus sombres."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : une légère hausse du niveau de l'eau, par exemple due à des apports en amont ou à une pause des lâchers ; le relevé quotidien de niveau du barrage le confirmerait. Cause possible : le bruit de la méthode, puisque la part du contour sur la terre ferme optique est passée de 11.5% à 12.7% ; comparer les deux contours sur la carte montrerait si la surface supplémentaire se trouve sur des pentes."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre, et les surfaces du lac sont approximatives. Des changements de quelques dixièmes de km2 sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Traiter cette paire comme une référence de conditions calmes et s'en servir pour juger les changements suivants de la série. Vérifier le relevé de niveau du barrage pour les mêmes 12 jours."
+    }
+  ]
+}

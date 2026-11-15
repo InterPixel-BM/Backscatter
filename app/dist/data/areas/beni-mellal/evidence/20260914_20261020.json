@@ -1,0 +1,215 @@
+{
+ "kind": "pair",
+ "area": {
+  "id": "beni-mellal",
+  "name": "Beni Mellal city and foothills",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 6,
+  "center": [
+   -6.36,
+   32.335
+  ]
+ },
+ "date_a": "2026-09-14",
+ "date_b": "2026-10-20",
+ "days_between": 36,
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "a": {
+  "date": "2026-09-14",
+  "area_km2": 113.1,
+  "with_data_km2": 113.1,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 13.75,
+    "pct": 12.2,
+    "hh_db": 5.93,
+    "hv_db": -11.13,
+    "hv_hh_db": -17.06
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 59.32,
+    "pct": 52.5,
+    "hh_db": -5.79,
+    "hv_db": -12.88,
+    "hv_hh_db": -7.09
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 5.4,
+    "pct": 4.8,
+    "hh_db": -7.7,
+    "hv_db": -15.84,
+    "hv_hh_db": -8.14
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 30.89,
+    "pct": 27.3,
+    "hh_db": -10.07,
+    "hv_db": -18.54,
+    "hv_hh_db": -8.47
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 3.73,
+    "pct": 3.3,
+    "hh_db": -14.8,
+    "hv_db": -21.94,
+    "hv_hh_db": -7.15
+   }
+  ],
+  "mean_hh_db": -1.86,
+  "mean_hv_db": -13.8,
+  "mean_hv_hh_db": -11.94,
+  "water_km2": null,
+  "lake_on_optical_land_pct": null,
+  "flags": []
+ },
+ "b": {
+  "date": "2026-10-20",
+  "area_km2": 113.1,
+  "with_data_km2": 113.1,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 13.75,
+    "pct": 12.2,
+    "hh_db": 7.14,
+    "hv_db": -10.34,
+    "hv_hh_db": -17.48
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 59.32,
+    "pct": 52.5,
+    "hh_db": -4.97,
+    "hv_db": -12.28,
+    "hv_hh_db": -7.32
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 5.4,
+    "pct": 4.8,
+    "hh_db": -5.94,
+    "hv_db": -14.54,
+    "hv_hh_db": -8.61
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 30.89,
+    "pct": 27.3,
+    "hh_db": -8.83,
+    "hv_db": -17.6,
+    "hv_hh_db": -8.77
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 3.73,
+    "pct": 3.3,
+    "hh_db": -13.28,
+    "hv_db": -21.09,
+    "hv_hh_db": -7.81
+   }
+  ],
+  "mean_hh_db": -0.72,
+  "mean_hv_db": -13.1,
+  "mean_hv_hh_db": -12.38,
+  "water_km2": null,
+  "lake_on_optical_land_pct": null,
+  "flags": [
+   {
+    "code": "backscatter_shift",
+    "text": "Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions"
+   }
+  ]
+ },
+ "diff": {
+  "mean_hv_db": 0.7,
+  "mean_hh_db": 1.14
+ },
+ "brighter_km2": {
+  "hv": 4.76,
+  "hh": 8.11
+ },
+ "darker_km2": {
+  "hv": 0.52,
+  "hh": 0.65
+ },
+ "by_class": [
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "brighter_hv_km2": 0.7,
+   "darker_hv_km2": 0.07,
+   "hv_db_change": 0.79,
+   "brighter_hh_km2": 1.65,
+   "darker_hh_km2": 0.14,
+   "hh_db_change": 1.21
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "brighter_hv_km2": 0.91,
+   "darker_hv_km2": 0.17,
+   "hv_db_change": 0.6,
+   "brighter_hh_km2": 1.73,
+   "darker_hh_km2": 0.14,
+   "hh_db_change": 0.83
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "brighter_hv_km2": 1.33,
+   "darker_hv_km2": 0.22,
+   "hv_db_change": 1.29,
+   "brighter_hh_km2": 1.35,
+   "darker_hh_km2": 0.16,
+   "hh_db_change": 1.76
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "brighter_hv_km2": 1.65,
+   "darker_hv_km2": 0.06,
+   "hv_db_change": 0.94,
+   "brighter_hh_km2": 3.01,
+   "darker_hh_km2": 0.18,
+   "hh_db_change": 1.24
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "brighter_hv_km2": 0.16,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 0.85,
+   "brighter_hh_km2": 0.37,
+   "darker_hh_km2": 0.03,
+   "hh_db_change": 1.51
+  }
+ ],
+ "caveats": [
+  "Brighter and darker count pixels inside the circle whose backscatter changed by more than +3 dB or less than -3 dB between the two dates, on the speckle-filtered images.",
+  "2026-10-20: Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions."
+ ],
+ "context": []
+}

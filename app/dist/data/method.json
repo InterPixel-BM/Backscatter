@@ -1,0 +1,200 @@
+{
+ "speckle": "Lee 5x5 in linear power, ENL 4.45",
+ "common_valid_pct": 97.84,
+ "water": {
+  "pol": "HH",
+  "method": "Per date: HH in dB after a 5x5 mean in linear power; Otsu threshold inside the area, then again within 1000 m of that first lake; keep the dark region touching the lake; a 100 m neck cut (erode 5 px, keep the largest piece, grow back inside the mask). Areas are counted on the radar grid (EPSG:32630).",
+  "flag_area_jump_pct": 15,
+  "flag_threshold_jump_db": 1.0
+ },
+ "change": {
+  "brighter_db": 3.0,
+  "darker_db": -3.0,
+  "stable_target": [
+   {
+    "date": "2026-06-22",
+    "hh_db": -4.58,
+    "hv_db": -16.37,
+    "hh_shift_db": -0.41,
+    "hv_shift_db": 0.14
+   },
+   {
+    "date": "2026-07-04",
+    "hh_db": -4.61,
+    "hv_db": -16.31,
+    "hh_shift_db": -0.44,
+    "hv_shift_db": 0.2
+   },
+   {
+    "date": "2026-07-16",
+    "hh_db": -4.53,
+    "hv_db": -16.56,
+    "hh_shift_db": -0.36,
+    "hv_shift_db": -0.05
+   },
+   {
+    "date": "2026-08-21",
+    "hh_db": -4.1,
+    "hv_db": -16.47,
+    "hh_shift_db": 0.07,
+    "hv_shift_db": 0.04
+   },
+   {
+    "date": "2026-09-02",
+    "hh_db": -4.0,
+    "hv_db": -16.51,
+    "hh_shift_db": 0.17,
+    "hv_shift_db": 0.0
+   },
+   {
+    "date": "2026-09-14",
+    "hh_db": -4.17,
+    "hv_db": -16.6,
+    "hh_shift_db": 0.0,
+    "hv_shift_db": -0.09
+   },
+   {
+    "date": "2026-09-26",
+    "hh_db": -4.12,
+    "hv_db": -16.51,
+    "hh_shift_db": 0.05,
+    "hv_shift_db": 0.0
+   },
+   {
+    "date": "2026-10-08",
+    "hh_db": -2.78,
+    "hv_db": -15.78,
+    "hh_shift_db": 1.39,
+    "hv_shift_db": 0.73
+   },
+   {
+    "date": "2026-10-20",
+    "hh_db": -2.04,
+    "hv_db": -15.11,
+    "hh_shift_db": 2.13,
+    "hv_shift_db": 1.4
+   }
+  ]
+ },
+ "caveats": [
+  "NASA has no NISAR data for 27 Jul to 10 Aug 2026, so this series has nothing between 16 Jul and 21 Aug.",
+  "One track only (116 asc frame 018); every date sees the ground from the same side, so slopes facing away from the radar can fall in radar shadow.",
+  "Mean HH over the whole window rises from -8.43 dB on 2026-09-26 to -7.5 dB on 2026-10-08 and -6.92 dB on 2026-10-20. The cause is not known (rain or processing); these dates are flagged and not read as land change.",
+  "bin-el-ouidane: 8.2 to 17.1% of the radar lake outline falls on land in the 22 Sep optical photo (likely radar shadow on slopes); lake areas are approximate.",
+  "Dates flagged for a backscatter shift over built-up land: 2026-10-08, 2026-10-20.",
+  "Check with one date outside the series, 2026-11-01 (processing P05036, the series is P05023): mean HH over the window is -8.5 dB and built-up HH is -0.11 dB from its June-September median, back at the summer level. With a different processing code, this cannot tell a surface that dried from a processing change."
+ ],
+ "credits": [
+  {
+   "what": "NISAR L2 GCOV",
+   "track 116 ascending frame 018": null,
+   "from": "NASA ASF DAAC"
+  },
+  {
+   "what": "HLS S30 v2.0 natural colour",
+   "22 Sep 2026": null,
+   "from": "NASA LP DAAC"
+  },
+  {
+   "what": "Basemap",
+   "from": "OpenFreeMap",
+   "map data OpenStreetMap contributors": null
+  },
+  {
+   "what": "Interpretation texts",
+   "from": "Claude (Anthropic), written from the measurements, checked by code"
+  }
+ ],
+ "terrain": {
+  "features": [
+   "median_hh_db",
+   "median_hv_db",
+   "median_hv_hh_db",
+   "hv_std_db_jun_sep",
+   "lake_frequency"
+  ],
+  "k_tested": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "k_chosen": 6,
+  "elbow": [
+   {
+    "k": 5,
+    "within_var": 1.503
+   },
+   {
+    "k": 6,
+    "within_var": 1.1839
+   },
+   {
+    "k": 7,
+    "within_var": 1.0479
+   },
+   {
+    "k": 8,
+    "within_var": 0.929
+   }
+  ],
+  "agreement": [
+   {
+    "check": "Open water: share of the radar class that the optical photo also shows as water",
+    "pct": 82.5
+   },
+   {
+    "check": "Open water: share of the optical water that the radar class covers",
+    "pct": 99.0
+   },
+   {
+    "check": "Green land on the optical photo: share that the radar puts in Open water",
+    "pct": 7.0
+   },
+   {
+    "check": "Green land on the optical photo: share that the radar puts in Built-up",
+    "pct": 1.5
+   },
+   {
+    "check": "Green land on the optical photo: share that the radar puts in Trees, shrub and rugged slopes",
+    "pct": 45.9
+   },
+   {
+    "check": "Green land on the optical photo: share that the radar puts in Changing fields",
+    "pct": 22.5
+   },
+   {
+    "check": "Green land on the optical photo: share that the radar puts in Rough dry ground and fields",
+    "pct": 15.8
+   },
+   {
+    "check": "Green land on the optical photo: share that the radar puts in Smooth bare ground and dry fields",
+    "pct": 7.1
+   },
+   {
+    "check": "Open water: share that is green on the optical photo",
+    "pct": 12.2
+   },
+   {
+    "check": "Built-up: share that is green on the optical photo",
+    "pct": 0.4
+   },
+   {
+    "check": "Trees, shrub and rugged slopes: share that is green on the optical photo",
+    "pct": 1.1
+   },
+   {
+    "check": "Changing fields: share that is green on the optical photo",
+    "pct": 6.5
+   },
+   {
+    "check": "Rough dry ground and fields: share that is green on the optical photo",
+    "pct": 0.4
+   },
+   {
+    "check": "Smooth bare ground and dry fields: share that is green on the optical photo",
+    "pct": 0.2
+   }
+  ]
+ }
+}

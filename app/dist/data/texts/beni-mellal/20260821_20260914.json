@@ -1,0 +1,66 @@
+{
+ "id": "beni-mellal/2026-08-21_2026-09-14",
+ "kind": "compare",
+ "area": "beni-mellal",
+ "date": null,
+ "date_a": "2026-08-21",
+ "date_b": "2026-09-14",
+ "title": "Beni Mellal city and foothills, 21 Aug to 14 Sep 2026",
+ "summary": "From 21 Aug to 14 Sep 2026 the radar shows 1.8 km2 turning brighter in HV around Beni Mellal, most of it on the changing fields. Mean HV over the circle barely moved, by -0.02 dB.",
+ "sections": [
+  {
+   "heading": "What changed",
+   "text": "In 24 days, 1.8 km2 turned brighter by more than 3 dB in HV and 0.49 km2 darker. HH changed in the same way, with 2.69 km2 brighter and 0.49 km2 darker, and mean HH moved by -0.02 dB."
+  },
+  {
+   "heading": "Where, by terrain type",
+   "text": "The changing fields rose 1.58 dB in HV and 1.58 dB in HH on average, with 1.39 km2 brighter in HV. Rough dry ground and fields had 0.73 km2 brighter in HH and rose 0.2 dB in HV. Built-up land fell 0.31 dB in HV, and trees, shrub and rugged slopes had 0.14 km2 brighter and 0.15 km2 darker."
+  },
+  {
+   "heading": "Possible causes",
+   "text": "Possible cause for the brighter fields: crops growing after sowing in late August, which adds volume scattering; a field visit would confirm it. Possible cause for brighter HH on rough ground: tillage leaving the soil rougher; the optical photo would show fresh field work."
+  },
+  {
+   "heading": "Limits",
+   "text": "Neither date carries a flag. One track only, so slopes facing away from the radar can fall in shadow. Small patches are close to what speckle alone can produce at the 3 dB threshold."
+  },
+  {
+   "heading": "What an agency could do next",
+   "text": "Use this pair to show where new crops started around the city. A farm office could compare the 1.39 km2 with its sowing records."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Days between",
+   "evidence_field": "days_between",
+   "value": 24,
+   "unit": "days"
+  },
+  {
+   "label": "Brighter in HV",
+   "evidence_field": "brighter_km2.hv",
+   "value": 1.8,
+   "unit": "km2"
+  },
+  {
+   "label": "Darker in HV",
+   "evidence_field": "darker_km2.hv",
+   "value": 0.49,
+   "unit": "km2"
+  },
+  {
+   "label": "Mean HV change",
+   "evidence_field": "diff.mean_hv_db",
+   "value": -0.02,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/beni-mellal/evidence/20260821_20260914.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "6bffae6c898e36ef02294ded04edfadd1ae35b4a20e91842cfa4e77413879bd6",
+ "check": {
+  "passed": true,
+  "numbers_checked": 23,
+  "checker": "ai/check_numbers.py"
+ }
+}

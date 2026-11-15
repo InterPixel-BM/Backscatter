@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260704_20260926.json",
+  "source_sha256": "fdb39b9852adfe42bbe7c3c3685ebb99e7eaebf467f63962798ed8d25e7ddbd1",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 4 juillet au 26 septembre 2026, le radar montre le lac passant de 31.86 km2 à 29.82 km2, soit -6.4%, sur 84 jours. Les terres ont peu changé en HV, tandis que la HH a légèrement augmenté.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a perdu 2.04 km2. La HV moyenne a varié de -0.06 dB et la HH moyenne a augmenté de 0.4 dB. En HH, 2.51 km2 sont devenus plus clairs de plus de 3 dB et 0.27 km2 plus sombres ; en HV, 0.72 km2 sont devenus plus clairs et 0.38 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le sol sec rugueux et les champs ont eu 1.0 km2 plus clairs en HH. Le type Eau libre a eu 0.61 km2 plus clairs en HH et a augmenté de 0.47 dB. Le type Champs changeants a augmenté de 1.06 dB en HH, et le bâti de 0.49 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival dû à l'irrigation et à l'évaporation ; les relevés du barrage le confirmeraient. Cause possible pour la rive plus claire : le sol laissé à sec par la baisse de l'eau renvoie plus d'écho que l'eau. Cause possible pour la HH plus élevée sur le bâti : une petite différence d'étalonnage entre les dates ; des cibles stables sur davantage de dates permettraient de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 12.7% et 9.2% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser cette paire, sans signalement sur aucune des deux dates, pour un chiffre de l'abaissement estival, et le vérifier avec les relevés du barrage. Cartographier les segments de rive devenus plus clairs en HH."
+    }
+  ]
+}

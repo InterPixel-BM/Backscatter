@@ -1,0 +1,64 @@
+{
+ "id": "bin-el-ouidane/2026-09-02",
+ "kind": "interpret",
+ "area": "bin-el-ouidane",
+ "date": "2026-09-02",
+ "date_a": null,
+ "date_b": null,
+ "title": "Bin El Ouidane reservoir on 2 Sep 2026",
+ "summary": "On 2 Sep 2026 the radar shows a lake of 29.75 km2 inside the 10 km circle around Bin El Ouidane. No flag applies, and only 8.6% of the lake outline falls on land in the optical photo.",
+ "sections": [
+  {
+   "heading": "What the radar shows here",
+   "text": "Open water averages -18.31 dB in HH and -22.91 dB in HV. The circle as a whole averages -7.49 dB in HH and -14.26 dB in HV, so the lake is the clearest feature in the scene. The lake method measures 29.75 km2."
+  },
+  {
+   "heading": "Terrain types and what they mean",
+   "text": "Trees, shrub and rugged slopes, 61.4% of the circle, give the strongest HV of the large types, -12.76 dB, from volume scattering in leaves and branches. Rough dry ground and fields, 75.43 km2, return medium echoes from soil and stones. Built-up land, 5.69 km2, has the lowest HV:HH ratio, -13.78 dB, where walls bounce the pulse straight back."
+  },
+  {
+   "heading": "Data quality notes",
+   "text": "No flag applies to this date. The outline is approximate, with 8.6% of it on land in the optical photo. Possible cause: radar shadow on slopes that face away from the radar. Comparing the outline with a shoreline survey would show where it errs."
+  }
+ ],
+ "key_numbers": [
+  {
+   "label": "Lake area, 2 Sep",
+   "evidence_field": "water_km2",
+   "value": 29.75,
+   "unit": "km2"
+  },
+  {
+   "label": "Area with data",
+   "evidence_field": "with_data_km2",
+   "value": 314.05,
+   "unit": "km2"
+  },
+  {
+   "label": "Trees, shrub and rugged slopes",
+   "evidence_field": "terrain.2.pct",
+   "value": 61.4,
+   "unit": "%"
+  },
+  {
+   "label": "Mean HH",
+   "evidence_field": "mean_hh_db",
+   "value": -7.49,
+   "unit": "dB"
+  },
+  {
+   "label": "Mean HV",
+   "evidence_field": "mean_hv_db",
+   "value": -14.26,
+   "unit": "dB"
+  }
+ ],
+ "evidence_file": "areas/bin-el-ouidane/evidence/20260902.json",
+ "label": "Interpretation written by Claude (Anthropic) from the measurements shown. Generated in advance for this prototype.",
+ "evidence_sha256": "ad5721c0c3d60b8ab77811d115ea4140faf154834c14a9858166f384f9633d74",
+ "check": {
+  "passed": true,
+  "numbers_checked": 19,
+  "checker": "ai/check_numbers.py"
+ }
+}

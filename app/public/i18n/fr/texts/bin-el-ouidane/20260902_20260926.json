@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260902_20260926.json",
+  "source_sha256": "a146d4f05421cf1547bea7c8dae153d3a89ee986f0d07bba5ea323f2da760596",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 2 septembre au 26 septembre 2026, le radar montre un lac qui a à peine changé, 29.75 km2 puis 29.82 km2. La HV moyenne sur le cercle n'a pas bougé, avec une variation de 0.0 dB.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de 0.07 km2, soit 0.2%, en 24 jours. En HV, 0.32 km2 sont devenus plus clairs de plus de 3 dB et 0.21 km2 plus sombres. La HH moyenne a baissé de 0.1 dB, avec 0.44 km2 plus clairs et 0.28 km2 plus sombres en HH."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les arbres, broussailles et pentes accidentées ont eu 0.11 km2 plus clairs et 0.08 km2 plus sombres en HV. Le type Champs changeants a augmenté de 0.42 dB en HV et de 0.41 dB en HH en moyenne. Le sol sec rugueux et les champs ont eu 0.07 km2 plus clairs et 0.05 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac stable : des lâchers pour l'irrigation compensés par les apports, ou un faible usage de la retenue à cette période ; le relevé des lâchers du barrage montrerait laquelle. Cause possible pour les champs changeants : de jeunes cultures en croissance ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Les surfaces du lac sont approximatives : 8.6% et 9.2% du contour tombent sur la terre ferme dans la photo optique. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser cette paire comme indice d'une retenue stable en septembre. Vérifier les relevés du barrage pour voir si les lâchers se sont arrêtés ou ont été compensés par les apports."
+    }
+  ]
+}

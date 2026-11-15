@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/tadla-plain/20260914_20261008.json",
+  "source_sha256": "6a17dca3c1834c6c64533571706f378e6288c8d0fe56e081dc8251e8288029b5",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 14 septembre et le 8 octobre 2026, la plaine du Tadla est devenue plus claire, avec un HH moyen en hausse de 0.8 dB et 11.79 km2 plus clairs en HH dans le cercle de 9 km. La date du 8 octobre porte un signalement, donc la plus grande partie de cet éclaircissement ne doit pas être lue comme un changement au sol.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 24 jours, le HV moyen a varié de 0.34 dB et le HH moyen de 0.8 dB. En HV, 4.88 km2 sont devenus plus clairs de plus de 3 dB et 2.08 km2 plus sombres ; en HH, 11.79 km2 sont devenus plus clairs et 3.44 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "L'éclaircissement touche tous les types. Le sol sec rugueux et les champs présentaient 5.38 km2 plus clairs en HH et ont augmenté de 0.74 dB, et les arbres, broussailles et pentes accidentées ont augmenté de 0.56 dB en HH. Le bâti, qui devrait rester stable, a augmenté de 0.95 dB en HH. Les champs changeants présentaient 1.64 km2 plus clairs et 1.08 km2 plus sombres en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : un décalage de traitement dans le produit du 8 octobre, puisque le bâti s'est éclairci comme les champs ; des fichiers retraités trancheraient la question. Cause possible : une surface humide après la pluie, qui renforce l'écho du sol et des murs ; les relevés de pluie d'octobre permettraient de le vérifier. Cause possible d'une partie du changement des champs : de nouvelles cultures ; une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "La date du 8 octobre 2026 porte un signalement : la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre, signe possible d'un décalage de traitement ou de conditions humides étendues. Cela réduit la confiance dans chaque chiffre issu des dates signalées. Une seule trace, donc les bords de champs orientés à l'opposé du radar peuvent paraître plus sombres."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser une date non signalée pour tout chiffre sur les champs, vérifier les relevés de pluie d'octobre et demander à la NASA si les produits d'octobre seront retraités."
+    }
+  ]
+}

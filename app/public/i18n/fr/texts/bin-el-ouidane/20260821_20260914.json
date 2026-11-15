@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260821_20260914.json",
+  "source_sha256": "46ba9848457fd2337e4d418f6f8b08cab9398315d61cd7ce6141d99892b6ae0f",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 14 septembre 2026, le lac est passé de 30.63 km2 à 30.17 km2, un faible changement de -1.5%. Les terres alentour sont restées calmes, avec 0.32 km2 plus clairs et 0.28 km2 plus sombres en HV.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 24 jours, le lac a perdu 0.46 km2. La HV moyenne a varié de 0.07 dB et la HH moyenne de 0.1 dB. En HH, 0.67 km2 sont devenus plus clairs de plus de 3 dB et 0.32 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les arbres, broussailles et pentes accidentées ont eu 0.12 km2 plus clairs et 0.11 km2 plus sombres en HV. Le type Champs changeants a augmenté de 0.33 dB en HV et de 0.59 dB en HH en moyenne. Le sol nu lisse a augmenté de 0.22 dB en HV, avec presque aucune surface dépassant le seuil de 3 dB."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : la poursuite lente de l'abaissement estival ; le relevé de niveau du barrage le confirmerait. Cause possible pour le léger éclaircissement des champs et du sol nu : un peu de nouvelle végétation ou un sol plus rugueux après le travail du sol ; la photo optique ou une visite de terrain permettrait de le vérifier."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Les surfaces du lac sont approximatives : 10.4% et 9.7% du contour tombent sur la terre ferme dans la photo optique. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Lire cette paire comme des conditions stables en fin d'été et l'utiliser comme référence pour les dates suivantes. Vérifier le relevé de niveau du barrage pour la même période."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+ "kind": "pair",
+ "area": {
+  "id": "bin-el-ouidane",
+  "name": "Bin El Ouidane reservoir",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 10,
+  "center": [
+   -6.384,
+   32.113
+  ]
+ },
+ "date_a": "2026-07-04",
+ "date_b": "2026-07-16",
+ "days_between": 12,
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "a": {
+  "date": "2026-07-04",
+  "area_km2": 314.16,
+  "with_data_km2": 314.05,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 1,
+    "name": "Open water",
+    "km2": 30.46,
+    "pct": 9.7,
+    "hh_db": -18.64,
+    "hv_db": -22.9,
+    "hv_hh_db": -4.26
+   },
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 5.69,
+    "pct": 1.8,
+    "hh_db": -2.24,
+    "hv_db": -15.18,
+    "hv_hh_db": -12.94
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 192.98,
+    "pct": 61.4,
+    "hh_db": -6.9,
+    "hv_db": -12.71,
+    "hv_hh_db": -5.81
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 0.6,
+    "pct": 0.2,
+    "hh_db": -3.55,
+    "hv_db": -8.3,
+    "hv_hh_db": -4.74
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 75.43,
+    "pct": 24.0,
+    "hh_db": -11.04,
+    "hv_db": -18.56,
+    "hv_hh_db": -7.53
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 8.73,
+    "pct": 2.8,
+    "hh_db": -15.73,
+    "hv_db": -21.3,
+    "hv_hh_db": -5.57
+   }
+  ],
+  "mean_hh_db": -7.99,
+  "mean_hv_db": -14.2,
+  "mean_hv_hh_db": -6.21,
+  "water_km2": 31.86,
+  "lake_on_optical_land_pct": 12.7,
+  "flags": []
+ },
+ "b": {
+  "date": "2026-07-16",
+  "area_km2": 314.16,
+  "with_data_km2": 314.05,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 1,
+    "name": "Open water",
+    "km2": 30.46,
+    "pct": 9.7,
+    "hh_db": -17.61,
+    "hv_db": -22.75,
+    "hv_hh_db": -5.13
+   },
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 5.69,
+    "pct": 1.8,
+    "hh_db": -2.22,
+    "hv_db": -15.48,
+    "hv_hh_db": -13.26
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 192.98,
+    "pct": 61.4,
+    "hh_db": -6.89,
+    "hv_db": -12.76,
+    "hv_hh_db": -5.87
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 0.6,
+    "pct": 0.2,
+    "hh_db": -3.55,
+    "hv_db": -8.21,
+    "hv_hh_db": -4.66
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 75.43,
+    "pct": 24.0,
+    "hh_db": -11.01,
+    "hv_db": -18.71,
+    "hv_hh_db": -7.7
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 8.73,
+    "pct": 2.8,
+    "hh_db": -15.72,
+    "hv_db": -21.35,
+    "hv_hh_db": -5.63
+   }
+  ],
+  "mean_hh_db": -7.97,
+  "mean_hv_db": -14.26,
+  "mean_hv_hh_db": -6.28,
+  "water_km2": 33.83,
+  "lake_on_optical_land_pct": 17.1,
+  "flags": []
+ },
+ "diff": {
+  "mean_hv_db": -0.06,
+  "mean_hh_db": 0.02,
+  "water_km2": 1.97,
+  "water_pct": 6.2
+ },
+ "brighter_km2": {
+  "hv": 0.23,
+  "hh": 0.64
+ },
+ "darker_km2": {
+  "hv": 0.27,
+  "hh": 0.26
+ },
+ "by_class": [
+  {
+   "class_id": 1,
+   "name": "Open water",
+   "brighter_hv_km2": 0.0,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 0.15,
+   "brighter_hh_km2": 0.29,
+   "darker_hh_km2": 0.03,
+   "hh_db_change": 1.02
+  },
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "brighter_hv_km2": 0.01,
+   "darker_hv_km2": 0.02,
+   "hv_db_change": -0.3,
+   "brighter_hh_km2": 0.03,
+   "darker_hh_km2": 0.02,
+   "hh_db_change": 0.03
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "brighter_hv_km2": 0.1,
+   "darker_hv_km2": 0.09,
+   "hv_db_change": -0.05,
+   "brighter_hh_km2": 0.12,
+   "darker_hh_km2": 0.09,
+   "hh_db_change": 0.01
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "brighter_hv_km2": 0.06,
+   "darker_hv_km2": 0.05,
+   "hv_db_change": 0.09,
+   "brighter_hh_km2": 0.06,
+   "darker_hh_km2": 0.04,
+   "hh_db_change": 0.01
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "brighter_hv_km2": 0.04,
+   "darker_hv_km2": 0.08,
+   "hv_db_change": -0.14,
+   "brighter_hh_km2": 0.09,
+   "darker_hh_km2": 0.04,
+   "hh_db_change": 0.03
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "brighter_hv_km2": 0.0,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": -0.05,
+   "brighter_hh_km2": 0.02,
+   "darker_hh_km2": 0.01,
+   "hh_db_change": 0.01
+  }
+ ],
+ "caveats": [
+  "Brighter and darker count pixels inside the circle whose backscatter changed by more than +3 dB or less than -3 dB between the two dates, on the speckle-filtered images.",
+  "Lake areas are approximate: 12.7% (2026-07-04) and 17.1% (2026-07-16) of the radar lake outline falls on land in the 2026-09-22 optical photo."
+ ],
+ "context": [
+  {
+   "fact": "Bin El Ouidane dam is on the El Abid river, was built in 1949-1953 and irrigates about 69,500 ha of the Beni Moussa and Tadla plains.",
+   "source": "Wikipedia, \"Bin el Ouidane Dam\""
+  },
+  {
+   "fact": "ORMVAT selected a bid to modernise the Beni Moussa irrigation canals, which are supplied by Bin El Ouidane. The selection is subject to appeal.",
+   "source": "Morocco World News, 28 Sept 2026"
+  }
+ ]
+}

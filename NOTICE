@@ -1,0 +1,9 @@
+Backscatter
+Copyright 2026 Abdellah Ayad and Khalid Raouf (team InterPixel)
+
+Made for the NASA Space Apps Challenge 2026, Beni Mellal, challenge "Dancing with the SARs".
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+NISAR L2 GCOV data: NASA and ISRO, from the NASA ASF DAAC.
+HLS data: NASA LP DAAC.
+Basemap: OpenFreeMap, map data from OpenStreetMap contributors.

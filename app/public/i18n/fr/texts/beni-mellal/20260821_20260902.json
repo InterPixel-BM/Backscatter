@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260821_20260902.json",
+  "source_sha256": "cc3e386337108d42204fb889b979b2e1ca46c5c62b8b1608c9460cd3d0943e3e",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 21 août au 2 septembre 2026, le radar montre 0.76 km2 devenant plus clairs en HV autour de Beni Mellal, contre 0.29 km2 plus sombres. La majeure partie de la surface plus claire, 0.52 km2, se trouve sur les champs changeants.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "En 12 jours, le HV moyen a varié de -0.02 dB et le HH moyen de 0.03 dB. En HV, 0.76 km2 sont devenus plus clairs de plus de 3 dB et 0.29 km2 plus sombres ; en HH, 0.77 km2 sont devenus plus clairs et 0.32 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Les champs changeants ont augmenté de 0.68 dB en HV en moyenne, avec 0.52 km2 plus clairs et seulement 0.05 km2 plus sombres. Les arbres, broussailles et pentes accidentées ont eu 0.11 km2 plus clairs et 0.09 km2 plus sombres. Le bâti a baissé de 0.26 dB en HV."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour les champs plus clairs : de nouvelles cultures qui lèvent fin août, ajoutant des plantes qui diffusent le HV ; une visite de terrain le confirmerait. Cause possible pour les petits changements sur le bâti : le chatoiement ou des différences de visée ; des cibles stables sur davantage de dates le vérifieraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar. Les petites zones sont proches de ce que le chatoiement seul peut produire au seuil de 3 dB."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Un bureau agricole pourrait vérifier quelles parcelles ont été semées fin août. Suivre les champs plus clairs sur les dates suivantes pour voir la culture pousser."
+    }
+  ]
+}

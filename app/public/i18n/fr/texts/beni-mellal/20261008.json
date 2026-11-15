@@ -1,0 +1,22 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20261008.json",
+  "source_sha256": "0fbf1a7651706c3a61253c93d2c2b62d207d7384963e004ca06e618eda42d099",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Le 8 octobre 2026, le radar montre la ville de Beni Mellal et son piémont dans un cercle de 6 km, avec le bâti sur 12.2% et les arbres, broussailles et pentes accidentées sur 52.5%. Cette date porte un signalement pour un décalage de rétrodiffusion, ses valeurs sont donc moins fiables que celles d'une date non signalée.",
+  "sections": [
+    {
+      "heading": "Ce que montre le radar ici",
+      "text": "Le bâti atteint 7.3 dB en HH, et le cercle a une moyenne de -0.58 dB en HH et de -13.03 dB en HV. Tous les types sont clairs à cette date, y compris le sol nu lisse, à -13.18 dB en HH."
+    },
+    {
+      "heading": "Types de terrain et leur signification",
+      "text": "Le bâti, 13.75 km2, garde le rapport HV:HH le plus bas, -17.56 dB, en raison des murs qui renvoient l'impulsion directement. Les arbres, broussailles et pentes accidentées donnent un HV de -12.24 dB grâce aux feuilles et aux branches. Le sol sec rugueux et les champs, 27.3%, se situent à -8.63 dB en HH. Les champs changeants couvrent 5.4 km2 à -14.15 dB en HV."
+    },
+    {
+      "heading": "Notes sur la qualité des données",
+      "text": "Un signalement s'applique : la rétrodiffusion sur le bâti s'est décalée de plus de 0.5 dB par rapport à sa médiane de juin-septembre, ce qui peut indiquer un décalage de traitement ou des conditions humides étendues. Cause possible : un décalage de traitement dans ce produit ; des fichiers retraités trancheraient la question. Cause possible : la pluie mouillant le sol et les murs ; les relevés de pluie le vérifieraient. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar."
+    }
+  ]
+}

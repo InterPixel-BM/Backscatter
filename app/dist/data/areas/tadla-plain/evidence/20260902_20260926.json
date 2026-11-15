@@ -1,0 +1,209 @@
+{
+ "kind": "pair",
+ "area": {
+  "id": "tadla-plain",
+  "name": "Tadla irrigated plain, Beni Moussa side",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 9,
+  "center": [
+   -6.58,
+   32.3
+  ]
+ },
+ "date_a": "2026-09-02",
+ "date_b": "2026-09-26",
+ "days_between": 24,
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "a": {
+  "date": "2026-09-02",
+  "area_km2": 254.48,
+  "with_data_km2": 254.48,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 15.31,
+    "pct": 6.0,
+    "hh_db": 1.73,
+    "hv_db": -14.74,
+    "hv_hh_db": -16.47
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 57.46,
+    "pct": 22.6,
+    "hh_db": -7.35,
+    "hv_db": -14.5,
+    "hv_hh_db": -7.15
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 24.35,
+    "pct": 9.6,
+    "hh_db": -11.2,
+    "hv_db": -18.68,
+    "hv_hh_db": -7.47
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 108.07,
+    "pct": 42.5,
+    "hh_db": -11.16,
+    "hv_db": -18.95,
+    "hv_hh_db": -7.79
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 49.29,
+    "pct": 19.4,
+    "hh_db": -15.95,
+    "hv_db": -22.28,
+    "hv_hh_db": -6.33
+   }
+  ],
+  "mean_hh_db": -7.55,
+  "mean_hv_db": -17.47,
+  "mean_hv_hh_db": -9.93,
+  "water_km2": null,
+  "lake_on_optical_land_pct": null,
+  "flags": []
+ },
+ "b": {
+  "date": "2026-09-26",
+  "area_km2": 254.48,
+  "with_data_km2": 254.48,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 15.31,
+    "pct": 6.0,
+    "hh_db": 1.72,
+    "hv_db": -14.64,
+    "hv_hh_db": -16.35
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 57.46,
+    "pct": 22.6,
+    "hh_db": -7.39,
+    "hv_db": -14.46,
+    "hv_hh_db": -7.08
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 24.35,
+    "pct": 9.6,
+    "hh_db": -10.86,
+    "hv_db": -18.26,
+    "hv_hh_db": -7.4
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 108.07,
+    "pct": 42.5,
+    "hh_db": -11.18,
+    "hv_db": -18.96,
+    "hv_hh_db": -7.78
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 49.29,
+    "pct": 19.4,
+    "hh_db": -15.86,
+    "hv_db": -22.24,
+    "hv_hh_db": -6.38
+   }
+  ],
+  "mean_hh_db": -7.55,
+  "mean_hv_db": -17.42,
+  "mean_hv_hh_db": -9.87,
+  "water_km2": null,
+  "lake_on_optical_land_pct": null,
+  "flags": []
+ },
+ "diff": {
+  "mean_hv_db": 0.05,
+  "mean_hh_db": 0.0
+ },
+ "brighter_km2": {
+  "hv": 3.53,
+  "hh": 6.49
+ },
+ "darker_km2": {
+  "hv": 1.99,
+  "hh": 3.41
+ },
+ "by_class": [
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "brighter_hv_km2": 0.14,
+   "darker_hv_km2": 0.08,
+   "hv_db_change": 0.1,
+   "brighter_hh_km2": 0.33,
+   "darker_hh_km2": 0.24,
+   "hh_db_change": -0.01
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "brighter_hv_km2": 0.14,
+   "darker_hv_km2": 0.13,
+   "hv_db_change": 0.04,
+   "brighter_hh_km2": 0.16,
+   "darker_hh_km2": 0.2,
+   "hh_db_change": -0.03
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "brighter_hv_km2": 2.32,
+   "darker_hv_km2": 1.0,
+   "hv_db_change": 0.42,
+   "brighter_hh_km2": 2.46,
+   "darker_hh_km2": 1.17,
+   "hh_db_change": 0.35
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "brighter_hv_km2": 0.81,
+   "darker_hv_km2": 0.71,
+   "hv_db_change": -0.01,
+   "brighter_hh_km2": 2.46,
+   "darker_hh_km2": 1.46,
+   "hh_db_change": -0.02
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "brighter_hv_km2": 0.12,
+   "darker_hv_km2": 0.07,
+   "hv_db_change": 0.04,
+   "brighter_hh_km2": 1.07,
+   "darker_hh_km2": 0.32,
+   "hh_db_change": 0.09
+  }
+ ],
+ "caveats": [
+  "Brighter and darker count pixels inside the circle whose backscatter changed by more than +3 dB or less than -3 dB between the two dates, on the speckle-filtered images."
+ ],
+ "context": []
+}

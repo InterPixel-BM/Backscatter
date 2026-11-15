@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260704_20260716.json",
+  "source_sha256": "07a324ee97b856d54836431ffe099ff8e6dfac6db187e9046e47d943362e4111",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 4 juillet au 16 juillet 2026, le radar montre le lac passant de 31.86 km2 à 33.83 km2 en 12 jours, avec presque aucun changement sur les terres. Le contour du 16 juillet place 17.1% de sa longueur sur la terre ferme dans la photo optique, donc cette hausse doit être lue avec prudence.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a changé de 1.97 km2, soit 6.2%. En HV, 0.23 km2 sont devenus plus clairs de plus de 3 dB et 0.27 km2 plus sombres, et la HV moyenne a varié de -0.06 dB. La HH moyenne a changé de 0.02 dB, avec 0.64 km2 plus clairs en HH."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Une bonne part de la surface plus claire en HH se trouve sur le type Eau libre, 0.29 km2, qui s'est éclairci de 1.02 dB en moyenne. Les arbres, broussailles et pentes accidentées ont eu 0.1 km2 plus clairs et 0.09 km2 plus sombres en HV, et le sol sec rugueux et les champs 0.04 km2 plus clairs et 0.08 km2 plus sombres."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : des pentes ombragées rattachées au masque du lac le 16 juillet, comme le suggère la hausse de la part du contour sur la terre sèche de 12.7% à 17.1% ; les deux contours sur la carte montreraient où. Cause possible : une hausse réelle mais brève du niveau de l'eau ; le relevé de niveau du barrage le confirmerait. Cause possible pour l'eau plus claire : le vent à la surface du lac."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement, mais le contour du 16 juillet a une plus grande part sur la terre sèche que le contour du 4 juillet. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre, et les surfaces du lac sont approximatives."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Vérifier le relevé de niveau du barrage pour ces 12 jours avant de rapporter toute hausse. Si le niveau n'a pas augmenté, traiter la surface du lac du 16 juillet comme une valeur aberrante."
+    }
+  ]
+}

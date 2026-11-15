@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260902_20260914.json",
+  "source_sha256": "45e9891ba5b0905b670ca7b24a274d83fd955a71996fbf3ed439167ac87fc290",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 2 septembre au 14 septembre 2026, le lac est passé de 29.75 km2 à 30.17 km2, une légère hausse de 1.4%. Les terres sont restées presque inchangées, la HV moyenne variant de -0.03 dB.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 12 jours, le lac a gagné 0.42 km2. En HV, 0.3 km2 sont devenus plus clairs de plus de 3 dB et 0.26 km2 plus sombres. En HH, 0.54 km2 sont devenus plus clairs et 0.4 km2 plus sombres, et la HH moyenne a varié de -0.06 dB."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le type Champs changeants a augmenté de 1.4 dB en HV en moyenne, le plus grand changement de tous les types, bien qu'il couvre très peu du cercle. Les arbres, broussailles et pentes accidentées ont eu 0.12 km2 plus clairs et 0.11 km2 plus sombres en HV. Le sol sec rugueux et les champs ont eu 0.05 km2 plus clairs et 0.06 km2 plus sombres."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : un petit apport ou une pause des lâchers ; le relevé de niveau du barrage le confirmerait. Cause possible : le bruit de la méthode, puisque la part du contour sur la terre ferme optique est passée de 8.6% à 9.7% ; les deux contours sur la carte montreraient où se trouve la surface supplémentaire. Cause possible pour les champs changeants : une culture en croissance sur quelques parcelles, ce qui fait augmenter la HV."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. Les surfaces du lac sont approximatives, donc un changement de 0.42 km2 peut rester dans la marge d'erreur de la méthode. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Considérer le lac comme stable sur ces 12 jours, sauf si le relevé de niveau du barrage montre une hausse. Une visite de terrain aux champs changeants montrerait quelle culture est en croissance."
+    }
+  ]
+}

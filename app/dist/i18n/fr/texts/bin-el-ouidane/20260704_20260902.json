@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260704_20260902.json",
+  "source_sha256": "3cbfefeb32360c5a13d44985cb228dcc9544e2688fc27ff18896703cd80d9366",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Du 4 juillet au 2 septembre 2026, le radar montre le lac passant de 31.86 km2 à 29.75 km2, soit -6.6%. Sur ces 60 jours, la HH a augmenté sur l'ensemble des terres tandis que la HV a à peine bougé.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Le lac a perdu 2.11 km2. La HV moyenne a varié de -0.06 dB et la HH moyenne a augmenté de 0.5 dB. En HH, 2.05 km2 sont devenus plus clairs de plus de 3 dB et 0.24 km2 plus sombres ; en HV, 0.49 km2 sont devenus plus clairs et 0.38 km2 plus sombres."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "Le sol sec rugueux et les champs ont eu 0.87 km2 plus clairs en HH et ont augmenté de 0.57 dB. Les arbres, broussailles et pentes accidentées ont augmenté de 0.48 dB en HH. Le bâti, qui ne devrait pas changer, a augmenté de 0.62 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible pour le lac : l'abaissement estival dû à l'irrigation et à l'évaporation ; le relevé de niveau du barrage le confirmerait. Cause possible pour la HH plus élevée sur tous les types, bâti compris : une petite différence d'étalonnage entre les deux acquisitions ; des cibles stables sur davantage de dates permettraient de le vérifier. Cause possible sur les champs : un sol plus sec et plus rugueux après la récolte."
+    },
+    {
+      "heading": "Limites",
+      "text": "Aucune des deux dates ne porte de signalement. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives : 12.7% et 8.6% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Rapporter la perte de 2.11 km2 avec les chiffres propres au barrage pour les 60 jours. Écarter de toute décision les changements de HH inférieurs à un dB tant que l'étalonnage n'est pas vérifié."
+    }
+  ]
+}

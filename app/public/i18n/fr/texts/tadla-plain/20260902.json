@@ -1,0 +1,22 @@
+{
+  "lang": "fr",
+  "source": "texts/tadla-plain/20260902.json",
+  "source_sha256": "e5e29222553ea406ac14212dbf3716d629716df7933f5020a17c8d35b8150aab",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Le 2 septembre 2026, le radar montre la plaine irriguée du Tadla dans un cercle de 9 km, où les champs changeants couvrent 9.6% et le sol sec rugueux et les champs 42.5%. Aucun signalement ne s'applique à cette date, et 100.0% du cercle dispose de données.",
+  "sections": [
+    {
+      "heading": "Ce que montre le radar ici",
+      "text": "Le cercle a une moyenne de -7.55 dB en HH et de -17.47 dB en HV. Le bâti est le type le plus clair, à 1.73 dB en HH, et le sol nu lisse le plus sombre, à -22.28 dB en HV."
+    },
+    {
+      "heading": "Types de terrain et leur signification",
+      "text": "Les champs changeants, 24.35 km2, sont les parcelles dont le HV a le plus varié au cours de la saison ; à cette date, ils se situent à -18.68 dB en HV et -11.2 dB en HH. Les arbres, broussailles et pentes accidentées, 22.6% du cercle, donnent le HV le plus fort, -14.5 dB, grâce aux feuilles et aux branches. Le sol nu lisse, 49.29 km2, est sombre dans les deux canaux, -15.95 dB en HH, car un sol sec et lisse réfléchit l'impulsion dans une autre direction."
+    },
+    {
+      "heading": "Notes sur la qualité des données",
+      "text": "Aucun signalement ne s'applique à cette date. Une seule trace, donc les bords de champs orientés à l'opposé du radar peuvent paraître plus sombres. Cause possible du HV légèrement plus élevé sur les champs changeants : de jeunes cultures qui lèvent sur certaines parcelles ; une visite de terrain permettrait de le vérifier."
+    }
+  ]
+}

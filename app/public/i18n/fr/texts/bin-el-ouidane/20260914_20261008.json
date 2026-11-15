@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260914_20261008.json",
+  "source_sha256": "df4e5ee4facc847405b79b020880277d55db6d487832d3f2b661ea115c99a16b",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 14 septembre et le 8 octobre 2026, le lac est passé de 30.17 km2 à 29.91 km2, tandis que tout le cercle est devenu plus clair, avec une HH moyenne en hausse de 1.25 dB. La date du 8 octobre porte deux signalements, donc cet éclaircissement ne doit pas être lu comme un changement au sol.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 24 jours, le lac a changé de -0.26 km2, soit -0.9%. La HH est devenue plus claire de plus de 3 dB sur 20.61 km2 et plus sombre sur seulement 0.22 km2. La HV est devenue plus claire sur 8.41 km2, et la HV moyenne a augmenté de 0.82 dB."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "L'éclaircissement touche tous les types. Le sol sec rugueux et les champs ont eu 10.91 km2 plus clairs en HH et ont augmenté de 2.05 dB en moyenne, et les arbres, broussailles et pentes accidentées ont eu 5.61 km2 plus clairs. Le bâti, qui devrait rester stable, a augmenté de 1.97 dB en HH."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : un décalage de traitement dans le produit du 8 octobre, puisque les bâtiments se sont éclaircis comme les champs ; des fichiers retraités trancheraient la question. Cause possible : une surface humide après la pluie ; les relevés de pluie locaux du début octobre permettraient de le vérifier. Cause possible pour le lac : un léger abaissement ; les relevés de niveau du barrage le confirmeraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Le 8 octobre 2026 porte deux signalements : le seuil d'eau du lac a bougé de plus de 1.0 dB par rapport à la date précédente, et la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre. Les deux réduisent la confiance dans chaque chiffre de cette date. Les surfaces du lac sont approximatives : 9.7% et 8.9% du contour tombent sur la terre ferme dans la photo optique."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser une date non signalée pour un chiffre ferme du lac, vérifier les relevés de pluie du début octobre, et demander à la NASA si les produits d'octobre seront retraités."
+    }
+  ]
+}

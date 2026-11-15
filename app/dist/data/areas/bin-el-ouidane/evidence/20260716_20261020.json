@@ -1,0 +1,256 @@
+{
+ "kind": "pair",
+ "area": {
+  "id": "bin-el-ouidane",
+  "name": "Bin El Ouidane reservoir",
+  "region": "Beni Mellal-Khenifra, Morocco",
+  "radius_km": 10,
+  "center": [
+   -6.384,
+   32.113
+  ]
+ },
+ "date_a": "2026-07-16",
+ "date_b": "2026-10-20",
+ "days_between": 96,
+ "source": {
+  "sensor": "NISAR L-band GCOV",
+  "wavelength_cm": 24,
+  "track": "116 asc frame 018",
+  "pixel_m": 20,
+  "repeat_days": 12
+ },
+ "a": {
+  "date": "2026-07-16",
+  "area_km2": 314.16,
+  "with_data_km2": 314.05,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 1,
+    "name": "Open water",
+    "km2": 30.46,
+    "pct": 9.7,
+    "hh_db": -17.61,
+    "hv_db": -22.75,
+    "hv_hh_db": -5.13
+   },
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 5.69,
+    "pct": 1.8,
+    "hh_db": -2.22,
+    "hv_db": -15.48,
+    "hv_hh_db": -13.26
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 192.98,
+    "pct": 61.4,
+    "hh_db": -6.89,
+    "hv_db": -12.76,
+    "hv_hh_db": -5.87
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 0.6,
+    "pct": 0.2,
+    "hh_db": -3.55,
+    "hv_db": -8.21,
+    "hv_hh_db": -4.66
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 75.43,
+    "pct": 24.0,
+    "hh_db": -11.01,
+    "hv_db": -18.71,
+    "hv_hh_db": -7.7
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 8.73,
+    "pct": 2.8,
+    "hh_db": -15.72,
+    "hv_db": -21.35,
+    "hv_hh_db": -5.63
+   }
+  ],
+  "mean_hh_db": -7.97,
+  "mean_hv_db": -14.26,
+  "mean_hv_hh_db": -6.28,
+  "water_km2": 33.83,
+  "lake_on_optical_land_pct": 17.1,
+  "flags": []
+ },
+ "b": {
+  "date": "2026-10-20",
+  "area_km2": 314.16,
+  "with_data_km2": 314.05,
+  "with_data_pct": 100.0,
+  "terrain": [
+   {
+    "class_id": 1,
+    "name": "Open water",
+    "km2": 30.46,
+    "pct": 9.7,
+    "hh_db": -16.82,
+    "hv_db": -22.4,
+    "hv_hh_db": -5.58
+   },
+   {
+    "class_id": 2,
+    "name": "Built-up",
+    "km2": 5.69,
+    "pct": 1.8,
+    "hh_db": 0.44,
+    "hv_db": -13.5,
+    "hv_hh_db": -13.94
+   },
+   {
+    "class_id": 3,
+    "name": "Trees, shrub and rugged slopes",
+    "km2": 192.98,
+    "pct": 61.4,
+    "hh_db": -5.35,
+    "hv_db": -11.96,
+    "hv_hh_db": -6.61
+   },
+   {
+    "class_id": 4,
+    "name": "Changing fields",
+    "km2": 0.6,
+    "pct": 0.2,
+    "hh_db": -2.55,
+    "hv_db": -8.73,
+    "hv_hh_db": -6.18
+   },
+   {
+    "class_id": 5,
+    "name": "Rough dry ground and fields",
+    "km2": 75.43,
+    "pct": 24.0,
+    "hh_db": -8.32,
+    "hv_db": -17.01,
+    "hv_hh_db": -8.7
+   },
+   {
+    "class_id": 6,
+    "name": "Smooth bare ground and dry fields",
+    "km2": 8.73,
+    "pct": 2.8,
+    "hh_db": -13.38,
+    "hv_db": -20.19,
+    "hv_hh_db": -6.81
+   }
+  ],
+  "mean_hh_db": -6.2,
+  "mean_hv_db": -13.37,
+  "mean_hv_hh_db": -7.17,
+  "water_km2": 28.52,
+  "lake_on_optical_land_pct": 8.2,
+  "flags": [
+   {
+    "code": "backscatter_shift",
+    "text": "Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions"
+   }
+  ]
+ },
+ "diff": {
+  "mean_hv_db": 0.89,
+  "mean_hh_db": 1.77,
+  "water_km2": -5.31,
+  "water_pct": -15.7
+ },
+ "brighter_km2": {
+  "hv": 13.51,
+  "hh": 40.82
+ },
+ "darker_km2": {
+  "hv": 0.24,
+  "hh": 0.13
+ },
+ "by_class": [
+  {
+   "class_id": 1,
+   "name": "Open water",
+   "brighter_hv_km2": 0.09,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 0.34,
+   "brighter_hh_km2": 0.99,
+   "darker_hh_km2": 0.0,
+   "hh_db_change": 0.79
+  },
+  {
+   "class_id": 2,
+   "name": "Built-up",
+   "brighter_hv_km2": 1.96,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 1.98,
+   "brighter_hh_km2": 3.5,
+   "darker_hh_km2": 0.01,
+   "hh_db_change": 2.66
+  },
+  {
+   "class_id": 3,
+   "name": "Trees, shrub and rugged slopes",
+   "brighter_hv_km2": 3.92,
+   "darker_hv_km2": 0.12,
+   "hv_db_change": 0.8,
+   "brighter_hh_km2": 13.2,
+   "darker_hh_km2": 0.06,
+   "hh_db_change": 1.54
+  },
+  {
+   "class_id": 4,
+   "name": "Changing fields",
+   "brighter_hv_km2": 0.12,
+   "darker_hv_km2": 0.05,
+   "hv_db_change": -0.52,
+   "brighter_hh_km2": 0.19,
+   "darker_hh_km2": 0.03,
+   "hh_db_change": 1.0
+  },
+  {
+   "class_id": 5,
+   "name": "Rough dry ground and fields",
+   "brighter_hv_km2": 7.23,
+   "darker_hv_km2": 0.03,
+   "hv_db_change": 1.7,
+   "brighter_hh_km2": 21.04,
+   "darker_hh_km2": 0.01,
+   "hh_db_change": 2.7
+  },
+  {
+   "class_id": 6,
+   "name": "Smooth bare ground and dry fields",
+   "brighter_hv_km2": 0.16,
+   "darker_hv_km2": 0.0,
+   "hv_db_change": 1.16,
+   "brighter_hh_km2": 1.86,
+   "darker_hh_km2": 0.0,
+   "hh_db_change": 2.34
+  }
+ ],
+ "caveats": [
+  "Brighter and darker count pixels inside the circle whose backscatter changed by more than +3 dB or less than -3 dB between the two dates, on the speckle-filtered images.",
+  "NASA has no NISAR data from 2026-07-27 to 2026-08-10, so nothing between 2026-07-16 and 2026-08-21 is seen.",
+  "2026-10-20: Backscatter over built-up land shifts more than 0.5 dB from its June-September median: possible processing offset or widespread wet conditions.",
+  "Lake areas are approximate: 17.1% (2026-07-16) and 8.2% (2026-10-20) of the radar lake outline falls on land in the 2026-09-22 optical photo."
+ ],
+ "context": [
+  {
+   "fact": "Bin El Ouidane dam is on the El Abid river, was built in 1949-1953 and irrigates about 69,500 ha of the Beni Moussa and Tadla plains.",
+   "source": "Wikipedia, \"Bin el Ouidane Dam\""
+  },
+  {
+   "fact": "ORMVAT selected a bid to modernise the Beni Moussa irrigation canals, which are supplied by Bin El Ouidane. The selection is subject to appeal.",
+   "source": "Morocco World News, 28 Sept 2026"
+  }
+ ]
+}

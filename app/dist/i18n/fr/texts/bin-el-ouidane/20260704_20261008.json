@@ -1,0 +1,30 @@
+{
+  "lang": "fr",
+  "source": "texts/bin-el-ouidane/20260704_20261008.json",
+  "source_sha256": "5e8fe09a978395fa4c9587859670b78ad6a5f23ffd6b3b65a298a62bbdd264b2",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Entre le 4 juillet et le 8 octobre 2026, le lac est passé de 31.86 km2 à 29.91 km2, tandis que tout le cercle est devenu plus clair, avec une HH moyenne en hausse de 1.69 dB. La date du 8 octobre porte deux signalements, donc l'éclaircissement ne doit pas être lu comme un changement au sol.",
+  "sections": [
+    {
+      "heading": "Ce qui a changé",
+      "text": "Sur 96 jours, le lac a changé de -1.95 km2, soit -6.1%. La HH est devenue plus claire de plus de 3 dB sur 40.54 km2 et plus sombre sur seulement 0.11 km2. La HV est devenue plus claire sur 7.29 km2, et la HV moyenne a augmenté de 0.73 dB."
+    },
+    {
+      "heading": "Où, par type de terrain",
+      "text": "L'éclaircissement touche tous les types. Le sol sec rugueux et les champs ont eu 19.12 km2 plus clairs en HH et ont augmenté de 2.54 dB, et les arbres, broussailles et pentes accidentées ont eu 10.44 km2 plus clairs. Le bâti, qui devrait rester stable, a augmenté de 2.35 dB en HH, et le type Eau libre de 2.19 dB."
+    },
+    {
+      "heading": "Causes possibles",
+      "text": "Cause possible : un décalage de traitement dans le produit du 8 octobre, puisque les bâtiments se sont éclaircis comme les champs ; des fichiers retraités trancheraient la question. Cause possible : une surface humide après la pluie ; les relevés de pluie du début octobre permettraient de le vérifier. Cause possible pour le lac : l'abaissement estival ; les relevés de niveau du barrage le confirmeraient."
+    },
+    {
+      "heading": "Limites",
+      "text": "Le 8 octobre 2026 porte deux signalements : le seuil d'eau du lac a bougé de plus de 1.0 dB par rapport à la date précédente, et la rétrodiffusion sur le bâti s'est écartée de plus de 0.5 dB de sa médiane de juin à septembre. La NASA n'a aucune donnée NISAR du 27 juillet au 10 août 2026, donc rien n'est observé entre le 16 juillet et le 21 août 2026. Les surfaces du lac sont approximatives."
+    },
+    {
+      "heading": "Ce qu'une agence pourrait faire ensuite",
+      "text": "Utiliser une date de fin non signalée pour un chiffre ferme du lac, et vérifier les relevés de pluie d'octobre avant de lire ici tout changement des terres."
+    }
+  ]
+}

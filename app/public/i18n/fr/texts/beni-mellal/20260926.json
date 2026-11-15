@@ -1,0 +1,22 @@
+{
+  "lang": "fr",
+  "source": "texts/beni-mellal/20260926.json",
+  "source_sha256": "602d4a0b598fb6395e0f47a6e8ba4bf611a35dc81abe34087b9fb91b0155dc03",
+  "translated": true,
+  "translator": "Claude (Anthropic), from the checked English text",
+  "summary": "Le 26 septembre 2026, le radar montre la ville de Beni Mellal et son piémont dans un cercle de 6 km, où le bâti couvre 12.2% et les arbres, broussailles et pentes accidentées 52.5%. Aucun signalement ne s'applique à cette date, et 100.0% du cercle dispose de données.",
+  "sections": [
+    {
+      "heading": "Ce que montre le radar ici",
+      "text": "Le bâti est la surface la plus claire, à 6.03 dB en HH, tandis que le cercle a une moyenne de -1.83 dB en HH et de -13.73 dB en HV. Le sol nu lisse est le type le plus sombre, à -22.17 dB en HV."
+    },
+    {
+      "heading": "Types de terrain et leur signification",
+      "text": "Le bâti, 13.75 km2, a un rapport HV:HH de -17.04 dB, le plus bas de tous les types, la signature de double rebond des murs. Les arbres, broussailles et pentes accidentées, 59.32 km2, donnent le HV le plus fort des terres, -12.8 dB, par diffusion de volume dans les feuilles et les branches. Le sol sec rugueux et les champs, 30.89 km2, se situent à -10.42 dB en HH. Les champs changeants, 4.8%, sont à -15.7 dB en HV et -7.34 dB en HH."
+    },
+    {
+      "heading": "Notes sur la qualité des données",
+      "text": "Aucun signalement ne s'applique à cette date. Une seule trace, donc les pentes orientées à l'opposé du radar peuvent tomber dans l'ombre radar et paraître plus sombres. Cause possible du HH clair sur les champs changeants : de jeunes cultures ou un sol rugueux après le labour ; la photo optique ou une visite de terrain le vérifierait."
+    }
+  ]
+}
