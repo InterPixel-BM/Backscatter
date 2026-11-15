@@ -130,7 +130,7 @@ readings are translations of the checked English, also made by Claude.
 - Bin El Ouidane facts: Wikipedia, "Bin el Ouidane Dam" (CC BY-SA). Canal modernisation: Morocco World News, 28 Sep 2026.
 - Basemap: OpenFreeMap tiles in the OpenMapTiles schema, map data © OpenStreetMap contributors (ODbL).
 
-## Licence
+## Licence :
 
 Copyright 2026 Abdellah Ayad and Khalid Raouf (team InterPixel). The code, readings and translations
 are released under the Apache License 2.0 (see `LICENSE`). Any copy or derived work must keep this
